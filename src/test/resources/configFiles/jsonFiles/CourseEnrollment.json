@@ -1,0 +1,18 @@
+{
+	"id": "5a436d94e4b05b48d72d4ef8",
+	"status": "active",
+	"authgroupid": "3598a9f8-1d74-4e3a-86ca-0e8db029d73b",
+	"authgrouptype": "instructor",
+	"createddate": "2017-12-27T10:02:25.328Z",
+	"updateddate": "2017-12-27T10:02:25.328Z",
+	"user": {
+		"extras": {
+			"userName": "username"
+		},
+		"userId": "piId",
+		"firstName": "Instructor",
+		"lastName": "Demo",
+		"email": "mohit.bhatt@pearson.com"
+	},
+	"consoleInstructor": true
+}

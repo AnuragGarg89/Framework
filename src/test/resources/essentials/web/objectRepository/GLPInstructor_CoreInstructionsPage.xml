@@ -1,0 +1,341 @@
+<OR>
+	<CoreInstructionLOName>
+		<css>.course-drawer__module__title</css>
+	</CoreInstructionLOName>
+
+	<CoreInstructionALLEOName>
+		<css>.lo-list__link-label</css>
+	</CoreInstructionALLEOName>
+
+	<CoreInstruction1stEODefaultState>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1)
+			div>div:nth-of-type(1)>button
+		</css>
+	</CoreInstruction1stEODefaultState>
+
+	<CoreInstruction1stDefaultCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) li:nth-of-type(1)</css>
+	</CoreInstruction1stDefaultCoreInstruction>
+
+	<CoreInstructionAllCoreInstructionsUnderDefaultEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) li>button</css>
+	</CoreInstructionAllCoreInstructionsUnderDefaultEO>
+
+	<CoreInstructionNthEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(EONumber) button
+			.lo-list__link-label
+		</css>
+	</CoreInstructionNthEO>
+
+	<CoreInstructionNthCoreInstructionUnderNthEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(EONumber)
+			li:nth-of-type(CoreInstruction) button
+		</css>
+	</CoreInstructionNthCoreInstructionUnderNthEO>
+	
+	<CoreInstructionAllCoreInstructionsUnderNthEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(EONumber) li>button</css>
+	</CoreInstructionAllCoreInstructionsUnderNthEO>
+
+	<CoreInstruction1stEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) button
+			.lo-list__link-label
+		</css>
+	</CoreInstruction1stEO>
+
+	<CoreInstruction2ndEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) button
+			.lo-list__link-label
+		</css>
+	</CoreInstruction2ndEO>
+
+	<CoreInstruction3rdEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(3) button
+			.lo-list__link-label
+		</css>
+	</CoreInstruction3rdEO>
+
+	<CoreInstructionAllCoreInstructionsUnder2ndEO>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li>button</css>
+	</CoreInstructionAllCoreInstructionsUnder2ndEO>
+
+	<CoreInstructionHamburgerIconWhenDrawerIsExpanded>
+		<css>.course-drawer__action-icon.hamburger-menu-icon>svg</css>
+	</CoreInstructionHamburgerIconWhenDrawerIsExpanded>
+
+	<CoreInstructionHamburgerIconWhenDrawerIsCollapsed>
+		<css>.open-btn .pe-icon--btn:nth-of-type(2)</css>
+	</CoreInstructionHamburgerIconWhenDrawerIsCollapsed>
+
+	<CoreInstructionLeftHandDrawerContainer>
+		<css>.course-drawer__inner.course-drawer--show</css>
+	</CoreInstructionLeftHandDrawerContainer>
+
+	<CoreInstructionContentOnRightHandSide>
+		<css>.heading1NummerEins</css>
+	</CoreInstructionContentOnRightHandSide>
+
+	<CoreInstructionFooterNextPageArrow>
+		<css>.footer-nav
+			button.pe-btn--btn_large.lo-next>svg.pe-icon--point-next-24>use
+		</css>
+	</CoreInstructionFooterNextPageArrow>
+
+	<CoreInstructionFooterPreviousPageArrow>
+		<css>.footer-nav
+			button.pe-btn--btn_large>svg.pe-icon--point-back-24>use
+		</css>
+	</CoreInstructionFooterPreviousPageArrow>
+
+	<CoreInstruction2ndEO1stCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(1)>button
+		</css>
+	</CoreInstruction2ndEO1stCoreInstruction>
+
+	<CoreInstruction2ndEO2ndCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(2)>button
+		</css>
+	</CoreInstruction2ndEO2ndCoreInstruction>
+
+	<CoreInstruction2ndEO3rdCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(3)>button
+		</css>
+	</CoreInstruction2ndEO3rdCoreInstruction>
+
+	<CoreInstruction2ndEO4thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(4)>button
+		</css>
+	</CoreInstruction2ndEO4thCoreInstruction>
+
+	<CoreInstruction2ndEO5thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(5)>button
+		</css>
+	</CoreInstruction2ndEO5thCoreInstruction>
+
+	<CoreInstruction2ndEO6thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(6)>button
+		</css>
+	</CoreInstruction2ndEO6thCoreInstruction>
+
+	<CoreInstruction2ndEO7thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(7)>button
+		</css>
+	</CoreInstruction2ndEO7thCoreInstruction>
+
+	<CoreInstruction2ndEO8thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(8)>button
+		</css>
+	</CoreInstruction2ndEO8thCoreInstruction>
+
+	<CoreInstruction2ndEO9thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2) li:nth-of-type(9)>button
+		</css>
+	</CoreInstruction2ndEO9thCoreInstruction>
+
+	<CoreInstructionFooterNextCIText>
+		<css>.footer-nav .pe-btn--btn_large.lo-next span.no-mobile.hide-label
+		</css>
+	</CoreInstructionFooterNextCIText>
+
+	<CoreInstructionFooterPreviousCIText>
+		<css>.footer-nav .pe-btn--btn_large svg.pe-icon--point-back-24+div
+			span.no-mobile.hide-label
+		</css>
+	</CoreInstructionFooterPreviousCIText>
+
+	<CoreInstructionFooterNextVerb>
+		<css>.footer-nav .pe-btn--btn_large.lo-next div>span>b</css>
+	</CoreInstructionFooterNextVerb>
+
+	<CoreInstructionFooterPreviousVerb>
+		<css>.footer-nav button:nth-of-type(1).pe-btn--btn_large div>span>b
+		</css>
+	</CoreInstructionFooterPreviousVerb>
+
+	<CoreInstruction2ndEO1stCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(1)>button>a>img
+		</css>
+	</CoreInstruction2ndEO1stCoreInstructionImg>
+
+	<CoreInstruction2ndEO2ndCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(2)>button>a>img
+		</css>
+	</CoreInstruction2ndEO2ndCoreInstructionImg>
+
+	<CoreInstruction2ndEO3rdCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(3)>button>a>img
+		</css>
+	</CoreInstruction2ndEO3rdCoreInstructionImg>
+
+	<CoreInstruction2ndEO5thCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(5)>button>a>img
+		</css>
+	</CoreInstruction2ndEO5thCoreInstructionImg>
+
+	<CoreInstruction2ndEO7thCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(7)>button>a>img
+		</css>
+	</CoreInstruction2ndEO7thCoreInstructionImg>
+
+	<CoreInstruction2ndEO9thCoreInstructionImg>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(2)
+			li:nth-of-type(9)>button>a>img
+		</css>
+	</CoreInstruction2ndEO9thCoreInstructionImg>
+
+	<CoreInstructionFooterNextVerbForPracticeQuiz>
+		<css>.footer-nav .pe-btn--btn_large.lo-next div
+			span.no-mobile.hide-label
+		</css>
+	</CoreInstructionFooterNextVerbForPracticeQuiz>
+
+	<CoreInstruction1stEO4thCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) li:nth-of-type(4)>button
+		</css>
+	</CoreInstruction1stEO4thCoreInstruction>
+
+	<CoreInstruction1stEO4thCoreInstructionImage>
+		<css>.pearson-component.image>img</css>
+	</CoreInstruction1stEO4thCoreInstructionImage>
+
+	<CoreInstruction1stEO3rdCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) li:nth-of-type(3)>button
+		</css>
+	</CoreInstruction1stEO3rdCoreInstruction>
+
+	<CoreInstruction1stEO1stCoreInstruction>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) li:nth-of-type(1)>button
+		</css>
+	</CoreInstruction1stEO1stCoreInstruction>
+
+	<CoreInstructionBackButton>
+		<css>.course-drawer__action-icon.back-arrow>svg</css>
+	</CoreInstructionBackButton>
+
+	<CoreInstructionVidePlayBackProgressBar>
+		<css>.video-player>video</css>
+	</CoreInstructionVidePlayBackProgressBar>
+
+	<CoreInstructionVideoPlayBackButton>
+		<css>.play-replay-icon>button>div>svg</css>
+	</CoreInstructionVideoPlayBackButton>
+
+	<CoreInstructionVideoPlayBackButtonOnProgressBar>
+		<css>.play-pause>div</css>
+	</CoreInstructionVideoPlayBackButtonOnProgressBar>
+
+	<CoreInstructionMuteButtonOnProgressBar>
+		<css>.mute-icon-wrapper>.mute-button>div>svg</css>
+	</CoreInstructionMuteButtonOnProgressBar>
+
+	<CoreInstructionInteractiveVideoPlay>
+		<css>div.startBtn</css>
+	</CoreInstructionInteractiveVideoPlay>
+
+	<CoreInstructionInteractiveVidePause>
+		<css>td[title='Pause']</css>
+	</CoreInstructionInteractiveVidePause>
+
+	<CoreInstructionPreviewQuestionEO>
+		<css>.lo-list__link-label</css>
+	</CoreInstructionPreviewQuestionEO>
+
+	<CoreInstructionPreviewQuestionsNextQuestion>
+		<css>button[class^='lo-navigation'][alt='Next']</css>
+	</CoreInstructionPreviewQuestionsNextQuestion>
+
+	<CoreInstructionPreviewQuestionsPreviousQuestion>
+		<css>button[class='lo-navigation'][alt='Previous']</css>
+	</CoreInstructionPreviewQuestionsPreviousQuestion>
+
+	<CoreInstructorPreviewQuestionsQuestionText>
+		<css>.h4</css>
+	</CoreInstructorPreviewQuestionsQuestionText>
+
+	<CoreInstructionPreviewQuestionNumberLine>
+		<css>#GLP-numberLine</css>
+	</CoreInstructionPreviewQuestionNumberLine>
+
+	<CoreInstructionPreviewQuestionNumberLineWithCursor>
+		<css>.numberline-cursor-pointer</css>
+	</CoreInstructionPreviewQuestionNumberLineWithCursor>
+
+	<CoreInstructionPreviewQuestionAltTextOnNumberLine>
+		<css>.popover-content .Comp_Shared_MathExpression</css>
+	</CoreInstructionPreviewQuestionAltTextOnNumberLine>
+
+	<CoreInstructionPreviewQuestionMCQMA>
+		<css>#McqMa_undefined</css>
+	</CoreInstructionPreviewQuestionMCQMA>
+
+	<CoreInstructionPreviewQuestionMCQSA>
+		<css>#McqSa_undefined</css>
+	</CoreInstructionPreviewQuestionMCQSA>
+
+	<CoreInstructionPreviewQuestionMCQSAAnswer>
+		<css>.radio_form_group>.correct-answer-choose</css>
+	</CoreInstructionPreviewQuestionMCQSAAnswer>
+
+	<CoreInstructionPreviewQuestionMCQMAAnswer>
+		<css>.correct-answer-choose .mcq-checkbox</css>
+	</CoreInstructionPreviewQuestionMCQMAAnswer>
+
+	<CoreInstructionPreviewQuestionTable>
+		<css>.table-responsive</css>
+	</CoreInstructionPreviewQuestionTable>
+
+	<CoreInstructionPreviewQuestionMultiPart>
+		<css>.questionsWrapper</css>
+	</CoreInstructionPreviewQuestionMultiPart>
+
+	<CoreInstructionPreviewQuestionMultiPartQuestionIds>
+		<css>.questionsWrapper>form</css>
+	</CoreInstructionPreviewQuestionMultiPartQuestionIds>
+
+	<CoreInstructionPreviewQuestionFIBFreeResponse>
+		<css>.fib-form-group.fib-freeResponse.status-border-correct.undefined
+		</css>
+	</CoreInstructionPreviewQuestionFIBFreeResponse>
+
+	<CoreInstructionPreviewQuestionXYGraph>
+		<css>.xy-graph-wrapper</css>
+	</CoreInstructionPreviewQuestionXYGraph>
+
+	<CoreInstructionPreviewQuestionCallResponse>
+		<css>.call-response-wrapper</css>
+	</CoreInstructionPreviewQuestionCallResponse>
+
+	<CoreInstructionsPreviewQuestionFIBDropdown>
+		<css>.fib-form-group.fib-dropdown.fib-dropdown-default</css>
+	</CoreInstructionsPreviewQuestionFIBDropdown>
+
+	<CoreInstructionPreviewQuestionHybrid>
+		<css>.mcqsa-fib-content</css>
+	</CoreInstructionPreviewQuestionHybrid>
+
+	<CoreInstructionButtonEO>
+		<css>.lo-list__link</css>
+	</CoreInstructionButtonEO>
+
+	<CoreInstructionEoListItem>
+		<css>.eo-list__item</css>
+	</CoreInstructionEoListItem>
+
+	<CoreInstructionEoType>
+		<css>.eo-list__item button img</css>
+	</CoreInstructionEoType>
+
+	<CoreInstructionContent>
+		<css>#content-player</css>
+	</CoreInstructionContent>
+
+	<CoreInstructionPreviewQuestionsHeaderText>
+		<css>.pe-title.no-mobile</css>
+	</CoreInstructionPreviewQuestionsHeaderText>
+
+</OR>

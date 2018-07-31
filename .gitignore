@@ -1,0 +1,16 @@
+target
+test-output
+report
+testLogs
+screenshots
+src/test/resources/jenkinsLatestReport/ExtentReport.html
+*.html
+src/test/resources/jenkinsLatestReport/
+.classpath
+/bin/
+Accessibilty
+DownloadFolder(.*)
+src/test/resources/config.properties
+src/test/resources/essentials/web/htmlReports
+*.har
+*.Zip

@@ -1,0 +1,23 @@
+{
+"courseId": "uniqueCourseId",
+"context": "CONSOLE",
+"role": "instructor",
+"items": [
+ {
+         "isDefault": true,
+         "URL": "/led/asset/",
+         "label": "Performance",
+         "itemKey": "InstructorPerformance"
+       },
+       {
+         "isDefault": false,
+         "URL": "/led/asset/",
+         "label": "Management",
+         "itemKey": "Management"
+       }
+],
+"links":[{"rel":"instructorSettings","href":"/led/v1/settings/{instructorId}"},
+{"rel":"masterySettings","href":"/led/v1/courses/mastery"},
+{"rel":"courseSettings","href":"/led/v1/settings/{productModelType}/{courseId}"}
+]
+}

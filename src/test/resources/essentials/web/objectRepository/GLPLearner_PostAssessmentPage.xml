@@ -1,0 +1,158 @@
+<OR>
+
+	<ModuleTestChapter11StartButton>
+		<css>#LOBtn_8</css>
+	</ModuleTestChapter11StartButton>
+
+	<ModuleTestWelcomeScreenStartButton>
+		<css>button.pe-btn__cta--btn_large</css>
+	</ModuleTestWelcomeScreenStartButton>
+
+	<ModuleTestFirstModule>
+		<css>.accordian-list-group li:nth-child(8) div div:nth-child(2) span</css>
+	</ModuleTestFirstModule>
+
+	<ModuleTestWelcomeScreenGoalText>
+		<css>.goal-text</css>
+	</ModuleTestWelcomeScreenGoalText>
+
+	<PostAssessmentTestSubmitButton>
+		<css>button[id^='submitButton']</css>
+	</PostAssessmentTestSubmitButton>
+
+	<ModuleTestCloseButton>
+		<css>#closeIconId</css>
+	</ModuleTestCloseButton>
+
+	<ModuleTestPopUpLeaveButton>
+		<css>button[class*='pe-btn__primary']:nth-of-type(2)</css>
+	</ModuleTestPopUpLeaveButton>
+
+	<ModuleTestPopUpCancelButton>
+		<css>.modalFooter .modalCancel</css>
+	</ModuleTestPopUpCancelButton>
+
+	<ModuleTestPopUpHeadingText>
+		<css>#modalHeader</css>
+	</ModuleTestPopUpHeadingText>
+
+	<ModuleTestPopUpText>
+		<css>.modalBody.modalBody</css>
+	</ModuleTestPopUpText>
+
+	<ModuleTestPopUpHeader>
+		<css>#modalHeader </css>
+	</ModuleTestPopUpHeader>
+
+	<PostAssessmentTestProgressBar>
+		<css>#progress-bar</css>
+	</PostAssessmentTestProgressBar>
+
+	<SubmitButton>
+		<css>button[id^='submitButton']:not(disabled)</css>
+	</SubmitButton>
+
+	<FIBFreeResponse>
+		<css>.fib-form-group.fib-freeResponse</css><!-- //[id^=FIB] .keypad-input -->
+	</FIBFreeResponse>
+
+	<PostAssessmentTestNoOfTries>
+		<css>#diagnosticTest .PEpanel-body [role='alert']</css>
+	</PostAssessmentTestNoOfTries>
+
+	<PostAssessmentLearningAidsBody>
+		<css>div.learning-aids-body</css>
+	</PostAssessmentLearningAidsBody>
+
+	<PostAssessmentHeader>
+		<css>pe-header</css>
+	</PostAssessmentHeader>
+
+	<PostAssessmentFooter>
+		<css>.app-footer</css>
+	</PostAssessmentFooter>
+
+	<LoCount>
+		<css>.accordian-list-group li</css>
+	</LoCount>
+
+	<Module11_1_Start_Review_Button>
+		<css>#LOBtn_1</css>
+	</Module11_1_Start_Review_Button>
+
+	<Module11_2_Start_Review_Button>
+		<css>#LOBtn_2</css>
+	</Module11_2_Start_Review_Button>
+
+	<Module11_3_Start_Review_Button>
+		<css>#LOBtn_3</css>
+	</Module11_3_Start_Review_Button>
+
+	<Module11_4_Start_Review_Button>
+		<css>#LOBtn_4</css>
+	</Module11_4_Start_Review_Button>
+
+	<Module11CollapsIcon>
+		<css>#toggleModuleBtn1</css>
+	</Module11CollapsIcon>
+
+	<Module11CollapsIcon>
+		<css>#toggleModuleBtn1</css>
+	</Module11CollapsIcon>
+
+	<LockOverlayHeading>
+		<css>.diagnostic-result__banner h1</css>
+	</LockOverlayHeading>
+
+	<LockOverlayParagraph>
+		<css>.diagnostic-result__banner p</css>
+	</LockOverlayParagraph>
+
+	<PostAssessmentCoachMark>
+		<css>.o-coach-mark__content-container</css>
+	</PostAssessmentCoachMark>
+
+	<PostAssessmentCoachMarkGotItButton>
+		<css>.text-right>button,.o-coach-mark__got-it.pe-label</css>
+	</PostAssessmentCoachMarkGotItButton>
+
+	<PostAssessmentModule16StartCourseHome>
+		<xpath>//*[contains(text(),'Module 16
+			Assessment')]/ancestor::li/button</xpath>
+	</PostAssessmentModule16StartCourseHome>
+
+	<PostAssessmentCrossIconButton>
+		<css>#closeIconId</css>
+	</PostAssessmentCrossIconButton>
+
+	<PostAssessmentPopUpLeaveButton>
+		<css>button[class*='pe-btn__primary']:nth-of-type(2)</css>
+	</PostAssessmentPopUpLeaveButton>
+
+	<PostAssessmentLO16.1StartButton>
+		<xpath>//*[text()='16.1']/ancestor::li/button</xpath>
+	</PostAssessmentLO16.1StartButton>
+
+	<YouAreOnWayHeading>
+		<css>.course-home-banner h1</css>
+	</YouAreOnWayHeading>
+	
+	<YouAreReadyParagraph>
+		<css>.course-home-banner p</css>
+	</YouAreReadyParagraph>	
+	
+	<WelcomeYouAreReadyParagraph>
+		<css>.diagnostic-result__banner h1</css>
+	</WelcomeYouAreReadyParagraph>	
+	
+	<WelcomeYouGoalParagraph>
+		<css>.diagnostic-result__banner p</css>
+	</WelcomeYouGoalParagraph>
+	
+	
+	
+	
+	
+	
+
+</OR>

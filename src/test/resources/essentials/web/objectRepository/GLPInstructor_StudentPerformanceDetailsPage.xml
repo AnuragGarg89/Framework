@@ -1,0 +1,102 @@
+<OR>
+	
+	<StudentDetailsResetSubscribedLearnerButton>
+	    <css>[class='pe-btn__default--btn_large'][title='Reset']</css>
+	</StudentDetailsResetSubscribedLearnerButton>
+	
+	<StudentDetailsResetPopUpWindow>
+	    <css>[class='modalSave pe-btn__primary--btn_large']</css>
+	</StudentDetailsResetPopUpWindow>
+	
+	<CloseStudentDetailsCrossButton>
+	    <css>[class='pe-icon--remove-lg-18']</css>
+	</CloseStudentDetailsCrossButton>
+
+	<StudentNameText>
+		<css>.info-section__name</css>
+	</StudentNameText>
+	
+	<StudentEmailText>
+		<css>.info-section__email</css>
+	</StudentEmailText>
+	
+	<CloseStudentDetailsHeading>
+	<css>.page-overlay__header__title</css>
+	</CloseStudentDetailsHeading>
+	
+	<StudentDetailsListOfModules>
+	<css>.link-text</css>
+	</StudentDetailsListOfModules>
+	
+	<StudentDetailsPreAssessementTOTHyphen>
+	<css>.content-status span.dashed</css>
+	</StudentDetailsPreAssessementTOTHyphen>
+	
+	<StudentDetailPreAssessmentTOTText>
+	<css>.content-status .content-data</css>
+	</StudentDetailPreAssessmentTOTText>
+	
+	<StudentDetailModuleTOTHyphen>
+	<xpath>//*[contains(text(),'Module dynamicReplace')]/ancestor::div[@class='moduleName__head']/following-sibling::span[2]/span</xpath>
+	</StudentDetailModuleTOTHyphen>
+	
+	<StudentDetailModuleTotalTOTText>
+	<xpath>//*[contains(text(),'Module dynamicReplace')]/ancestor::div[@class='moduleName__head']/following-sibling::span[3]</xpath>
+	</StudentDetailModuleTotalTOTText>
+	
+	<StudentDetailLOsTOTHyphen>
+	<xpath>//*[contains(text(),'dynamicReplace')]/../following-sibling::span[2]/span</xpath>
+	</StudentDetailLOsTOTHyphen>
+
+	<StudentDetailLOsTOTText>
+	<xpath>//*[contains(text(),'dynamicReplace')]/../following-sibling::span[2]</xpath>
+	</StudentDetailLOsTOTText>
+	
+	<ConsolePearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson</css>
+	</ConsolePearsonLogo>
+	
+	<Module11to16>
+		<css>.wrapper-fixed.inst-accordion > div:nth-child(dynamicReplace) span.bold</css>
+	</Module11to16>
+	
+	<StudentDeatilsModuleNameLink>
+	<css>[id^='header_CHAPTER-dynamicReplace'] a</css>
+	</StudentDeatilsModuleNameLink>
+	
+	<StatusPlacedOut>
+		<css>.wrapper-fixed.inst-accordion > div:nth-child(dynamicReplace) .status.status--placedout</css>
+	</StatusPlacedOut>
+	
+	<StatusNotStarted>
+		<css>.wrapper-fixed.inst-accordion > div:nth-child(dynamicReplace) .status.status--notstarted</css>
+	</StatusNotStarted>
+
+	<StudentDetailLockButton>
+		<css>.content-status .btnIcon.lock</css>
+	</StudentDetailLockButton>
+	
+	<ModulePopUpSelectAllCheckbox>
+		<css>label[for=selectAllPopUp]</css>
+	</ModulePopUpSelectAllCheckbox>
+	
+	<ModuleTestHeading>
+		<css>#modalHeader h2</css>
+	</ModuleTestHeading>
+	
+	<ModuleTestUnlockButton>
+		<css>.instructor-progress > div:nth-child(3) .lock-icon.unlock</css>
+	</ModuleTestUnlockButton>
+	
+	<ModuleTestPopUpHeader>
+		<css>.responsive-table > div> div:nth-child(1) > div > div:nth-child(headerColumn) span</css>
+	</ModuleTestPopUpHeader>
+	
+	<ModuleTestPopUpEnabledCheckBox>
+		<css>.popUpData-grid > div:nth-child(checkboxNumber) input:not([disabled])</css>
+	</ModuleTestPopUpEnabledCheckBox>
+	
+	<ModuleTestPopUpDisabledCheckBox>
+		<css>.popUpData-grid > div:nth-child(checkboxNumber) input:disabled</css>
+	</ModuleTestPopUpDisabledCheckBox>
+</OR>

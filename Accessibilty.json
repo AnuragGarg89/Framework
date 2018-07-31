@@ -1,0 +1,1730 @@
+{
+  "passes": [
+    {
+      "help": "Required ARIA attributes must be provided",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cheader class\u003d\"o-app-header o-header o-header--fixed\" role\u003d\"banner\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-attr",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-attr",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-attr",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-required-attr?application\u003daxeAPI",
+      "id": "aria-required-attr",
+      "tags": [
+        "wcag2a",
+        "wcag411",
+        "wcag412"
+      ]
+    },
+    {
+      "help": "Certain ARIA roles must contain particular children",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cheader class\u003d\"o-app-header o-header o-header--fixed\" role\u003d\"banner\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-children",
+              "message": "Required ARIA children are present"
+            }
+          ],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-children",
+              "message": "Required ARIA children are present"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-children",
+              "message": "Required ARIA children are present"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "description": "Ensures elements with an ARIA role that require child roles contain them",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-required-children?application\u003daxeAPI",
+      "id": "aria-required-children",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "help": "Certain ARIA roles must be contained by particular parents",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cheader class\u003d\"o-app-header o-header o-header--fixed\" role\u003d\"banner\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-parent",
+              "message": "Required ARIA parent role present"
+            }
+          ],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-parent",
+              "message": "Required ARIA parent role present"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-required-parent",
+              "message": "Required ARIA parent role present"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-required-parent?application\u003daxeAPI",
+      "id": "aria-required-parent",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "help": "ARIA roles used must conform to valid values",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cheader class\u003d\"o-app-header o-header o-header--fixed\" role\u003d\"banner\"\u003e",
+          "none": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "invalidrole",
+              "message": "ARIA role is valid"
+            },
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "abstractrole",
+              "message": "Abstract roles are not used"
+            }
+          ],
+          "any": [],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "invalidrole",
+              "message": "ARIA role is valid"
+            },
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "abstractrole",
+              "message": "Abstract roles are not used"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "invalidrole",
+              "message": "ARIA role is valid"
+            },
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "abstractrole",
+              "message": "Abstract roles are not used"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "description": "Ensures all elements with a role attribute use a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-roles?application\u003daxeAPI",
+      "id": "aria-roles",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag411",
+        "wcag412"
+      ]
+    },
+    {
+      "help": "ARIA attributes must conform to valid values",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cspan aria-live\u003d\"polite\" class\u003d\"help-block\"\u003e\u003c/span\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-valid-attr-value",
+              "message": "ARIA attribute values are valid"
+            }
+          ],
+          "target": [
+            "#Login \u003e div:nth-of-type(1) \u003e .help-block"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cspan aria-live\u003d\"polite\" class\u003d\"help-block\"\u003e\u003c/span\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-valid-attr-value",
+              "message": "ARIA attribute values are valid"
+            }
+          ],
+          "target": [
+            "#Login \u003e .passwordWraper.marginBtm0 \u003e .form-group \u003e .help-block"
+          ]
+        }
+      ],
+      "description": "Ensures all ARIA attributes have valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-valid-attr-value?application\u003daxeAPI",
+      "id": "aria-valid-attr-value",
+      "tags": [
+        "wcag2a",
+        "wcag131",
+        "wcag411",
+        "wcag412"
+      ]
+    },
+    {
+      "help": "ARIA attributes must conform to valid names",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cspan aria-live\u003d\"polite\" class\u003d\"help-block\"\u003e\u003c/span\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-valid-attr",
+              "message": "ARIA attribute name are valid"
+            }
+          ],
+          "target": [
+            "#Login \u003e div:nth-of-type(1) \u003e .help-block"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cspan aria-live\u003d\"polite\" class\u003d\"help-block\"\u003e\u003c/span\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "aria-valid-attr",
+              "message": "ARIA attribute name are valid"
+            }
+          ],
+          "target": [
+            "#Login \u003e .passwordWraper.marginBtm0 \u003e .form-group \u003e .help-block"
+          ]
+        }
+      ],
+      "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/aria-valid-attr?application\u003daxeAPI",
+      "id": "aria-valid-attr",
+      "tags": [
+        "wcag2a",
+        "wcag411"
+      ]
+    },
+    {
+      "help": "Buttons must have discernible text",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cbutton id\u003d\"btnLogin_Login\" type\u003d\"button\" class\u003d\"btn btn-default btn-block\"\u003eSign In\u003c/button\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "button-has-visible-text",
+              "message": "Element has inner text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#btnLogin_Login"
+          ]
+        }
+      ],
+      "description": "Ensures buttons have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/button-name?application\u003daxeAPI",
+      "id": "button-name",
+      "tags": [
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "help": "Page must have means to bypass repeated blocks",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003chtml lang\u003d\"en-US\" style\u003d\"width:100%; height:100%;box-sizing: border-box;\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "internal-link-present",
+              "message": "Valid skip link found"
+            },
+            {
+              "impact": "moderate",
+              "relatedNodes": [],
+              "id": "header-present",
+              "message": "Page has a header"
+            }
+          ],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/bypass?application\u003daxeAPI",
+      "id": "bypass",
+      "tags": [
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ]
+    },
+    {
+      "help": "Elements must have sufficient color contrast",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003ch1 class\u003d\"heading text-center\" style\u003d\"\"\u003eSign In\u003c/h1\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "15.33",
+                "fgColor": "#252525",
+                "bgColor": "#ffffff",
+                "fontSize": "24.0pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 15.33"
+            }
+          ],
+          "target": [
+            "#Login \u003e .heading.text-center"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003clabel for\u003d\"loginUserName\" class\u003d\"control-label\" style\u003d\"\"\u003eUsername\u003c/label\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "21.00",
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 21.00"
+            }
+          ],
+          "target": [
+            "#Login \u003e div:nth-of-type(1) \u003e .control-label"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"text\" name\u003d\"loginUsername\" label\u003d\"Username\" placeholder\u003d\"email@emailaddress.com\" value\u003d\"\" size\u003d\"60\" id\u003d\"loginUserName\" class\u003d\"form-control\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "7.46",
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 7.46"
+            }
+          ],
+          "target": [
+            "#loginUserName"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003clabel for\u003d\"loginPassword\" class\u003d\"control-label\" style\u003d\"\"\u003ePassword\u003c/label\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "21.00",
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 21.00"
+            }
+          ],
+          "target": [
+            "#Login \u003e .passwordWraper.marginBtm0 \u003e .form-group \u003e .control-label"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"password\" name\u003d\"loginPassword\" size\u003d\"60\" label\u003d\"Password\" placeholder\u003d\"Password123\" value\u003d\"\" id\u003d\"loginPassword\" class\u003d\"form-control\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "7.46",
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 7.46"
+            }
+          ],
+          "target": [
+            "#loginPassword"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://www.pearsonhighered.com/revel/accessibility/\" target\u003d\"_blank\" style\u003d\"\"\u003eAccessibilty\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "12.63",
+                "fgColor": "#333333",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 12.63"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(1) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonPrivacyPolicy.html\" target\u003d\"_blank\" style\u003d\"\"\u003ePrivacy Policy\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "12.63",
+                "fgColor": "#333333",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 12.63"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(2) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonEULA.html\" target\u003d\"_blank\" style\u003d\"\"\u003eTerms \u0026amp; Conditions\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "12.63",
+                "fgColor": "#333333",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 12.63"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(3) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cp class\u003d\"copyright\" style\u003d\"\"\u003e\u003c!-- react-text: 46 --\u003eCopyright \u003c!-- /react-text --\u003e\u003c!-- react-text: 47 --\u003e©\u003c!-- /react-text --\u003e\u003c!-- react-text: 48 --\u003e2017 Pearson Education Inc. All rights reserved.\u003c!-- /react-text --\u003e\u003c/p\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "15.33",
+                "fgColor": "#252525",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "color-contrast",
+              "message": "Element has sufficient color contrast of 15.33"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .copyright"
+          ]
+        }
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/color-contrast?application\u003daxeAPI",
+      "id": "color-contrast",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ]
+    },
+    {
+      "help": "Documents must have \u003ctitle\u003e element to aid in navigation",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003chtml lang\u003d\"en-US\" style\u003d\"width:100%; height:100%;box-sizing: border-box;\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "moderate",
+              "relatedNodes": [],
+              "id": "doc-has-title",
+              "message": "Document has a non-empty \u003ctitle\u003e element"
+            }
+          ],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "description": "Ensures each HTML document contains a non-empty \u003ctitle\u003e element",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/document-title?application\u003daxeAPI",
+      "id": "document-title",
+      "tags": [
+        "wcag2a",
+        "wcag242"
+      ]
+    },
+    {
+      "help": "id attribute value must be unique",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003clink id\u003d\"css_English\" rel\u003d\"stylesheet\" type\u003d\"text/css\" href\u003d\"https://fonts.googleapis.com/css?family\u003dOpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i\" media\u003d\"all\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "css_English",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#css_English"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003clink id\u003d\"css_Spanish\" rel\u003d\"stylesheet\" type\u003d\"text/css\" href\u003d\"https://fonts.googleapis.com/css?family\u003dQuicksand:400,500,700\" media\u003d\"all\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "css_Spanish",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#css_Spanish"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003clink id\u003d\"css_French\" rel\u003d\"stylesheet\" type\u003d\"text/css\" href\u003d\"https://fonts.googleapis.com/css?family\u003dIM+Fell+French+Canon\" media\u003d\"all\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "css_French",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#css_French"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"#\" id\u003d\"header-nav-link\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "header-nav-link",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#header-nav-link"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003carticle class\u003d\"outer-layout\" id\u003d\"react-app\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "react-app",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#react-app"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cdiv id\u003d\"Comp_LoginLayout\" class\u003d\"ConsoleLayout_Comp\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "Comp_LoginLayout",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cform id\u003d\"Login\" name\u003d\"login\" method\u003d\"post\" style\u003d\"\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "Login",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"text\" name\u003d\"loginUsername\" label\u003d\"Username\" placeholder\u003d\"email@emailaddress.com\" value\u003d\"\" size\u003d\"60\" id\u003d\"loginUserName\" class\u003d\"form-control\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "loginUserName",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#loginUserName"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"password\" name\u003d\"loginPassword\" size\u003d\"60\" label\u003d\"Password\" placeholder\u003d\"Password123\" value\u003d\"\" id\u003d\"loginPassword\" class\u003d\"form-control\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "loginPassword",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#loginPassword"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "linkForgotUser_Login",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cbutton id\u003d\"btnLogin_Login\" type\u003d\"button\" class\u003d\"btn btn-default btn-block\"\u003eSign In\u003c/button\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "btnLogin_Login",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#btnLogin_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": "linkCreateAccount_Login",
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "duplicate-id",
+              "message": "Document has no elements that share the same id attribute"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "description": "Ensures every id attribute value is unique",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/duplicate-id?application\u003daxeAPI",
+      "id": "duplicate-id",
+      "tags": [
+        "wcag2a",
+        "wcag411"
+      ]
+    },
+    {
+      "help": "Headings must not be empty",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003ch1 class\u003d\"heading text-center\" style\u003d\"\"\u003eSign In\u003c/h1\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#Login \u003e .heading.text-center"
+          ]
+        }
+      ],
+      "description": "Ensures headings have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/empty-heading?application\u003daxeAPI",
+      "id": "empty-heading",
+      "tags": [
+        "best-practice"
+      ]
+    },
+    {
+      "help": "\u003chtml\u003e element must have a lang attribute",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003chtml lang\u003d\"en-US\" style\u003d\"width:100%; height:100%;box-sizing: border-box;\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "has-lang",
+              "message": "The \u003chtml\u003e element has a lang attribute"
+            }
+          ],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "description": "Ensures every HTML document has a lang attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/html-has-lang?application\u003daxeAPI",
+      "id": "html-has-lang",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ]
+    },
+    {
+      "help": "\u003chtml\u003e element must have a valid value for the lang attribute",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003chtml lang\u003d\"en-US\" style\u003d\"width:100%; height:100%;box-sizing: border-box;\"\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "valid-lang",
+              "message": "Value of lang attribute is included in the list of valid languages"
+            }
+          ],
+          "any": [],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "description": "Ensures the lang attribute of the \u003chtml\u003e element has a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/html-lang-valid?application\u003daxeAPI",
+      "id": "html-lang-valid",
+      "tags": [
+        "wcag2a",
+        "wcag311"
+      ]
+    },
+    {
+      "help": "Images must have alternate text",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cimg alt\u003d\"home\" src\u003d\"data:image/png;base64,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\u003d\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-alt",
+              "message": "Element has an alt attribute"
+            }
+          ],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed \u003e .o-header__container \u003e section:nth-of-type(1) \u003e .o-header__brand \u003e .o-header__logo.o-header__logo--pearson \u003e img"
+          ]
+        }
+      ],
+      "description": "Ensures \u003cimg\u003e elements have alternate text or a role of none or presentation",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/image-alt?application\u003daxeAPI",
+      "id": "image-alt",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "help": "Text of buttons and links should not be repeated in the image alternative",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cli class\u003d\"o-header__nav-item\"\u003e\u003c/li\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed \u003e .o-header__container \u003e .o-header__section.o-header__section--right \u003e .o-header__nav \u003e .o-header__nav-items \u003e li:nth-of-type(3)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cp class\u003d\"noMargin noPadding errorText\"\u003e\u003c/p\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Login \u003e .noMargin.noPadding.errorText"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cbutton id\u003d\"btnLogin_Login\" type\u003d\"button\" class\u003d\"btn btn-default btn-block\"\u003eSign In\u003c/button\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#btnLogin_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://www.pearsonhighered.com/revel/accessibility/\" target\u003d\"_blank\" style\u003d\"\"\u003eAccessibilty\u003c/a\u003e\u003c/li\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(1)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://www.pearsonhighered.com/revel/accessibility/\" target\u003d\"_blank\" style\u003d\"\"\u003eAccessibilty\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(1) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonPrivacyPolicy.html\" target\u003d\"_blank\" style\u003d\"\"\u003ePrivacy Policy\u003c/a\u003e\u003c/li\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(2)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonPrivacyPolicy.html\" target\u003d\"_blank\" style\u003d\"\"\u003ePrivacy Policy\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(2) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonEULA.html\" target\u003d\"_blank\" style\u003d\"\"\u003eTerms \u0026amp; Conditions\u003c/a\u003e\u003c/li\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(3)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonEULA.html\" target\u003d\"_blank\" style\u003d\"\"\u003eTerms \u0026amp; Conditions\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(3) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cp class\u003d\"copyright\" style\u003d\"\"\u003e\u003c!-- react-text: 46 --\u003eCopyright \u003c!-- /react-text --\u003e\u003c!-- react-text: 47 --\u003e©\u003c!-- /react-text --\u003e\u003c!-- react-text: 48 --\u003e2017 Pearson Education Inc. All rights reserved.\u003c!-- /react-text --\u003e\u003c/p\u003e",
+          "none": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "duplicate-img-label",
+              "message": "Element does not duplicate existing text in \u003cimg\u003e alt text"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .copyright"
+          ]
+        }
+      ],
+      "description": "Ensure button and link text is not repeated as image alternative",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/image-redundant-alt?application\u003daxeAPI",
+      "id": "image-redundant-alt",
+      "tags": [
+        "best-practice"
+      ]
+    },
+    {
+      "help": "Form elements must have labels",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"text\" name\u003d\"loginUsername\" label\u003d\"Username\" placeholder\u003d\"email@emailaddress.com\" value\u003d\"\" size\u003d\"60\" id\u003d\"loginUserName\" class\u003d\"form-control\"\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [
+                {
+                  "html": "\u003clabel for\u003d\"loginUserName\" class\u003d\"control-label\" style\u003d\"\"\u003eUsername\u003c/label\u003e",
+                  "target": [
+                    "#Login \u003e div:nth-of-type(1) \u003e .control-label"
+                  ]
+                }
+              ],
+              "id": "multiple-label",
+              "message": "Form element does not have multiple \u003clabel\u003e elements"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "explicit-label",
+              "message": "Form element has an explicit \u003clabel\u003e"
+            }
+          ],
+          "target": [
+            "#loginUserName"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cinput type\u003d\"password\" name\u003d\"loginPassword\" size\u003d\"60\" label\u003d\"Password\" placeholder\u003d\"Password123\" value\u003d\"\" id\u003d\"loginPassword\" class\u003d\"form-control\"\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [
+                {
+                  "html": "\u003clabel for\u003d\"loginPassword\" class\u003d\"control-label\" style\u003d\"\"\u003ePassword\u003c/label\u003e",
+                  "target": [
+                    "#Login \u003e .passwordWraper.marginBtm0 \u003e .form-group \u003e .control-label"
+                  ]
+                }
+              ],
+              "id": "multiple-label",
+              "message": "Form element does not have multiple \u003clabel\u003e elements"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "explicit-label",
+              "message": "Form element has an explicit \u003clabel\u003e"
+            }
+          ],
+          "target": [
+            "#loginPassword"
+          ]
+        }
+      ],
+      "description": "Ensures every form element has a label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/label?application\u003daxeAPI",
+      "id": "label",
+      "tags": [
+        "wcag2a",
+        "wcag332",
+        "wcag131",
+        "section508",
+        "section508.22.n"
+      ]
+    },
+    {
+      "help": "Links must have discernible text",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://www.pearsonhighered.com/revel/accessibility/\" target\u003d\"_blank\" style\u003d\"\"\u003eAccessibilty\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(1) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonPrivacyPolicy.html\" target\u003d\"_blank\" style\u003d\"\"\u003ePrivacy Policy\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(2) \u003e a"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonEULA.html\" target\u003d\"_blank\" style\u003d\"\"\u003eTerms \u0026amp; Conditions\u003c/a\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "focusable-no-name",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "has-visible-text",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(3) \u003e a"
+          ]
+        }
+      ],
+      "description": "Ensures links have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/link-name?application\u003daxeAPI",
+      "id": "link-name",
+      "tags": [
+        "wcag2a",
+        "wcag111",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "help": "\u003cul\u003e and \u003col\u003e must only directly contain \u003cli\u003e, \u003cscript\u003e or \u003ctemplate\u003e elements",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cul class\u003d\"o-header__nav-items\"\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "only-listitems",
+              "message": "List element only has direct children that are allowed inside \u003cli\u003e elements"
+            }
+          ],
+          "any": [],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed \u003e .o-header__container \u003e .o-header__section.o-header__section--right \u003e .o-header__nav \u003e .o-header__nav-items"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cul class\u003d\"footerlink\" style\u003d\"\"\u003e",
+          "none": [
+            {
+              "impact": "serious",
+              "relatedNodes": [],
+              "id": "only-listitems",
+              "message": "List element only has direct children that are allowed inside \u003cli\u003e elements"
+            }
+          ],
+          "any": [],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink"
+          ]
+        }
+      ],
+      "description": "Ensures that lists are structured correctly",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/list?application\u003daxeAPI",
+      "id": "list",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "help": "\u003cli\u003e elements must be contained in a \u003cul\u003e or \u003col\u003e",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cli class\u003d\"o-header__nav-item\"\u003e\u003c/li\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "listitem",
+              "message": "List item has a \u003cul\u003e, \u003col\u003e or role\u003d\"list\" parent element"
+            }
+          ],
+          "target": [
+            "body \u003e .o-app-header.o-header.o-header--fixed \u003e .o-header__container \u003e .o-header__section.o-header__section--right \u003e .o-header__nav \u003e .o-header__nav-items \u003e li:nth-of-type(3)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://www.pearsonhighered.com/revel/accessibility/\" target\u003d\"_blank\" style\u003d\"\"\u003eAccessibilty\u003c/a\u003e\u003c/li\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "listitem",
+              "message": "List item has a \u003cul\u003e, \u003col\u003e or role\u003d\"list\" parent element"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(1)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonPrivacyPolicy.html\" target\u003d\"_blank\" style\u003d\"\"\u003ePrivacy Policy\u003c/a\u003e\u003c/li\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "listitem",
+              "message": "List item has a \u003cul\u003e, \u003col\u003e or role\u003d\"list\" parent element"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(2)"
+          ]
+        },
+        {
+          "all": [],
+          "html": "\u003cli style\u003d\"\"\u003e\u003ca href\u003d\"https://pi.pearsoned.com/v1/piapi/login/static/html/PearsonEULA.html\" target\u003d\"_blank\" style\u003d\"\"\u003eTerms \u0026amp; Conditions\u003c/a\u003e\u003c/li\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "listitem",
+              "message": "List item has a \u003cul\u003e, \u003col\u003e or role\u003d\"list\" parent element"
+            }
+          ],
+          "target": [
+            "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .footer \u003e .footerlink \u003e li:nth-of-type(3)"
+          ]
+        }
+      ],
+      "description": "Ensures \u003cli\u003e elements are used semantically",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/listitem?application\u003daxeAPI",
+      "id": "listitem",
+      "tags": [
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "help": "Users should be able to zoom and scale the text up to 500%",
+      "nodes": [
+        {
+          "all": [],
+          "html": "\u003cmeta name\u003d\"viewport\" content\u003d\"width\u003ddevice-width, initial-scale\u003d1, maximum-scale\u003d1\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "minor",
+              "relatedNodes": [],
+              "id": "meta-viewport-large",
+              "message": "\u003cmeta\u003e tag does not prevent significant zooming"
+            }
+          ],
+          "target": [
+            "html \u003e head \u003e meta:nth-of-type(6)"
+          ]
+        }
+      ],
+      "description": "Ensures \u003cmeta name\u003d\"viewport\"\u003e can scale a significant amount",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/meta-viewport-large?application\u003daxeAPI",
+      "id": "meta-viewport-large",
+      "tags": [
+        "best-practice"
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "help": "Elements must have sufficient color contrast",
+      "nodes": [
+        {
+          "all": [],
+          "impact": "critical",
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkForgotUser_Login\" type\u003d\"button\" class\u003d\"forget-link btn btn-link\" style\u003d\"\"\u003eForgot your username or password?\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "4.48",
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "fontSize": "9.8pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [
+                {
+                  "html": "\u003cdiv class\u003d\"f-p-1\" style\u003d\"\"\u003e",
+                  "target": [
+                    "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .f-p-1"
+                  ]
+                }
+              ],
+              "id": "color-contrast",
+              "message": "Element has insufficient color contrast of 4.48 (foreground color: #777777, background color: #ffffff, font size: 9.8pt, font weight: normal)"
+            }
+          ],
+          "target": [
+            "#linkForgotUser_Login"
+          ]
+        },
+        {
+          "all": [],
+          "impact": "critical",
+          "html": "\u003cbutton id\u003d\"btnLogin_Login\" type\u003d\"button\" class\u003d\"btn btn-default btn-block\"\u003eSign In\u003c/button\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "3.02",
+                "fgColor": "#ffffff",
+                "bgColor": "#19a5a3",
+                "fontSize": "12.0pt",
+                "fontWeight": "bold"
+              },
+              "impact": "critical",
+              "relatedNodes": [
+                {
+                  "html": "\u003cbutton id\u003d\"btnLogin_Login\" type\u003d\"button\" class\u003d\"btn btn-default btn-block\"\u003eSign In\u003c/button\u003e",
+                  "target": [
+                    "#btnLogin_Login"
+                  ]
+                }
+              ],
+              "id": "color-contrast",
+              "message": "Element has insufficient color contrast of 3.02 (foreground color: #ffffff, background color: #19a5a3, font size: 12.0pt, font weight: bold)"
+            }
+          ],
+          "target": [
+            "#btnLogin_Login"
+          ]
+        },
+        {
+          "all": [],
+          "impact": "critical",
+          "html": "\u003cdiv class\u003d\"form-group text-center colorBlue\" style\u003d\"\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "2.64",
+                "fgColor": "#12b2a6",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [
+                {
+                  "html": "\u003cdiv class\u003d\"f-p-1\" style\u003d\"\"\u003e",
+                  "target": [
+                    "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .f-p-1"
+                  ]
+                }
+              ],
+              "id": "color-contrast",
+              "message": "Element has insufficient color contrast of 2.64 (foreground color: #12b2a6, background color: #ffffff, font size: 10.5pt, font weight: normal)"
+            }
+          ],
+          "target": [
+            "#Login \u003e .form-group.text-center.colorBlue"
+          ]
+        },
+        {
+          "all": [],
+          "impact": "critical",
+          "html": "\u003ca role\u003d\"link\" href\u003d\"#\" id\u003d\"linkCreateAccount_Login\" type\u003d\"button\" class\u003d\"btn btn-link\" style\u003d\"\"\u003e\u003c!-- react-text: 34 --\u003e \u003c!-- /react-text --\u003e\u003c!-- react-text: 35 --\u003eCreate an account\u003c!-- /react-text --\u003e\u003c/a\u003e",
+          "none": [],
+          "any": [
+            {
+              "data": {
+                "contrastRatio": "2.64",
+                "fgColor": "#12b2a6",
+                "bgColor": "#ffffff",
+                "fontSize": "10.5pt",
+                "fontWeight": "normal"
+              },
+              "impact": "critical",
+              "relatedNodes": [
+                {
+                  "html": "\u003cdiv class\u003d\"f-p-1\" style\u003d\"\"\u003e",
+                  "target": [
+                    "#Comp_LoginLayout \u003e .midContainer \u003e .midContainerInner \u003e .f-p-1"
+                  ]
+                }
+              ],
+              "id": "color-contrast",
+              "message": "Element has insufficient color contrast of 2.64 (foreground color: #12b2a6, background color: #ffffff, font size: 10.5pt, font weight: normal)"
+            }
+          ],
+          "target": [
+            "#linkCreateAccount_Login"
+          ]
+        }
+      ],
+      "impact": "critical",
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/color-contrast?application\u003daxeAPI",
+      "id": "color-contrast",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ]
+    },
+    {
+      "help": "Zooming and scaling must not be disabled",
+      "nodes": [
+        {
+          "all": [],
+          "impact": "critical",
+          "html": "\u003cmeta name\u003d\"viewport\" content\u003d\"width\u003ddevice-width, initial-scale\u003d1, maximum-scale\u003d1\"\u003e",
+          "none": [],
+          "any": [
+            {
+              "impact": "critical",
+              "relatedNodes": [],
+              "id": "meta-viewport",
+              "message": "\u003cmeta\u003e tag disables zooming"
+            }
+          ],
+          "target": [
+            "html \u003e head \u003e meta:nth-of-type(6)"
+          ]
+        }
+      ],
+      "impact": "critical",
+      "description": "Ensures \u003cmeta name\u003d\"viewport\"\u003e does not disable text scaling and zooming",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/2.0/meta-viewport?application\u003daxeAPI",
+      "id": "meta-viewport",
+      "tags": [
+        "wcag2aa",
+        "wcag144"
+      ]
+    }
+  ],
+  "url": "https://loginui-stage.gl-poc.com/#/",
+  "timestamp": "2017-11-28T10:02:03.024Z"
+}

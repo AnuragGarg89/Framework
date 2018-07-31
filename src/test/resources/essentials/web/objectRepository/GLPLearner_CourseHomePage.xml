@@ -1,0 +1,208 @@
+<OR>
+	<CourseHomeStartYourPathBtn>
+		<css>button#startPath.pe-btn__cta--btn_large , .pe-btn__cta--btn_large</css>
+	</CourseHomeStartYourPathBtn>
+
+	<CourseHomeUserNamePlaceHolder>
+		<css>.heading</css>
+	</CourseHomeUserNamePlaceHolder>
+
+	<CourseHomelearnerImage>
+		<css>#welcomeLearner>img</css>
+	</CourseHomelearnerImage>
+
+	<CourseHomeKnockOutText>
+		<css>.heading+p</css>
+	</CourseHomeKnockOutText>
+	<PearsonLogo>
+		<css>[alt="Pearson Logo"]</css>
+	</PearsonLogo>
+
+	<CourseHomeWelcomeText>
+		<css>#welcomeLearner h1</css>
+	</CourseHomeWelcomeText>
+
+	<CourseHomeWelcomeUserNameText>
+		<css>#welcomeLearner h1</css>
+	</CourseHomeWelcomeUserNameText>
+
+	<CourseHomeLetTryText>
+		<css>#welcomeLearner p</css>
+	</CourseHomeLetTryText>
+
+	<CourseHomeStartPreAssessmentButton>
+		<css>#startPath</css>
+	</CourseHomeStartPreAssessmentButton>
+	
+	<CourseHomePreAssessmentContinueButton>
+		<css>#startPath</css>
+	</CourseHomePreAssessmentContinueButton>
+	
+	<CourseHomeWelcomeBackText>
+		<css>#ResumeLearner h1</css>
+	</CourseHomeWelcomeBackText>
+	
+	<CourseHomeResumeWelcomeBackText>
+		<css>#ResumeLearner h2</css>
+	</CourseHomeResumeWelcomeBackText>
+	
+	<CourseHomeResumeMessageText>
+		<css>#ResumeLearner p</css>
+	</CourseHomeResumeMessageText>
+
+	<CourseHomeProgressBar>
+		<css>#progress-bar</css>
+	</CourseHomeProgressBar>
+
+	<CourseHomeResumeYourPathButton>
+		<css>#startPath</css>
+	</CourseHomeResumeYourPathButton>
+	
+	<CourseHomeContinueDiagnosticButton>
+		<css>#startPath</css>
+	</CourseHomeContinueDiagnosticButton>	
+
+	<CourseHomePearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</CourseHomePearsonLogo>
+
+	<DashBoardFooterCopyRightText>
+		<css>.copyright-info</css>
+	</DashBoardFooterCopyRightText>
+
+	<DashBoardFooterAccessibilityLink>
+		<css>.app-footer li:nth-of-type(3) a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.app-footer li:nth-of-type(1) a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.app-footer li:nth-of-type(2) a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<CourseHomeHeaderAccountName>
+		<css>.o-dropdown-menu__toggle</css>
+	</CourseHomeHeaderAccountName>
+
+	<MyAccount>
+		<css>.o-dropdown-menu__menu-item-title</css>
+	</MyAccount>
+
+	<AccountSettings>
+		<css>li.o-dropdown-menu__menu-item.o-app-header__menu-item-my-account
+			>a</css>
+	</AccountSettings>
+
+	<SignOut>
+		<css>li.o-dropdown-menu__menu-item.o-app-header__menu-item-sign-out >a
+		</css>
+	</SignOut>
+
+	<Copyright>
+		<css>.copyright</css>
+	</Copyright>
+
+	<Accessibilty>
+		<css>.footerlink div:nth-child(1)>a</css>
+	</Accessibilty>
+
+	<PrivacyPolicy>
+		<css>.footerlink div:nth-child(2)>a</css>
+	</PrivacyPolicy>
+
+	<TermsNConditions>
+		<css>.footerlink div:nth-child(3)>a</css>
+	</TermsNConditions>
+
+	<GtmFrame>
+		<xpath>//iframe[@src="about:blank"]</xpath>
+	</GtmFrame>
+
+	<GTMDatalayerVariable>
+		<xpath>//div[@class='gtm-debug-data-layer-content-container'][2]//descendant::div[@class='CodeMirror-code']//pre</xpath>
+	</GTMDatalayerVariable>
+	
+    <GTMVirtualPageView>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'VirtualPageview')]</xpath> 
+	</GTMVirtualPageView>
+	
+	 <GtmDataLayer>
+		<xpath>//*[@class='gtm-debug-tab-list']//li[3]</xpath>
+	</GtmDataLayer>
+	
+	 <GTMAssessmentStarted>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'Assessment Started')]</xpath> 
+	</GTMAssessmentStarted>
+	  <GTMAssessmentItemStarted>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'AssessmentItemStarted')]</xpath> 
+	</GTMAssessmentItemStarted>
+	  <GTMAssessmentItemCompleted>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'AssessmentItemCompleted')]</xpath> 
+	</GTMAssessmentItemCompleted>
+	
+	<GtmCloseArrow>
+		<xpath>//i[@class="gtm-arrow-down-icon"]</xpath>
+	</GtmCloseArrow>
+	
+	<GtmUpArrow>
+		<xpath>//img[@alt='Up Arrow']</xpath>
+	</GtmUpArrow>
+	
+	<InstructorDashBoardFooterCopyRightText>
+		<css>.copyright span</css>
+	</InstructorDashBoardFooterCopyRightText>
+	
+	<InstructorDashBoardFooterAccessibilityLink>
+		<css>.footerlink > li:nth-child(1) > a > span</css>
+	</InstructorDashBoardFooterAccessibilityLink>
+	
+	<InstructorDashBoardPrivacyPolicyLink>
+		<css>.footerlink > li:nth-child(2) > a > span</css>
+	</InstructorDashBoardPrivacyPolicyLink>
+	
+	<InstructorDashBoardFooterTermsAndConditionsLink>
+		<css>.footerlink > li:nth-child(3) > a > span</css>
+	</InstructorDashBoardFooterTermsAndConditionsLink>
+	
+	 <GTMExitLearner>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'ExitLearner')]</xpath> 
+	 </GTMExitLearner>
+	 
+	 <GTMResumeLearner>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'ResumeLearner')]</xpath> 
+	</GTMResumeLearner>
+	
+	 <DiagnosticCrossIconButton>
+		<css>.playerTopPanel>button.closeIcon</css>
+	</DiagnosticCrossIconButton>
+	
+	 <DiagnosticIdontKnowThisButton>
+		<css>button[id^='iDontKnowThisButton']:not([disabled])</css>
+	</DiagnosticIdontKnowThisButton>
+	
+	 <CourseHomeUnlockMesage>
+	     <css>#welcomeLearner p</css>
+	 </CourseHomeUnlockMesage>
+	 
+	 <GTMStartlearner>
+		<xpath>//*[@class="gtm-debug-pane ng-scope ng-isolate-scope selected"]//descendant::span[contains(text(),'StartLearner')]</xpath> 
+	</GTMStartlearner>
+	
+	<CourseHomeCourseCardImage>
+	  <css>div.course-card-image</css>
+	</CourseHomeCourseCardImage>
+	
+	<DiagnosticSubmitButton>
+		<css>button[id^='submitButton']</css>
+	</DiagnosticSubmitButton>
+	<GtmConsole>
+	<xpath>//iframe[@src='about:blank']</xpath>
+	</GtmConsole>
+	
+		
+	
+	
+
+</OR>

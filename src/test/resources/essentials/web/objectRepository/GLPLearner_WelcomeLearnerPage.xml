@@ -1,0 +1,21 @@
+<OR>
+
+	<WelcomeLearnerPageWelcomeTitlePart1>
+		<css>#welcomeLearner h1</css>
+	</WelcomeLearnerPageWelcomeTitlePart1>
+
+	<WelcomeLearnerPageWelcomeTitlePart2>
+		<css>#welcomeLearner h1</css>
+	</WelcomeLearnerPageWelcomeTitlePart2>
+
+	<WelcomeLearnerPageWelcomeText>
+		<css>#welcomeLearner p</css>
+	</WelcomeLearnerPageWelcomeText>
+
+	<WelcomeLearnerPageStartPreAssessmentBtn>
+		<css>.pe-btn__cta--btn_large</css>
+	</WelcomeLearnerPageStartPreAssessmentBtn>
+
+ 
+
+</OR> 

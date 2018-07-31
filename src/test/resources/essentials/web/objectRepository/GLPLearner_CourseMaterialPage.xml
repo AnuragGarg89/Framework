@@ -1,0 +1,1020 @@
+<OR>
+
+	<DiagnosticStartButton>
+		<css>.courseLeft+ button</css>
+	</DiagnosticStartButton>
+
+	<CourseHomeLO>
+		<css>.panel-heading</css>
+	</CourseHomeLO>
+
+	<CourseHomeConceptCheck>
+		<css>.contentLIst
+			div>li:nth-of-type(5)>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)
+		</css>
+	</CourseHomeConceptCheck>
+
+	<CoreInstructionButtonList>
+		<css> .panel-body>button li button</css>
+	</CoreInstructionButtonList>
+	<PearsonLogo>
+		<css>[alt="Pearson Logo"]</css>
+	</PearsonLogo>
+	<CourseHeadingLink>
+		<css>.panel-heading > h4 > a</css>
+	</CourseHeadingLink>
+
+	<CourseSubHeadingLink>
+		<css>.list-group-item</css>
+	</CourseSubHeadingLink>
+
+	<PracticeTestLink>
+		<css>#\30 > ul > li:nth-child(2) > a</css>
+	</PracticeTestLink>
+
+	<CourseMaterialPearsonLogo>
+		<css>.o-header__brand>a>div>img</css>
+	</CourseMaterialPearsonLogo>
+
+	<CourseMaterialMaterialTab>
+		<css>#menuTab>li:nth-of-type(1)</css>
+	</CourseMaterialMaterialTab>
+	<CourseMaterialPerformanceTab>
+		<css>#menuTab>li:nth-of-type(2)</css>
+	</CourseMaterialPerformanceTab>
+
+	<CourseMaterialFilter>
+		<css>#dropdown-size-medium</css>
+	</CourseMaterialFilter>
+
+	<CourseMaterialFilterNonMasteredModules>
+		<css>.dropdown-menu>li:nth-child(1)</css>
+	</CourseMaterialFilterNonMasteredModules>
+
+	<CourseMaterialFilterMasteredModules>
+		<css>.dropdown-menu>li:nth-child(2)</css>
+	</CourseMaterialFilterMasteredModules>
+
+	<CourseMaterialFilterAllModules>
+		<css>.dropdown-menu>li:nth-child(3)</css>
+	</CourseMaterialFilterAllModules>
+
+	<CourseMaterialGreatJobRemoveIcon>
+		<css>.remove-icon</css>
+	</CourseMaterialGreatJobRemoveIcon>
+
+	<CourseMaterialGreatJobIcon>
+		<css>.greatjob-icon</css>
+	</CourseMaterialGreatJobIcon>
+
+	<CourseMaterialCourseTitle>
+		<css>.menu>h1</css>
+	</CourseMaterialCourseTitle>
+
+	<CourseMaterialMenuOptions>
+		<css>#menuTab>li>a</css>
+	</CourseMaterialMenuOptions>
+
+	<PSPGreatJobText>
+		<css>.greatjob-section.clear>p</css>
+	</PSPGreatJobText>
+
+	<PSPClickXButton>
+		<css>.remove-icon</css>
+	</PSPClickXButton>
+
+	<PSPGreatJobDialougeBox>
+		<css>greatjob-section clear</css>
+	</PSPGreatJobDialougeBox>
+
+	<CourseMaterialExpandIcon>
+		<css>.what-next-text+div:nth-of-type(2) .dropdown-icon</css>
+	</CourseMaterialExpandIcon>
+
+	<CourseMaterialExpandIconMastered>
+		<css>.what-next-section>div>div:nth-of-type(1) .dropdown-icon</css>
+	</CourseMaterialExpandIconMastered>
+
+	<CourseMaterialChapterLink>
+		<css>.what-next-section>div:nth-of-type(2)
+			.tree-view>.tree-node:nth-of-type(1)>span>span+span
+		</css>
+	</CourseMaterialChapterLink>
+
+	<CourseMaterialChapterLinkMastered>
+		<css>.what-next-section>div>div:nth-of-type(1)
+			.tree-view>.tree-node:nth-of-type(1)>span>span+span
+		</css>
+	</CourseMaterialChapterLinkMastered>
+
+	<CourseMaterialChaperSubSectionsText>
+		<css>.tree-view ul .list-section>span+span</css>
+	</CourseMaterialChaperSubSectionsText>
+
+	<CourseMatrerialMasteredDropdownText>
+		<css>.open.btn-group .dropdown-menu>li:nth-of-type(2)>a</css>
+	</CourseMatrerialMasteredDropdownText>
+
+	<CourseMatrerialAllDropdownText>
+		<css>.open.btn-group .dropdown-menu>li:nth-of-type(3)>a</css>
+	</CourseMatrerialAllDropdownText>
+
+
+	<CourseMatrerialChaperCircleText>
+		<css>.circle-text</css>
+	</CourseMatrerialChaperCircleText>
+
+	<CourseMatrerialChapersText>
+		<css>.panel-title>h3</css>
+	</CourseMatrerialChapersText>
+
+	<CourseMatrerialPearsonLogo>
+		<css>.headerpanel .btn.btn-link>img</css>
+	</CourseMatrerialPearsonLogo>
+
+	<CourseMaterialGreatJobText>
+		<css>.greatjob-section.clear>p</css>
+	</CourseMaterialGreatJobText>
+
+	<CourseMaterialGreatJobDialougeBox>
+		<css>greatjob-section clear</css>
+	</CourseMaterialGreatJobDialougeBox>
+
+	<CourseMaterialExpandButton>
+		<css>.dropdown-icon</css>
+	</CourseMaterialExpandButton>
+
+	<CourseMaterialChapterSection>
+		<css>.what-next-section .what-next-text:nth-child(1)+div
+			.panel-heading
+		</css>
+	</CourseMaterialChapterSection>
+
+	<CourseMaterial1stChapterSubSection>
+		<css>.what-next-section .what-next-text:nth-child(1)+div .panel-group
+			ul li
+		</css>
+	</CourseMaterial1stChapterSubSection>
+
+	<CourseMaterialClickFilterByDropDownBox>
+		<css>#dropdown-size-medium</css>
+	</CourseMaterialClickFilterByDropDownBox>
+
+	<CourseMaterialSelectMasteredModuleOnly>
+		<css>.dropdown-menu>li:nth-child(2)>a</css>
+	</CourseMaterialSelectMasteredModuleOnly>
+
+	<CourseMaterialToolTip>
+		<css>.circle-text</css>
+	</CourseMaterialToolTip>
+
+	<CourseMaterialChapter1stSubSection>
+		<css>.what-next-section .what-next-text:nth-child(1)+div .panel-group
+			ul li:nth-of-type(1)
+		</css>
+	</CourseMaterialChapter1stSubSection>
+
+	<CourseMaterialChapter1stPracticeTest>
+		<css>.what-next-section .what-next-text:nth-child(1)+div .panel-group
+			ul li:nth-of-type(1) ul li:nth-of-type(2)
+		</css>
+	</CourseMaterialChapter1stPracticeTest>
+
+	<CourseMaterialNonMasteredModuleChapter>
+		<css>.what-next-section .what-next-text +div .panel-heading</css>
+	</CourseMaterialNonMasteredModuleChapter>
+
+	<CourseMaterialExpand2ndModuleButton>
+		<css>.what-next-section .what-next-text+div+.what-next-text+div
+			.panel-group:nth-child(1) img
+		</css>
+	</CourseMaterialExpand2ndModuleButton>
+
+	<CourseMaterialChapter2ndSubSection>
+		<css>.what-next-section .what-next-text+div+.what-next-text+div
+			.panel-group:nth-child(1) .panel.panel-default ul.tree-view li
+		</css>
+	</CourseMaterialChapter2ndSubSection>
+
+	<CourseMaterialExpand3rdModuleButton>
+		<css>.what-next-section .what-next-text+div+.what-next-text+div
+			.panel-group:nth-child(2) img
+		</css>
+	</CourseMaterialExpand3rdModuleButton>
+
+	<CourseMaterialChapter3rdSubSection>
+		<css>.what-next-section .what-next-text+div+.what-next-text+div
+			.panel-group:nth-child(2) .panel.panel-default ul.tree-view li
+		</css>
+	</CourseMaterialChapter3rdSubSection>
+
+	<CourseMaterialCollapseIcon>
+		<css>.dropdown-icon-invert</css>
+	</CourseMaterialCollapseIcon>
+
+	<PageContent>
+		<css>.content-Panel</css>
+	</PageContent>
+
+	<CourseMaterialALLFilterValue>
+		<css>.dropdown-menu>li:nth-child(2)>a</css>
+	</CourseMaterialALLFilterValue>
+
+	<CourseMaterialFilterValues>
+		<css>.dropdown.open.btn-group .dropdown-menu:nth-of-type(1) li</css>
+	</CourseMaterialFilterValues>
+
+	<CourseMaterialUserName>
+		<css>#loginOption</css>
+	</CourseMaterialUserName>
+
+	<CourseMaterialCourseImage>
+		<css>.developemental-icon</css>
+	</CourseMaterialCourseImage>
+
+	<CourseMaterialCourseNameText>
+		<css>.material-heading>p:nth-of-type(1)</css>
+	</CourseMaterialCourseNameText>
+
+	<CourseMaterialCourseDescriptionText>
+		<css>.material-heading>p+p</css>
+	</CourseMaterialCourseDescriptionText>
+
+	<CourseMaterialAllMMLStartButton>
+		<css>.Start-button.btn.btn-default</css>
+	</CourseMaterialAllMMLStartButton>
+
+	<CourseMaterialAllMMLChapterName>
+		<css>.panel-title>h3</css>
+	</CourseMaterialAllMMLChapterName>
+
+	<CourseMaterialLabel>
+		<css>.menu>h1</css>
+	</CourseMaterialLabel>
+
+	<LogoutButton>
+		<css>.username</css>
+	</LogoutButton>
+
+
+
+	<CourseMaterialExpend-Section>
+		<xpath>//*[text()="Introduction: The Science of Psychology"]</xpath>
+	</CourseMaterialExpend-Section>
+
+	<CourseMaterialExpend-Section1>
+		<xpath>//*[text()="The Study of Psychology and Its History"]</xpath>
+	</CourseMaterialExpend-Section1>
+
+	<CourseMaterialExpend-Section1.1>
+		<xpath>//span[contains(text(),'What defines psychology as a field')]
+		</xpath>
+	</CourseMaterialExpend-Section1.1>
+
+	<CourseMaterialExpend-Section1.2>
+		<xpath>//span[contains(text(),'How did structuralism')]</xpath>
+	</CourseMaterialExpend-Section1.2>
+	<CourseChapterContents>
+		<xpath>.//*[@class='dropdown-icon-invert']/../../following-sibling::div/ul/li
+		</xpath>
+	</CourseChapterContents>
+
+	<CourseMaterialChapterTile>
+		<css>.panel-heading</css>
+	</CourseMaterialChapterTile>
+
+	<CourseMaterialMMLExpandButton>
+		<css>.inner-accordian-section>div>div:nth-of-type(1) .dropdown-icon
+		</css>
+	</CourseMaterialMMLExpandButton>
+
+	<CourseMaterialMMLSubChapter>
+		<css>.inner-accordian-section>div>div:nth-of-type(1)
+			.tree-node:nth-of-type(1)>.list-section>span:nth-of-type(2)
+		</css>
+	</CourseMaterialMMLSubChapter>
+
+	<CoursePanelHeading>
+		<css>.panel-heading</css>
+	</CoursePanelHeading>
+	<CourseAllHeading>
+		<css>.inner-accordian-section>div>div:nth-of-type(3)</css>
+	</CourseAllHeading>
+
+	<OriginalTextBox>
+		<css>.diff-inputs .diff-input:nth-of-type(1) .CodeMirror
+			.CodeMirror-lines
+		</css>
+	</OriginalTextBox>
+	<ChangedTextBox>
+		<css>.diff-inputs .diff-input:nth-of-type(2) .CodeMirror
+			.CodeMirror-lines
+		</css>
+	</ChangedTextBox>
+
+	<SubmitButtonDifference>
+		<css>[type='submit']</css>
+	</SubmitButtonDifference>
+
+	<CourseMaterialRevelExpandButton>
+		<css>.inner-accordian-section>div>div:nth-of-type(1) .dropdown-icon
+		</css>
+	</CourseMaterialRevelExpandButton>
+
+	<CourseMaterialRevelCollapseButton>
+		<css>.inner-accordian-section>div>div:nth-of-type(1)
+			.dropdown-icon-invert
+		</css>
+	</CourseMaterialRevelCollapseButton>
+
+	<CourseMaterialRevelSubChapter>
+		<css>.inner-accordian-section>div>div:nth-of-type(1)
+			.tree-node:nth-of-type(1)>.list-section>span:nth-of-type(2)
+		</css>
+	</CourseMaterialRevelSubChapter>
+
+	<RioModuleTwelveArrow>
+		<css>.what-next-section .what-next-text:nth-of-type(1) ~
+			.what-next-text + div > .panel-group:nth-child(5) img
+		</css>
+	</RioModuleTwelveArrow>
+
+	<RioChapter12_3>
+		<css>.what-next-section .what-next-text:nth-of-type(1) ~
+			.what-next-text + div > .panel-group:nth-child(5) .tree-view
+			li:nth-child(3) span
+		</css>
+	</RioChapter12_3>
+
+	<RioConceptCheck12_3_2>
+		<css>.what-next-section .what-next-text:nth-of-type(1) ~
+			.what-next-text + div > .panel-group:nth-child(5) .tree-view
+			li:nth-child(3) .tree-node:nth-child(2) span
+		</css>
+	</RioConceptCheck12_3_2>
+
+	<CourseMaterial2.1Chapter>
+		<css>.panel-collapse.collapse.in > ul > li:nth-child(1) > span >
+			span:nth-child(2)
+		</css>
+	</CourseMaterial2.1Chapter>
+
+	<CourseMaterial2.1.1Chapter>
+		<css>.panel-collapse.collapse.in > ul > li:nth-child(1) > ul >
+			li:nth-child(1) > span > span:nth-child(2)
+		</css>
+	</CourseMaterial2.1.1Chapter>
+
+	<CourseMaterialExpendIcon>
+		<css>.dropdown-icon</css>
+	</CourseMaterialExpendIcon>
+
+	<CourseMaterialCollapseIcon>
+		<css>.dropdown-icon-invert</css>
+	</CourseMaterialCollapseIcon>
+
+	<CourseMaterialPracticeTest>
+		<css>.panel-collapse.collapse.in > ul > li:nth-child(1) > ul >
+			li:nth-child(2) > span > span:nth-child(2)
+		</css>
+	</CourseMaterialPracticeTest>
+
+	<LearningObjectivePracticeTestsubmitButton>
+		<css>#submitButton</css>
+	</LearningObjectivePracticeTestsubmitButton>
+
+	<CourseMaterialResult>
+		<css>.diagnostic-result__banner, .course-home-banner</css>
+	</CourseMaterialResult>
+	<CourseMaterialHeadingText>
+		<css>.course-home-banner h1</css>
+	</CourseMaterialHeadingText>
+	<CourseMaterialBodyText>
+		<css>.courseHomeHeader p</css>
+	</CourseMaterialBodyText>
+	<CourseMaterialLOStartButton>
+		<css>[id^=LOBtn]</css>
+	</CourseMaterialLOStartButton>
+	<CourseMaterialprogressCircleCount>
+		<css>.accordian-content-expanded .progress-circle li</css>
+	</CourseMaterialprogressCircleCount>
+	<CourseMaterialToggleModule2Arrow>
+		<css>#toggleModuleBtn2</css>
+	</CourseMaterialToggleModule2Arrow>
+	<CourseMaterialExpendedToggleModulesArrow>
+		<css>#toggleModuleBtn1</css>
+	</CourseMaterialExpendedToggleModulesArrow>
+	<CourseMaterialFirstHighlightedStartButton>
+		<css>.pe-btn__primary--btn_large</css>
+	</CourseMaterialFirstHighlightedStartButton>
+	<CourseMaterialFirstModuleStartButton>
+		<css>#materialStartBtn1</css>
+	</CourseMaterialFirstModuleStartButton>
+	<CourseMaterialSecondModuleStartButton>
+		<css>.accordian__body__active  li:nth-of-type(2) button</css>
+	</CourseMaterialSecondModuleStartButton>
+	
+	<CourseMaterialFirstnonHighlightedStartButton>
+		<css>#LOBtn_3</css>
+	</CourseMaterialFirstnonHighlightedStartButton>
+	
+	<CourseMaterialModule16StartTestButton>
+		<css>#LOBtn_8</css>
+	</CourseMaterialModule16StartTestButton>
+	
+	<CourseMaterialSecondNonHighlightedStartButton>
+		<css>#LOBtn_4</css>
+	</CourseMaterialSecondNonHighlightedStartButton>
+	
+	<CourseMaterialModuleBackButton>
+		<css>.course-drawer__action-icon.back-arrow</css>
+	</CourseMaterialModuleBackButton>
+	
+	
+	<CourseMaterialFirstReviewButton>
+		<css>.accordian__body__active  li:nth-of-type(1) button</css>
+	</CourseMaterialFirstReviewButton>
+	
+	<CourseMaterialFirstCircleSelected>
+		<css>.circle.selected</css>
+	</CourseMaterialFirstCircleSelected>
+	<CourseMaterialUnHighlightedStartButton>
+		<css>#header_5 + .accordian__body .pe-btn__default--btn_large</css>
+	</CourseMaterialUnHighlightedStartButton>
+	<CourseMaterialModuleTitleButton>
+		<css>[id^='ModuleAccordion']</css>
+	</CourseMaterialModuleTitleButton>
+	<CourseMaterialFirstCircleNotSelected>
+		<css>.panel-collapse.collapse.in>div [class=circle]</css>
+	</CourseMaterialFirstCircleNotSelected>
+
+	<PspLetsStartTextHeadingText>
+		<css>.courseHomeHeader p</css>
+	</PspLetsStartTextHeadingText>
+	<ModuleTwelveExpand>
+		<css>#accordion-example>div:nth-of-type(2) .toggleModule</css>
+	</ModuleTwelveExpand>
+
+	<ModuleTwelveSecondChapter>
+		<css>button#LOBtn_2</css>
+	</ModuleTwelveSecondChapter>
+
+	<ModuleTwelveSecondChapterInteractive>
+		<css>.list-wrapper >div >div:nth-child(2) >ul:nth-child(3) >li >a
+		</css>
+	</ModuleTwelveSecondChapterInteractive>
+
+	<InteractiveVideo>
+		<css>div#common</css>
+	</InteractiveVideo>
+
+	<CourseMatrerialmoduleExpendedLo>
+		<css>.list-group</css>
+	</CourseMatrerialmoduleExpendedLo>
+
+	<CourseMatrerialmoduleAllLo>
+		<css>.list-group>span</css>
+	</CourseMatrerialmoduleAllLo>
+
+	<CourseMaterialFirstLoCircle>
+		<css>.circle-overlap</css>
+	</CourseMaterialFirstLoCircle>
+
+	<DiagnosticGoToCourseHomeLink>
+		<css>.proceed</css>
+	</DiagnosticGoToCourseHomeLink>
+	<ChapterTitles>
+		<css>.eo-list </css>
+	</ChapterTitles>
+
+	<ChapterSubTitles>
+		<css>.objective-list</css>
+	</ChapterSubTitles>
+
+	<ImageName>
+		<css>#content-player img</css>
+	</ImageName>
+	
+	<BackButton>
+		<css>.icon-back-arrow</css>
+	</BackButton>
+	<ContinueBtn>
+		<!-- <css>.panelExpanded.panel.panel-default button[id^=LOBtn]</css> -->
+		<xpath>//div[@class='panelExpanded panel panel-default']//span[contains(@class,'list-group-item')]//button</xpath>
+	</ContinueBtn>
+	
+	
+	
+		<DiagnosticProgressBar>
+		<css>#progress-bar</css>
+	</DiagnosticProgressBar>
+
+	<CoreInstructionBackButton>
+		<css>#nextButton</css>
+	</CoreInstructionBackButton>
+
+	<CoreInstructionPreviousButton>
+		<css>#previousButton</css>
+	</CoreInstructionPreviousButton>
+	<CoreInstructionVideoPlayButton>
+		<css>.poster-play-icon</css>
+	</CoreInstructionVideoPlayButton>
+	<PearsonLogo>
+		<css>[alt="Pearson Logo"]</css>
+	</PearsonLogo>
+	<ModuleStartButton>
+		<css>#LOBtn_1</css>
+	</ModuleStartButton>
+	<ResultButton>
+		<css>#resultBtn</css>
+	</ResultButton>
+	<DrawerIcon>
+		<css>.lo-list svg</css>
+	</DrawerIcon>
+	<LeftArrowOnToc>
+		<css>button.course-drawer__action-icon</css>
+	</LeftArrowOnToc>
+	
+	<LoListActive>
+		<css>.lo-list__link--active</css>
+	</LoListActive>
+	
+	
+	<EoListOne>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) button span.lo-list__link-label</css>
+	</EoListOne>
+	<EoListTwo>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(2) button span.lo-list__link-label</css>
+	</EoListTwo>
+	<EoListThree>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(3) button span.lo-list__link-label</css>
+	</EoListThree>
+
+	<SubHeadingListOne>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li:nth-child(1)</css>
+	</SubHeadingListOne>
+	<SubHeadingListTwo>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li:nth-child(2)</css>
+	</SubHeadingListTwo>
+	<SubHeadingListThree>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li:nth-child(3)</css>
+	</SubHeadingListThree>
+	<SubHeadingListFour>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li:nth-child(4)</css>
+	</SubHeadingListFour>
+	<SubHeadingListFive>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li:nth-child(5)</css>
+	</SubHeadingListFive>
+	
+	<SubHeadingsFirstEo>
+		<css>.toc-list:nth-child(1)  .toc-list__lo:nth-child(1) .eo-list li</css>
+    </SubHeadingsFirstEo>
+	<EODetailPageBackArrow>
+		<css>.pe-icon--point-back-24</css>
+	</EODetailPageBackArrow>
+
+	<EODetailPageNextArrow>
+		<css>.pe-icon--point-next-24</css>
+	</EODetailPageNextArrow>
+	
+	<MiniModuleLO>
+		<css>#ModuleAccordion1</css>
+	</MiniModuleLO>
+	
+	<ContentTitle>
+		<css>#content-player h1</css>
+	</ContentTitle>
+	
+	<PracticeQuiz>
+	    <css>.LO-wrapper .list-wrapper .objective-list:last-child</css>
+	</PracticeQuiz>
+	
+	<PracticeTestWelcomeScreenStartButton>
+	<css>#startPath</css>
+	</PracticeTestWelcomeScreenStartButton>
+	
+	<PracticeTestCloseButton>
+	<css>button#closeIconId</css>
+	</PracticeTestCloseButton>
+	
+	<PracticeTestPopUpHeader>
+	<css>#modalHeader </css>
+	</PracticeTestPopUpHeader>
+
+	<SubheadingVideo>
+		<css>div.lo-wrapper div:nth-child(1) > div:nth-child(1) > ul > li[class^='eo-list'] button > [type="video"]</css>
+	</SubheadingVideo>
+
+    <SubheadingContent>
+		<css>div.lo-wrapper div:nth-child(1) > div:nth-child(1) > ul > li[class^='eo-list'] button > [type="content"]</css>
+	</SubheadingContent>
+	
+	<SubheadingEdit>
+		<css>div.lo-wrapper div:nth-child(1) > div:nth-child(1) > ul > li[class^='eo-list'] button > [type="edit"]</css>
+	</SubheadingEdit>
+	<SubheadingQuizz>
+		<css>div.lo-wrapper div:nth-child(1) > div:nth-child(1) > ul > li[class^='eo-list'] button > [type="quizz"]</css>
+	</SubheadingQuizz>
+
+	<FooterVerbs>
+		<css>nav.footer-nav button:nth-child(1) > span > strong</css>
+	</FooterVerbs>
+    
+    <VideoContent>
+		<css>div.pearson-component .video-player</css>
+	</VideoContent>
+	<EditContent>
+		<css>.interactivePlayer</css>
+	</EditContent>
+	<ReadContent>
+		<css>div.pearson-component .video</css>
+	</ReadContent>
+	<PracticeContent>
+		<css>#welcomeLearner</css>
+	</PracticeContent>
+	
+	<TOCFullScreen>
+		<css>.resourcePlayer:not(.resize)</css>
+	</TOCFullScreen>
+	
+	<ContentHeading>
+		<css>#content-player > div > h1</css>
+	</ContentHeading>
+	
+	<PracticeTestPopUpCancelButton>
+		<css>.modalFooter .modalCancel</css>
+	</PracticeTestPopUpCancelButton>
+	
+	<PracticeTestPopUpLeaveButton>
+		<css>button[class*='pe-btn__primary']:nth-of-type(2)</css>
+	</PracticeTestPopUpLeaveButton>
+	
+	<PracticeTestPopUpHeadingText>
+		<css>#modalHeader</css>
+	</PracticeTestPopUpHeadingText>
+	
+	<PracticeTestPopUpText>
+	<css>.modalBody.modalBody</css>
+	</PracticeTestPopUpText>
+	
+	<PracticeTestContinueBtn>
+        <css>button#startPath.pe-btn__cta--btn_large</css>
+    </PracticeTestContinueBtn>
+    
+    <PracticeTestWelcomeText>
+        <css>#welcomeLearner h1</css>
+    </PracticeTestWelcomeText>
+    
+    <PracticeTestResumeText>
+    <css>#ResumeLearner h1</css>
+    </PracticeTestResumeText>
+    
+    <PracticeTestStartButton>
+        <css>#startPath</css>
+    </PracticeTestStartButton>
+    
+    <PracticeTestWelcomePageBody>
+    <css>#welcomeLearner p</css>
+    </PracticeTestWelcomePageBody>
+    
+    <PracticeTestResumePageBody>
+    <css>#ResumeLearner p</css>
+    </PracticeTestResumePageBody>
+    
+    <PracticeTestWelcomePageInteract>
+    <css>.footer-nav</css>
+    </PracticeTestWelcomePageInteract>
+    
+    <PracticeTestLastLO>
+    <css>.LO-wrapper .list-wrapper:last-child</css>
+    </PracticeTestLastLO>
+    
+    <PracticeTestLastEOQuiz>
+    <css> .LO-wrapper .list-wrapper:last-child .objective-list:last-child</css>
+    </PracticeTestLastEOQuiz>
+    
+    <ProgressCircle>
+    <css>.toc__circular__progress__bar</css>
+    </ProgressCircle>
+    
+    <MenuItemCircleCompleted>
+    <css>.objective-list.completed</css>
+    </MenuItemCircleCompleted>
+    
+     <FirstMenuItemCircleCompleted>
+    <css>div.lo-wrapper div > div:nth-child(1) > div >ul > li.eo-list__item--completed:nth-child(1)</css>
+    </FirstMenuItemCircleCompleted>
+    
+    
+    <SubheadingImg>
+    <css>div.lo-wrapper div:nth-child(1) > div:nth-child(1) > ul > li[class^='eo-list'] button > img</css>
+    </SubheadingImg>
+    
+    <CourseMaterialHiMessageText>
+		<css>.courseHomeHeader h1</css>
+	</CourseMaterialHiMessageText>
+        
+    <CourseMaterialLetsStartModuleText>
+		<css>.course-home-banner__text</css>
+	</CourseMaterialLetsStartModuleText>
+	
+	<CourseMaterialYourHardWorkMessageText>
+		<css>.courseHomeHeader h1</css>
+	</CourseMaterialYourHardWorkMessageText>
+	
+	<CourseMaterialLetsContinueMessageText>
+		<css>.courseHomeHeader p</css>
+	</CourseMaterialLetsContinueMessageText>
+	
+	<CourseMaterialModuleTestNotificationMessageText>
+		<css>.courseHomeHeader</css>
+	</CourseMaterialModuleTestNotificationMessageText>
+	
+	<CourseMaterialFirstModuleStar>
+		<css>.course-home>div:nth-of-type(2) .star svg</css>
+	</CourseMaterialFirstModuleStar>
+	
+	<CourseMaterialFirstModuleStarInnerCircle>
+		<css>.course-home>div:nth-of-type(2) .circle-overlap</css>
+	</CourseMaterialFirstModuleStarInnerCircle>
+	
+	<CourseMaterialFirstModuleStarouterCircle>
+		<css>#accordion-example>div:nth-of-type(1) .circle-arc</css>
+	</CourseMaterialFirstModuleStarouterCircle>    
+    
+    <EOGreyColor>
+    <css>.lo-wrapper > div > div:nth-child(1) button > svg  .toc__circular__progress__bar[stroke='#E9E9E9']</css>
+    </EOGreyColor>
+    
+     <CourseMaterialModule13ToggleModulesArrow>
+		<css>button[class='toggleModule collapsed'][id='toggleModuleBtn3'][aria-expanded='false']</css>
+	</CourseMaterialModule13ToggleModulesArrow>   
+ 
+     <CourseMaterialModule13_5LOStartButton>
+		<css>button[class='pe-btn__default--btn_large'][id='LOBtn_5'][aria-label^='13.5']</css>
+	</CourseMaterialModule13_5LOStartButton>
+	
+	<CourseMaterialCircleAgainstFirstLo>
+		<css>.course-home>div:nth-of-type(7) .accordian-list-group>li:nth-of-type(1) .circle</css>
+	</CourseMaterialCircleAgainstFirstLo> 
+	 
+	<CourseMaterialNonMasteredModuleStarCircle>
+		<css>.course-home>div:nth-of-type(7) .star</css>
+	</CourseMaterialNonMasteredModuleStarCircle>  
+    <TOCTitle>
+    <css>#root .pe-title</css>
+    </TOCTitle>
+    
+    <TOCWelcomeGotItButton>
+    <css>button.modalSave.pe-btn__primary--btn_large</css>
+    </TOCWelcomeGotItButton>
+    
+
+    <TOCTitle>
+    <css>#root > header > h1</css>
+    </TOCTitle>
+    
+    <TOCWelcomeGotItButton>
+    <css>button.modalSave.pe-btn__primary--btn_large</css>
+    </TOCWelcomeGotItButton>
+    
+
+     <TOCTitle>
+    <css>#root > header > h1</css>
+    </TOCTitle>
+    
+    <TOCWelcomeGotItButton>
+    <css>button.modalSave.pe-btn__primary--btn_large</css>
+    </TOCWelcomeGotItButton>
+    
+
+    <TOCTitle>
+    <css>#root > header > h1</css>
+    </TOCTitle>
+    
+    <TOCWelcomeGotItButton>
+    <css>button.modalSave.pe-btn__primary--btn_large</css>
+    </TOCWelcomeGotItButton>
+    
+
+    <TOCTitle>
+    <css>#root > header > h1</css>
+    </TOCTitle>
+    
+    <TOCWelcomeGotItButton>
+    <css>button.modalSave.pe-btn__primary--btn_large</css>
+    </TOCWelcomeGotItButton>
+    
+    <CourseMaterialModule12_4LOStartButton>
+		<css>button[class='pe-btn__default--btn_large'][id='LOBtn_4'][aria-label^='12.4']</css>
+	</CourseMaterialModule12_4LOStartButton>
+    
+    <CourseMaterialStartButton>
+    <xpath>//*[@class='mobile-button-placement']//button</xpath>
+    </CourseMaterialStartButton>
+    
+    <LoCount>
+    <css>.accordian__body__active li</css>
+    </LoCount>
+    
+    <LOStartReviewDynamicButton>
+    	<css>.accordian-list-group > li:nth-child(dynamicReplace) button</css>
+    </LOStartReviewDynamicButton>
+        
+    <ContentActualHeading>
+    <css>h1.heading1NummerEins</css>
+    </ContentActualHeading>
+    
+    <CourseMaterialExpandedLOStartButtons>
+	<css>div[class*=active] .pe-btn__default--btn_large,div[class*=active] .pe-btn__primary--btn_large</css>
+	</CourseMaterialExpandedLOStartButtons>
+        <CourseMaterialModule12ToggleModulesArrow>
+		<css>button[class='toggleModule collapsed'][id='toggleModuleBtn2'][aria-expanded='false']</css>
+	</CourseMaterialModule12ToggleModulesArrow>   
+ 
+     <CourseMaterialModule12_4LOStartButton>
+		<css>button[class='pe-btn__default--btn_large'][id='LOBtn_4'][aria-label^='12.4']</css>
+	</CourseMaterialModule12_4LOStartButton>
+	
+	<CourseMaterialExpandedSubModuleStartButtons>
+	<css>div[class*=active] .pe-btn__default--btn_large,div[class*=active] .pe-btn__primary--btn_large</css>
+	</CourseMaterialExpandedSubModuleStartButtons>
+	
+	<CourseMaterialToggleModulesArrow>
+		<css>#header_0>div>button</css>
+	</CourseMaterialToggleModulesArrow>
+    
+    <ModuleTestChapter11StartButton>
+		<css>#LOBtn_8</css>
+	</ModuleTestChapter11StartButton>
+	
+	<EO_11_4_Guided_Example>
+    	<css>.eo-list li > button > span</css>
+    </EO_11_4_Guided_Example>
+    
+    <ExpandedModuleBlock>
+    <css>div[class='accordian__body accordian__body--active']</css>
+    </ExpandedModuleBlock>
+    
+    <CourseMeterialExpandedModuleArrowICon>
+    <css>.pe-icon--dropdown-close-18</css>
+    </CourseMeterialExpandedModuleArrowICon>
+    
+    <CourseMaterialStartButton>
+    <xpath>//*[@class='mobile-button-placement']//button</xpath>
+    </CourseMaterialStartButton>
+    
+   	<CourseMaterialGryedOutCircle>
+		<css>#header_5.accordian__header .progress-circle-container.in-progress</css>
+	</CourseMaterialGryedOutCircle>
+	
+	 <LoList>
+		<css>.lo-list</css>
+	</LoList>
+	
+    
+    <LOStartReviewDynamicButton>
+    	<css>.accordian-list-group > li:nth-child(dynamicReplace) button</css>
+    </LOStartReviewDynamicButton>
+        
+    <ContentActualHeading>
+    <css>h1.heading1NummerEins</css>
+    </ContentActualHeading>
+    
+    <CourseMaterialExpandedLOStartButtons>
+	<css>div[class*=active] .pe-btn__default--btn_large,div[class*=active] .pe-btn__primary--btn_large</css>
+	</CourseMaterialExpandedLOStartButtons>
+	
+	<CourseMateriaFirstArrowIcon>
+	<css>.course-home>div:nth-of-type(2) .accordian__header__icon-container	</css>
+	</CourseMateriaFirstArrowIcon>
+	
+	<CompleteLoCount>
+	<css>.circle.complete</css>
+	</CompleteLoCount>
+	
+	<TOC>
+	<css>.lo-list</css>
+	</TOC>
+    
+    <PracticeTestPage>
+	<css>#welcomeLearner</css>
+	</PracticeTestPage>
+	
+	<GuidedExample>
+	<css>div.lo-wrapper ul > li[class^='eo-list'] button > [alt="Read"]</css>
+	</GuidedExample>	
+		
+	<StudyGuide>
+	<css>div.lo-wrapper ul > li[class^='eo-list'] button > [alt="c"]</css>
+	</StudyGuide>	
+	
+	<ResultDiagnosticStartButton>
+	<css>[id^='materialStartBtn']</css>
+	</ResultDiagnosticStartButton>
+	<PracticeTestStartButton>
+	<css>#startPath</css>
+	</PracticeTestStartButton>	
+	
+	<OpenedModule>
+	<css>.pe-icon--dropdown-close-18</css>
+	</OpenedModule>	
+	
+	<ModuleTestResultHeading>
+		<css>.diagnostic-result__banner h1</css>
+	</ModuleTestResultHeading>
+
+	<ModuleTestResultParagraph>
+		<css>.diagnostic-result__banner p</css>
+	</ModuleTestResultParagraph>
+	
+	<LockOverlayHeading>
+		<css>.course-home-banner h1</css>
+	</LockOverlayHeading>
+	
+	<LockOverlayParagraph>
+		<css>.course-home-banner p</css>
+	</LockOverlayParagraph>
+	
+	<CoreInstructionModuleTestStartButton>
+		<css>button.pe-btn__cta--btn_large</css>
+	</CoreInstructionModuleTestStartButton>
+	
+	<CoreInstructionReStartButton>
+		<css>.attempt-list>li:nth-of-type(1)  .pe-btn__primary--btn_large</css>
+	</CoreInstructionReStartButton>
+	
+	<CoreInstructionLastEO>
+		<css>.lo-list__link-label</css>
+	</CoreInstructionLastEO>
+	
+	<CoreInstruction1stEODefaultState>
+		<css>.lo-wrapper .toc-list__lo:nth-of-type(1) div>div:nth-of-type(1)>button
+		</css>
+	</CoreInstruction1stEODefaultState>
+	
+	<CoreInstructionCircularIconOn16.1.3>
+		<css>.toc-list__lo:nth-of-type(3) .toc__circular__progress__bar</css>
+	</CoreInstructionCircularIconOn16.1.3>
+	
+	<CoreInstructionLastEOOfActiveLO>
+	<css>.eo-list li:last-child</css>
+	</CoreInstructionLastEOOfActiveLO>
+
+	<CoreInstructionBackwardArrowLableText>
+	<css>.footer-nav [class='lo-navigation'] .no-mobile.hide-label</css>
+	</CoreInstructionBackwardArrowLableText>
+	
+	<CoreInstructionForwardArrowLableText>
+	<css>.footer-nav [class$='lo-next'] .no-mobile.hide-label</css>
+	</CoreInstructionForwardArrowLableText>
+
+	<CoreInstructionLoCirlcle>
+	<css>.accordian__body--active .circle</css>
+	</CoreInstructionLoCirlcle>
+	
+	<CourseMaterialModuleHeader>
+	<css>.accordian__header__data a</css>
+	</CourseMaterialModuleHeader>
+	
+	<CourseMaterialLOs>
+	<css>.accordian__body--active .accordian-content</css>
+	</CourseMaterialLOs>
+	
+	<CourseMaterialFirstHeader>
+	<css>.course-home [id='header_0</css>
+	</CourseMaterialFirstHeader>
+	
+	<CourseMaterialExpandModule11>
+	<css>#ModuleAccordion1</css>	
+	</CourseMaterialExpandModule11>
+	
+	<CourseMaterialExpandModule16>
+	<css>#ModuleAccordion6</css>	
+	</CourseMaterialExpandModule16>
+	
+	<CourseMaterialReviewButtonsOfModule11>
+	<css>.accordian__body--active .pe-btn__default--btn_large</css>
+	</CourseMaterialReviewButtonsOfModule11>
+	
+	<CourseMaterialStartButtonOfModule11>
+	<css>.accordian__body--active .accordian-list-group .accordian-list-group-item:nth-of-type(5) .pe-btn__default--btn_large
+	</css>
+	</CourseMaterialStartButtonOfModule11>
+	
+    <CourseMaterialStartTestButtonOfModule16>
+	<css>#materialStartBtn6</css>
+    </CourseMaterialStartTestButtonOfModule16>
+    <ActiveEoItems>
+    <css>.lo-list__link--active+ul li</css>
+    </ActiveEoItems>
+    
+    <ActiveModule>
+    <css>.course-home-content>div[class*='active']</css>
+    </ActiveModule>
+    
+    <ModuleProgressCircle>
+     <css>.progress-circle</css>
+    </ModuleProgressCircle>
+    
+</OR> 

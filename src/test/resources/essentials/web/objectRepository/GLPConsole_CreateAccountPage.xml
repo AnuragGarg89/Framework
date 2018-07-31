@@ -1,0 +1,49 @@
+<OR>
+	<CreateAccountEmailAddressTextBox>
+		<css>#emailInput</css>
+	</CreateAccountEmailAddressTextBox>
+
+	<CreateAccountConfirmEmailAddressTextBox>
+		<css>#reenterEmailInput</css>
+	</CreateAccountConfirmEmailAddressTextBox>
+
+	<CreateAccountUserNameTextBox>
+		<css>#usernameInput2</css>
+	</CreateAccountUserNameTextBox>
+
+	<CreateAccountPasswordTextBox>
+		<css>#passwordInput2</css>
+	</CreateAccountPasswordTextBox>
+
+	<CreateAccountFirstNameTextBox>
+		<css>#firstNameInput</css>
+	</CreateAccountFirstNameTextBox>
+
+	<CreateAccountLastNameTextBox>
+		<css>#lastNameInput</css>
+	</CreateAccountLastNameTextBox>
+
+	<createAccountRoleDropDown>
+		<css>#roleSelect</css>
+	</createAccountRoleDropDown>
+
+	<CreateAccountSchoolTextBox>
+		<css>#institutionInput</css>
+	</CreateAccountSchoolTextBox>
+
+	<CreateAccountTermsCheckBox>
+		<css>#privacyTermsInput</css>
+	</CreateAccountTermsCheckBox>
+
+	<CreateAccountAgeRestrictionCheckBox>
+		<css>#minAgeInput</css>
+	</CreateAccountAgeRestrictionCheckBox>
+
+	<CreateAccountButton>
+		<css>#createMyAccountButton</css>
+	</CreateAccountButton>
+
+	<CreateAccountContinueButton>
+		<css>#mainButton</css>
+	</CreateAccountContinueButton>
+</OR>

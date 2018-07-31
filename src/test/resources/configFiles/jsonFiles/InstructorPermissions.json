@@ -1,0 +1,24 @@
+{
+  "created": "2017-11-29T07:44:56.997Z",
+  "payload": {
+    "accessControl": [
+      {
+        "accessType": "READ",
+        "attributeType": "actor",
+        "attributeValue": "role",
+        "domainObjectType": "Course",
+        "domainObjectValue": "courseLAID",
+        "externalObjectType": "Section",
+        "externalObjectValue": "sectionId"
+      }
+    ],
+    "scope": {
+      "actor_id": "instructorGLPId",
+      "actor_type": "role"
+    }
+  },
+  "status": "ACTIVE",
+  "type": "asdasdas",
+  "updated": "2017-11-29T07:44:56.997Z",
+  "ver": "string"
+}

@@ -1,0 +1,116 @@
+<OR>
+
+	<CoreInstructionBackButton>
+		<css>#nextButton</css>
+	</CoreInstructionBackButton>
+
+	<CoreInstructionPreviousButton>
+		<css>#previousButton</css>
+	</CoreInstructionPreviousButton>
+
+	<CoreInstructionVideoPlayButton>
+		<css>.poster-play-icon</css>
+	</CoreInstructionVideoPlayButton>
+
+	<PreAssessmentMasteryHeading>
+		<css>.heading</css>
+	</PreAssessmentMasteryHeading>
+
+	<PreAssessmentMasteryPageBodyText>
+		<css>.marginBtm60.lineHeightMedium</css>
+	</PreAssessmentMasteryPageBodyText>
+
+	<PreAssessmentMasteryPageSlider>
+		<css>#myRange</css>
+	</PreAssessmentMasteryPageSlider>
+
+	<PearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</PearsonLogo>
+	
+	<preAssessmentMasteryPageHeading>
+		<css>.heading</css>
+	</preAssessmentMasteryPageHeading>
+	
+	<PreAssessmentMasteryNextBtn>
+		<css>#MasterySetting_next</css>
+	</PreAssessmentMasteryNextBtn>
+
+	<PreAssessmentMasteryBackBtn>
+		<css>#MasterySetting_back</css>
+	</PreAssessmentMasteryBackBtn>
+
+	<PreAssessmentMasterySliderValue>
+		<css>.percentage>input</css>
+	</PreAssessmentMasterySliderValue>
+
+	<PreAssessmentMasteryScoreValue>
+		<css>.mastery-score</css>
+	</PreAssessmentMasteryScoreValue>
+
+
+	<PreAssessmentMasteryCoursesBreadcrumb>
+		<css>.welcome-page-mastery #courses</css>
+	</PreAssessmentMasteryCoursesBreadcrumb>
+
+	<PreAssessmentMasteryStepText>
+		<css> .diagnosticLanding>div:nth-of-type(3)</css>
+	</PreAssessmentMasteryStepText>
+
+	<InstructorDashBoardFooterHelpLink>
+		<css>.footerlink>li:nth-child(1)>a</css>
+	</InstructorDashBoardFooterHelpLink>
+
+
+	<PreAssessmentMasteryPercentageTextBox>
+		<css>input#courses.slidervalue</css>
+	</PreAssessmentMasteryPercentageTextBox>
+
+	<InstructorManagementTextBox>
+		<css>.slidervalue</css>
+	</InstructorManagementTextBox>
+
+	<PreAssessmentMasteryPageStep>
+		<css>.step</css>
+	</PreAssessmentMasteryPageStep>
+
+	<PreAssessmentMasteryPageErrorMessage>
+		<css>.errorMessage</css>
+	</PreAssessmentMasteryPageErrorMessage>
+
+	<PreAssessmentMasteryPageCourseLink>
+		<css>#MasterySetting_courses</css>
+	</PreAssessmentMasteryPageCourseLink>
+
+	<MasterySettingTextBox>
+		<css>.slidervalue</css>
+	</MasterySettingTextBox>
+
+	<MasteryThresholdErrorMessage>
+		<css>.errorMessage</css>
+	</MasteryThresholdErrorMessage>
+
+	<DashBoardFooterCopyRightText>
+		<css>.copyright</css>
+	</DashBoardFooterCopyRightText>
+	<DashBoardFooterAccessibilityLink>
+		<css>.footerlink>li:nth-child(1)>a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.footerlink>li:nth-child(2)>a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.footerlink>li:nth-child(3)>a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<PreMasteryPageText>
+		<css>#MasterySetting_setting>p>span</css>
+	</PreMasteryPageText>
+	
+	<MasterySettingCourseLink>
+	    <css>#MasterySetting_courses</css>
+	</MasterySettingCourseLink>
+
+</OR> 

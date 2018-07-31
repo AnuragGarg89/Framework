@@ -1,0 +1,51 @@
+{  
+   "created": "2018-02-21T19:20:30+01:00",  
+   "docType": "template",  
+   "payload": {  
+     "columnGroups": {  
+       "groups": {}  
+     },  
+     "columns": [  
+       {  
+         "aggregationType": " ",  
+         "columnGroup": " ",  
+         "columnType": "STATIC",  
+         "displayName": "First Name",  
+         "expression": "${FirstName}"  
+       },  
+ 	  {  
+         "aggregationType": " ",  
+         "columnGroup": " ",  
+         "columnType": "STATIC",  
+         "displayName": "Last Name",  
+         "expression": "${LastName}"  
+       },
+       {  
+         "aggregationType": " ",  
+         "columnGroup": " ",  
+         "columnType": "STATIC",  
+         "displayName": "Email Address",  
+         "expression": "${EmailAddress}"
+       },
+       {  
+         "aggregationType": " ",  
+         "columnGroup": " ",  
+         "columnType": "STATIC",  
+         "displayName": "Course Diagnostic Possible Score",  
+         "expression": "${CourseDiagnosticPossibleScore}"
+       },
+       {  
+         "aggregationType": " ",  
+         "columnGroup": " ",  
+         "columnType": "STATIC",  
+         "displayName": "Course Diagnostic Achieved Score",  
+         "expression": "${CourseDiagnosticAchievedScore}"
+       }
+     ],  
+     "scope": {   
+       "learningModelId": "Id_LearnerModel" 
+     }  
+   },  
+   "type": "gb-template-post-request",  
+   "ver": " "  
+ }

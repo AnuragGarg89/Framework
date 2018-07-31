@@ -1,0 +1,20 @@
+[  
+   {  
+      "courseType":"STUDENT_USE",
+      "enrollmentEndDate":"2020-12-12T18:29:50.588Z",
+      "courseEndDate":"2020-12-12T18:29:50.588Z",
+      "courseStartDate":"2020-12-12T18:29:50.588Z",
+      "enrollmentStartDate":"2020-12-12T18:29:50.588Z",
+      "studyPlanEnabled":true,
+      "courseName":"courseNameInstructor",
+      "courseCopyAllowed":false,
+      "instructorId":"instructorGLPID",
+      "scheduledDays":[  
+         "1",
+         "2",
+         "5"
+      ],
+      "classStartTime":"18:00:00",
+      "duration":"60"
+   }
+]

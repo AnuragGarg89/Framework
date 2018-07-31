@@ -1,0 +1,145 @@
+<OR>
+
+	<ConsoleLoginSignInHeading>
+		<css>#mainForm h1</css>
+	</ConsoleLoginSignInHeading>
+
+	<ConsolePearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson</css>
+	</ConsolePearsonLogo>
+
+	<ConsoleLoginUserName>
+		<css>input#username</css>
+	</ConsoleLoginUserName>
+
+	<ConsoleLoginPassword>
+		<css>input#password</css>
+	</ConsoleLoginPassword>
+
+	<ConsoleSignInButton>
+		<css>button#mainButton</css>
+	</ConsoleSignInButton>
+
+	<ConsoleSkipButton>
+		<css>#skipLink</css>
+	</ConsoleSkipButton>
+
+	<ConsoleSearchForMaterialSearchBox>
+		<css>#lookForMaterials</css>
+	</ConsoleSearchForMaterialSearchBox>
+
+	<ConsoleMaterialLink>
+		<css>a.facet-title:nth-child(1)</css>
+	</ConsoleMaterialLink>
+
+	<ConsoleCourseLink>
+		<css>.list:nth-of-type(1) .search-result-img-container</css>
+	</ConsoleCourseLink>
+
+	<ConsoleCreateCourseButton>
+		<css>.pe-btn__cta--btn_xlarge span</css>
+	</ConsoleCreateCourseButton>
+
+	<ConsoleCourseNameTextBox>
+		<css>#sectionTitleInput</css>
+	</ConsoleCourseNameTextBox>
+
+	<ConsoleCourseSubmitButton>
+		<css>#submit-bottom</css>
+	</ConsoleCourseSubmitButton>
+
+	<ConsoleCourseStartDateTextBox>
+		<css>#course-start-date</css>
+	</ConsoleCourseStartDateTextBox>
+
+	<ConsoleCourseEndDateTextBox>
+		<css>#course-end-date</css>
+	</ConsoleCourseEndDateTextBox>
+
+	<ConsoleStartTimeTextBox>
+		<css>#start-time</css>
+	</ConsoleStartTimeTextBox>
+
+	<ConsoleCourseTileCloseButton>
+		<css>.o-coach-mark__content-container .pe-icon--btn</css>
+	</ConsoleCourseTileCloseButton>
+
+	<ConsoleEndTimeTextBox>
+		<css>#end-time</css>
+	</ConsoleEndTimeTextBox>
+
+	<ConsoleCourseTimeCheckbox>
+		<css>input#online-only-checkbox</css>
+	</ConsoleCourseTimeCheckbox>
+
+	<ConsoleCourseSaveButton>
+		<css>#submit-bottom</css>
+	</ConsoleCourseSaveButton>
+
+	<ConsoleCourseTile>
+		<css>.course-info>a</css>
+	</ConsoleCourseTile>
+
+	<ConsoleCrossButton>
+		<css>.close-title</css>
+	</ConsoleCrossButton>
+
+	<ConsoleBackButtonAccountSettings>
+		<css>.back-button</css>
+	</ConsoleBackButtonAccountSettings>
+
+	<DontShowCheckbox>
+		<css>#dontshowme</css>
+	</DontShowCheckbox>
+
+	<ConsoleCoursePopUp>
+		<css>.o-coach-mark__close-div .pe-icon--remove-sm-18</css>
+	</ConsoleCoursePopUp>
+
+	<ConsoleAccountSettingsHeader>
+		<css>.col-xs-12 h1 span</css>
+	</ConsoleAccountSettingsHeader>
+
+	<ConsoleCurrentTabText>
+		<css>currentTab span</css>
+	</ConsoleCurrentTabText>
+
+	<DashBoardFooterAccessibilityLink>
+		<css>.footer-links a[href*='accessibility']</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.footer-links a[href*='PrivacyPolicy']</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.footer-links a[href*='EULA']</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<ConsoleTileLoadingSpinner>
+		<css>.pe-loadingSpinner-container.pe-loadingSpinner-container2</css>
+	</ConsoleTileLoadingSpinner>
+	<SafariBrowserCheckCloseButton>
+	<css>.osb-modal-header button.close</css>
+	</SafariBrowserCheckCloseButton>
+	<FooterLinkText>
+	<css>.col.col-9.push-2.pull-1</css>
+	</FooterLinkText>
+	
+	<EulaPopUpCheckbox>
+	<css>input#acceptCheckbox</css>
+	</EulaPopUpCheckbox>
+	
+	<EulaContinueButton>
+	<css>#mainButton</css>
+	</EulaContinueButton>
+	
+	<DashBoardFooterCopyRightText>
+		<css>.copyright</css>
+	</DashBoardFooterCopyRightText>
+	
+	<SignInFromSubscriptionLink>
+		<css>#signInEnabled</css>
+	</SignInFromSubscriptionLink>
+
+</OR> 

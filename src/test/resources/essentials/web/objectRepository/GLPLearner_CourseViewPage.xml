@@ -1,0 +1,241 @@
+<OR>
+
+	<LogoutButton>
+		<!-- <css>.o-app-header__menu-item-sign-out a.sign-out-button</css> -->
+		<css>a[class*='sign-out-button']</css>
+	</LogoutButton>
+
+	<CourseTiles>
+		<css>.course-launch</css>
+	</CourseTiles>
+	<LoginSignOutText>
+		<css>#btnLogout_AppHeader</css>
+	</LoginSignOutText>
+
+	<LoginUserNameTextBox>
+		<css>#header-nav-link-account</css>
+	</LoginUserNameTextBox>
+
+	<MyMathLabCourse>
+		<!-- <css>.courseContentWraper.col-xs-12>div>img</css> -->
+		<css>.courseCoverImg>img</css>
+	</MyMathLabCourse>
+	<GoToFinalAssessmentPage>
+		<css>#btnRedirectToReset_Modal</css>
+	</GoToFinalAssessmentPage>
+
+	<CourseViewLearnerLandingpagelabel>
+		<css>.menu h1</css>
+	</CourseViewLearnerLandingpagelabel>
+
+	<CourseViewUserName>
+		<css>#header-nav-link-account</css>
+	</CourseViewUserName>
+
+	<CourseViewLearnerHomeLabel>
+		<css>.menu>h1</css>
+	</CourseViewLearnerHomeLabel>
+
+	<CourseViewMenuOptions>
+		<css>#menuTab>li>a</css>
+	</CourseViewMenuOptions>
+
+	<CourseViewPastCourseMenuOption>
+		<css>#menuTab>li:nth-of-type(2)>a</css>
+	</CourseViewPastCourseMenuOption>
+
+	<CourseViewCurrentCourseMenuOption>
+		<css>#menuTab>li:nth-of-type(1)>a</css>
+	</CourseViewCurrentCourseMenuOption>
+
+	<CourseViewListIcon>
+		<css>span[class*='listView']</css>
+	</CourseViewListIcon>
+
+	<CourseViewGridIcon>
+		<css>span[class*='gridView']</css>
+	</CourseViewGridIcon>
+
+	<CourseViewRioTile>
+		<css>.courseListRow>[class*='courseContent']</css>
+	</CourseViewRioTile>
+
+	<CourseViewRioCourseNameText>
+		<css>.courseListRow .ribbon-header+h3</css>
+	</CourseViewRioCourseNameText>
+
+	<CourseViewRioCourseDescriptionText>
+		<css>.courseListRow .ribbon-header+h3+p</css>
+	</CourseViewRioCourseDescriptionText>
+
+	<CourseViewStartDiagnosticButton>
+		<!-- For Stage <css>.btn-blue.btn.btn-default</css> -->
+		<css>.pe-btn__primary--btn_large</css>
+	</CourseViewStartDiagnosticButton>
+
+	<CourseViewLaunchCourseButton>
+		<css>.pe-btn__primary--btn_large</css>
+	</CourseViewLaunchCourseButton>
+
+	<CourseViewRioCourseImage>
+		<css>.courseCoverImg>img</css>
+	</CourseViewRioCourseImage>
+
+	<PearsonLogo>
+		<css>.o-header__brand>a>div>img</css>
+	</PearsonLogo>
+
+	<CourseViewRosterDayText>
+		<css>div[class*=DateTime]>h5</css>
+	</CourseViewRosterDayText>
+
+	<CourseViewRosterTimeText>
+		<css>div[class*=DateTime]>h6</css>
+	</CourseViewRosterTimeText>
+
+	<CourseViewCalendarIcon>
+		<css>div[class*=DateTime]>button</css>
+	</CourseViewCalendarIcon>
+
+	<CourseViewAlertButton>
+		<css>.close</css>
+	</CourseViewAlertButton>
+
+	<CourseViewLaunchCourseBtn>
+		<css>.btn-blue.btn.btn-default</css>
+	</CourseViewLaunchCourseBtn>
+
+	<CourseViewViewResultButton>
+		<css>.content-section button:nth-of-type(2)</css>
+	</CourseViewViewResultButton>
+
+	<CourseViewCourseImage>
+		<css>.courseCoverImg>img</css>
+	</CourseViewCourseImage>
+	<CourseViewCourseNameText>
+		<css>.courseListRow .ribbon-header+h3</css>
+	</CourseViewCourseNameText>
+	<CourseViewCourseDescriptionText>
+		<css>.courseListRow .ribbon-header+h3+p</css>
+	</CourseViewCourseDescriptionText>
+
+	<CourseTileInstructor>
+		<css>.course-title</css>
+	</CourseTileInstructor>
+
+	<CourseViewCourseImage>
+		<css>.courseCoverImg>img</css>
+	</CourseViewCourseImage>
+
+	<CourseViewCourseNameText>
+		<css>.courseListRow .ribbon-header+h3</css>
+	</CourseViewCourseNameText>
+
+	<CourseViewCourseDescriptionText>
+		<css>.courseListRow .ribbon-header+h3+p</css>
+	</CourseViewCourseDescriptionText>
+
+
+	<CourseMaterialPearsonLogo>
+		<css>.o-header__brand>a>div>img</css>
+	</CourseMaterialPearsonLogo>
+
+	<CourseViewMyAccountText>
+		<css>.o-dropdown-menu__menu-item-title</css>
+	</CourseViewMyAccountText>
+
+	<CourseViewAccountSettingsText>
+		<css>.o-dropdown-menu__menu-items li:nth-child(2) a</css>
+	</CourseViewAccountSettingsText>
+
+	<CourseViewCrossButton>
+		<css>.o-dropdown-menu__menu-items img</css>
+	</CourseViewCrossButton>
+
+	<CourseViewAccountWindow>
+		<css>.o-dropdown-menu__menu-items</css>
+	</CourseViewAccountWindow>
+
+
+	<DashBoardFooterCopyRightText>
+		<css>.app-footer>p</css>
+	</DashBoardFooterCopyRightText>
+
+	<DashBoardFooterAccessibilityLink>
+		<css>.app-footer-nav__list:nth-child(1)>a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.app-footer-nav__list:nth-child(2)>a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.app-footer-nav__list:nth-child(3)>a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<MultiSelectCheckBox>
+		<css>label>input[type='checkbox']</css>
+	</MultiSelectCheckBox>
+
+	<DistractorValue>
+		<css>#McqMa_undefined</css>
+	</DistractorValue>
+
+	<CourseTileStudent>
+		<css>.section-info</css>
+	</CourseTileStudent>
+	
+	
+	<UserNameTitle>
+		<css>button[type='button'] .o-app-header__username</css>
+	</UserNameTitle>
+	
+	<DaysRemainRibbonCourseTileStudent>
+	    <css>.purchase-options-button</css>
+	</DaysRemainRibbonCourseTileStudent>
+	
+	<RioTestAccessLinkStudent>
+	    <css>[class*='free-trial-link']</css>
+	</RioTestAccessLinkStudent>
+	
+	<RioTestGrantButtonStudent>
+	    <css>[class*='btn-primary btn-lg now']</css>
+	</RioTestGrantButtonStudent>
+	
+	<RioTestPopUpStudent>
+	    <css>.modalClose.pe-icon--btn</css>
+	</RioTestPopUpStudent>
+	
+	<CourseHomeStartYourPathBtn>
+		<css>button#startPath.pe-btn__cta--btn_large</css>
+	</CourseHomeStartYourPathBtn>
+	
+	<CourseViewCourseCardImage>
+	<css>div.course-card-image</css>
+	</CourseViewCourseCardImage>
+	
+	<CourseInfoButton>
+		<css>.pe-icon--info-outline-18</css>
+	</CourseInfoButton>
+	
+	<CourseName>
+	<css>div:nth-of-type(1)>.pe-label--large.description-value</css>
+	</CourseName>
+	
+	
+    <CourseViewSettingsLastName>
+        <css>#lastNameInput</css>
+    </CourseViewSettingsLastName>
+    
+    <CourseViewSettingsEditButton>
+        <css>#editNameSection</css>
+    </CourseViewSettingsEditButton>
+    
+    <CourseViewSettingsSaveButton>
+        <css>#saveNameSectionButton</css>
+    </CourseViewSettingsSaveButton>
+
+	<CourseViewCourseNotDisplay>
+	<css>.no-courses h3 span:nth-of-type(1)</css>
+	</CourseViewCourseNotDisplay>
+</OR> 

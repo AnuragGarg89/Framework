@@ -1,0 +1,184 @@
+<OR>
+
+	<TestQuestionCount>
+		<css>.panel-heading p</css>
+	</TestQuestionCount>
+
+	<AnswersRadioButton>
+		<css>.panel-body>div>div input</css>
+	</AnswersRadioButton>
+
+	<Questions>
+		<css>.panel-body span>span:nth-of-type(1)</css>
+	</Questions>
+	<Questions1>
+		<css>.form-group>span</css>
+	</Questions1>
+	<AnswersRadioButton>
+		<css>.panel-body>div>div input</css>
+	</AnswersRadioButton>
+	<AnswersTextBox>
+		<css>.keypad-input</css>
+	</AnswersTextBox>
+	<SubmitButton>
+		<css>#submitButton</css>
+	</SubmitButton>
+
+	<QuestionIdentifier>
+		<css>.panel-body>div</css>
+	</QuestionIdentifier>
+
+	<TestResultHeader>
+		<css>#DiagnosticTestResult div>h4</css>
+	</TestResultHeader>
+
+	<TestQuestionCount>
+		<css>.panel-heading p</css>
+	</TestQuestionCount>
+
+	<DiagnosticResultContinueButton>
+		<css>.btn.btn-default</css>
+	</DiagnosticResultContinueButton>
+
+	<DiagnosticResultHeader>
+		<css>.info-panel>h2</css>
+	</DiagnosticResultHeader>
+
+	<DiagnosticResuultBodyText>
+		<css>.info-panel>ul</css>
+	</DiagnosticResuultBodyText>
+
+	<LearningObjectivePreviousButton>
+		<css>#nextButton</css>
+	</LearningObjectivePreviousButton>
+
+	<LearningObjectiveNextButton>
+		<css>#previousButton</css>
+	</LearningObjectiveNextButton>
+
+	<LearningObjectivePearsonLogo>
+		<css>.btn.btn-link img</css>
+	</LearningObjectivePearsonLogo>
+
+	<LearningObjectivePopUpYesButton>
+		<css>#CLModalFooter .btn.btn-default.btn-block:nth-of-type(1)</css>
+	</LearningObjectivePopUpYesButton>
+
+	<LearningObjective2ndQuestionlabel>
+		<css>.panel-body p>span:nth-of-type(1)</css>
+	</LearningObjective2ndQuestionlabel>
+
+	<LearningObjective1stQuestion1stradiobutton>
+		<css>#McqSa_1 div:nth-of-type(1) .noPadding.col-sm-11 span</css>
+	</LearningObjective1stQuestion1stradiobutton>
+
+	<LearningObjective1stQuestionFeedBackToggling>
+		<css>.noPadding.col-sm-10>p:nth-of-type(2)</css>
+	</LearningObjective1stQuestionFeedBackToggling>
+
+	<PearsonLogo>
+		<css>[alt="Pearson Logo"]</css>
+	</PearsonLogo>
+
+	<LearningObjectiveCourseSubjectHeader>
+		<css>.panel-heading:nth-of-type(1)>span</css>
+	</LearningObjectiveCourseSubjectHeader>
+
+	<LearningObjectiveActiveCourseSubTopic>
+		<css>.tree-node.selected>.list-section>span:nth-of-type(2)</css>
+	</LearningObjectiveActiveCourseSubTopic>
+
+	<LearningObjectiveChapterPreviousButton>
+		<css>#previousButton</css>
+	</LearningObjectiveChapterPreviousButton>
+
+	<LearningObjectiveChapterNextButton>
+		<css>#nextButton</css>
+	</LearningObjectiveChapterNextButton>
+
+	<LearningObjectiveCloseButton>
+		<css>.close</css>
+	</LearningObjectiveCloseButton>
+
+	<CourseInstruction2.1.1ChapterImage>
+		<css>#NR-11-1-9 > img</css>
+	</CourseInstruction2.1.1ChapterImage>
+
+	<CourseInstructionChapterImage2.1.1ChapterVideo>
+		<tagName>video</tagName>
+	</CourseInstructionChapterImage2.1.1ChapterVideo>
+
+	<LearningObjectivePracticeTestsubmitButton>
+		<css>#submitButton</css>
+	</LearningObjectivePracticeTestsubmitButton>
+	<ChapterTitles>
+		<xpath>//div[@class='inner-accordian-section']/div/div</xpath>
+	</ChapterTitles>
+	<ChapterInnerSubTitles>
+		<xpath>//div[@class='panel-collapse collapse in']/ul/li</xpath>
+	</ChapterInnerSubTitles>
+	<ChapterBullets>
+		<xpath>//div[@class='panel-collapse collapse in']/ul/li//ul/li</xpath>
+	</ChapterBullets>
+	<OriginalTextBox>
+		<css>.diff-inputs .diff-input:nth-of-type(1) .CodeMirror
+			.CodeMirror-lines</css>
+	</OriginalTextBox>
+	<ChangedTextBox>
+		<css>.diff-inputs .diff-input:nth-of-type(2) .CodeMirror
+			.CodeMirror-lines</css>
+	</ChangedTextBox>
+
+	<SubmitButtonDifference>
+		<css>[type='submit']</css>
+	</SubmitButtonDifference>
+	<PageContent>
+		<css>.content-Panel</css>
+	</PageContent>
+
+	<RioWrongAnswerIcon>
+		<css>.glyphicon-remove</css>
+	</RioWrongAnswerIcon>
+
+	<RioWrongAnswerTextBox>
+		<css>#practiceAssessment .keypad-input.wrongAns</css>
+	</RioWrongAnswerTextBox>
+
+    <LearningObjectivemenuwrapper>
+		<css>.course-drawer__action-icon.back-arrow</css>
+	</LearningObjectivemenuwrapper>
+	
+	<LearningObjectiveBackArrow>
+		<css>.course-drawer__action-icon.back-arrow</css>
+	</LearningObjectiveBackArrow>
+	
+	<LearningObjectiveModuleName>
+		<css>#ModuleAccordion1 > span </css>
+	</LearningObjectiveModuleName>
+	
+	<CoreInstructionVideoPlayBackProgressBar>
+		<css>.video-player>video</css>
+	</CoreInstructionVideoPlayBackProgressBar>
+
+	<CoreInstructionButtonEO>
+		<css>.lo-list__link</css>
+	</CoreInstructionButtonEO>
+
+	<CoreInstructionEoListItem>
+		<css>.eo-list__item</css>
+	</CoreInstructionEoListItem>
+
+	<CoreInstructionEoType>
+		<css>.eo-list__item button img</css>
+	</CoreInstructionEoType>
+
+	<CoreInstructionContent>
+		<css>#content-player</css>
+	</CoreInstructionContent>
+	
+	<CoreInstructionPracticeAgainButton>
+	<css>#nextTopic</css>
+	</CoreInstructionPracticeAgainButton>
+
+
+</OR> 

@@ -1,0 +1,255 @@
+<OR>
+	<InstructorManagementTabAllSetText>
+		<css>#alertDiv</css>
+	</InstructorManagementTabAllSetText>
+
+	<InstructorManagementTabClickCloseButton>
+		<css>.close-icon</css>
+	</InstructorManagementTabClickCloseButton>
+
+	<PreAssessmentMasteryLevelHeading>
+		<css>.heading>span</css>
+	</PreAssessmentMasteryLevelHeading>
+
+	<InstructorManagementTabTextMessage>
+		<css>.lineHeightMedium.mastery-text</css>
+	</InstructorManagementTabTextMessage>
+
+	<CircularProgressBar>
+		<css>.ko-progress-circle</css>
+	</CircularProgressBar>
+
+	<Slider>
+		<css>.sliderSection</css>
+	</Slider>
+
+	<InstructorManagementTabSliderValue>
+		<css>#myRange</css>
+	</InstructorManagementTabSliderValue>
+
+	<ManagementTab>
+		<css>.tab-navigation li:nth-of-type(2)>a</css>
+	</ManagementTab>
+
+	<InstructorManagementMasteryPercentage>
+		<css>#draggableScore</css>
+	</InstructorManagementMasteryPercentage>
+
+	<InstructorManagementSaveButton>
+		<css>#ManagementDashboard_save</css>
+	</InstructorManagementSaveButton>
+
+	<InstructorManagementCancelButton>
+		<css>#ManagementDashboard_cancel</css>
+	</InstructorManagementCancelButton>
+
+	<InstructorManagementEditButton>
+		<css>#ManagementDashboard_edit</css>
+	</InstructorManagementEditButton>
+
+	<InstructorManagementPreAssessmentPreview>
+		<css>.mgmt-head</css>
+	</InstructorManagementPreAssessmentPreview>
+
+	<InstructorManagementResetcoursedataText>
+		<css>.mastery-edit-btn .text,.info-section .actionbtns button</css>
+	</InstructorManagementResetcoursedataText>
+
+	<InstructorManagementResetDataPopUpMessageHeading>
+		<css>#modalHeaderText</css>
+	</InstructorManagementResetDataPopUpMessageHeading>
+
+	<InstructorManagementResetDataPopUpMessage>
+		<css>[role="document"] .modalBody>p</css>
+	</InstructorManagementResetDataPopUpMessage>
+
+	<InstructorManagementPreviewButton>
+		<css>#msModulepreview</css>
+	</InstructorManagementPreviewButton>
+
+	<InstructorManagementModuleNumber>
+		<css>.material-grid .wrapper-container:nth-child(1) .management-data
+			.bold
+		</css>
+	</InstructorManagementModuleNumber>
+
+	<InstructorManagementModuleName>
+		<css>.material-grid .wrapper-container:nth-child(1) .management-data
+		</css>
+	</InstructorManagementModuleName>
+
+	<InstructorManagementModuleCollapsedArrow>
+		<css>.material-grid>div:nth-child(1) svg</css>
+	</InstructorManagementModuleCollapsedArrow>
+
+	<InstructorManagementLONumber>
+		<css>.cart-container>div:nth-child(1) .chart-content p span</css>
+	</InstructorManagementLONumber>
+
+	<InstructorManagementLOName>
+		<css>.cart-container>div:nth-child(1) .chart-content p</css>
+	</InstructorManagementLOName>
+
+	<PreAssessmentMasteryLevelContent>
+		<css>.mastery-text-section>p</css>
+	</PreAssessmentMasteryLevelContent>
+
+	<ManagementTabSlider>
+		<css>.sliderSection</css>
+	</ManagementTabSlider>
+
+	<ManagementTabSliderNonMovable>
+		<css>.nonEditableSlider</css>
+	</ManagementTabSliderNonMovable>
+
+	<ManagementTabSliderAfterCLickingEditButton>
+		<css>.editableSlider</css>
+	</ManagementTabSliderAfterCLickingEditButton>
+
+	<InstructorManagementTextBox>
+		<css>.slider-value,.slidervalue</css>
+	</InstructorManagementTextBox>
+
+	<InstructorManagementMasteryPercentageTextBox>
+		<css>input#courses.slider-value</css>
+	</InstructorManagementMasteryPercentageTextBox>
+
+	<PearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</PearsonLogo>
+
+	<InstructorManagementErrorMessage>
+		<css>.errorMessage</css>
+	</InstructorManagementErrorMessage>
+
+	<InstructorManagementUserNameLink>
+		<css>#header-nav-link-account</css>
+	</InstructorManagementUserNameLink>
+
+	<InstructorManagementSignOutBtn>
+		<css>li.o-app-header__menu-item-sign-out>a</css>
+	</InstructorManagementSignOutBtn>
+
+	<InstructorManagementWarningMessage>
+		<css>#alertDiv>span:nth-of-type(2)</css>
+	</InstructorManagementWarningMessage>
+
+	<InstructorManagementWarningMessageCrossButton>
+		<css>.icon-help.close-icon</css>
+	</InstructorManagementWarningMessageCrossButton>
+
+	<InstructorManagementPerformanceTab>
+		<css>.tab-navigation li:nth-of-type(1)>a</css>
+	</InstructorManagementPerformanceTab>
+
+	<InstructorManagementSliderValue>
+		<css>.draggable-score</css>
+	</InstructorManagementSliderValue>
+
+	<InstructorManagementMessageText>
+		<css>.sliderSection input</css>
+	</InstructorManagementMessageText>
+
+	<InstructorManagementResetCourseDataCancelButton>
+		<css>.modalCancel.pe-btn--btn_large</css>
+	</InstructorManagementResetCourseDataCancelButton>
+
+	<InstructorManagementResetCourseDataResetButton>
+		<css>.modalSave.pe-btn__primary--btn_large</css>
+	</InstructorManagementResetCourseDataResetButton>
+
+	<InstructorDashBoardPerformanceTab>
+		<css>.tab-navigation li:nth-of-type(1)>a</css>
+	</InstructorDashBoardPerformanceTab>
+
+	<InstructorManagementALLModulesName>
+		<css>.material-grid .wrapper-container .management-data button</css>
+	</InstructorManagementALLModulesName>
+
+	<InstructorManagementModuleAccordians>
+		<css>.material-grid [id^='header_CHAPTER'] a</css>
+	</InstructorManagementModuleAccordians>
+
+	<InstructorManagementModuleLORadioButton>
+		<css>.submodules a</css>
+	</InstructorManagementModuleLORadioButton>
+
+	<InstructorManagementModuleLOName>
+		<css>.sub-chartdata>button[role="link"]</css>
+	</InstructorManagementModuleLOName>
+
+	<InstructorManagementLO-EO>
+		<css>.accordian__header__data</css>
+	</InstructorManagementLO-EO>
+
+	<InstructorManagemenPreviewButtonOnModulesInCollapedForm>
+		<css>button[title="Preview"]</css>
+	</InstructorManagemenPreviewButtonOnModulesInCollapedForm>
+
+	<InstructorManagementModule11Name>
+		<css>[id^='header_CHAPTER-11'] span a</css>
+	</InstructorManagementModule11Name>
+	
+	<InstructorManagementLO11.1RadioButton>
+		<css>[id^='header_SECTION-11.1'] div:nth-of-type(1)>button</css>
+	</InstructorManagementLO11.1RadioButton>
+	
+	<InstructorManagementLO11.1Name>
+		<css>[id^='header_SECTION-11.1'] .moduleName__head
+		</css>
+	</InstructorManagementLO11.1Name>
+	
+	<InstructorManagementAllEOOFLO11.1>
+		<css>div[id^='SECTION-11.1'] .moduleName__head span:nth-of-type(2)
+		</css>
+	</InstructorManagementAllEOOFLO11.1>	
+
+	<InstructorManagementPreviewButtonOfLO11.1>
+		<css>[id^='header_SECTION-11.1'] .moduleName__colm>button
+		</css>
+	</InstructorManagementPreviewButtonOfLO11.1>
+
+	<InstructorManagementPreviewButtonOfLO11.2>
+		<css>.chart-row-container:nth-of-type(2) .chart-row .chart-content
+			.mastery-edit-btn
+		</css>
+	</InstructorManagementPreviewButtonOfLO11.2>
+	
+	<InstructorManagementModule12Name>
+		<css>.material-grid .wrapper-container:nth-child(2) .management-data
+			button
+		</css>
+	</InstructorManagementModule12Name>
+
+	<InstructorManagementPreviewButtonOfLO12.4>
+		<css>.chart-row-container:nth-of-type(4) .chart-row .chart-content
+			.mastery-edit-btn
+		</css>
+	</InstructorManagementPreviewButtonOfLO12.4>
+
+	<InstructorManagementModuleCaretIcon>
+		<css>.icon-container__btn
+		</css>
+	</InstructorManagementModuleCaretIcon>
+
+	<StudentDetailCrossIcon>
+		<css>.page-overlay__header--close</css>
+	</StudentDetailCrossIcon>
+
+	<MasteryLevelSavedText>
+		<css>.alertDiv > span:nth-child(2)</css>
+	</MasteryLevelSavedText>
+
+	<InstructorManagementLO11.1Attribute>
+		<css>[id^='header_SECTION-11.1']</css>
+	</InstructorManagementLO11.1Attribute>
+
+	<Module11to16>
+		<css>.material-grid.no-padding > div:nth-child(dynamicReplace)
+			span.bold.mr-2</css>
+	</Module11to16>
+
+	<InstructorDashBoardManagementTab>
+		<css>#menuTab>li:nth-of-type(2)>a</css>
+	</InstructorDashBoardManagementTab>
+</OR>

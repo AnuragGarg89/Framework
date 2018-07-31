@@ -1,0 +1,114 @@
+<OR>
+
+	<WelcomeInstructorLetsbeginButton>
+		<css>#letsbegin</css>
+	</WelcomeInstructorLetsbeginButton>
+
+	<WelcomeInstructorGetStartedButton>
+		<css>#WelcomeInstructor_getStarted</css>
+	</WelcomeInstructorGetStartedButton>
+
+
+	<CourseTile>
+		<css>.panel-body</css>
+	</CourseTile>
+
+	<WelcomeInstructorCourseLink>
+		<css>.breadcrumb</css>
+	</WelcomeInstructorCourseLink>
+
+	<WelcomeInstructorStepText>
+		<css>.diagnosticLanding>div:nth-of-type(1)</css>
+	</WelcomeInstructorStepText>
+
+	<WelcomeInstructorWelcomeText>
+		<css>#WelcomeInstructor_welcomeLearner h1</css>
+	</WelcomeInstructorWelcomeText>
+
+	<WelcomeInstructorThanksMessageText>
+		<css>#WelcomeInstructor_welcomeLearner p span:nth-child(1)</css>
+	</WelcomeInstructorThanksMessageText>
+
+	<WelcomeInstructorLetsSetUpMessageText>
+		<css>#WelcomeInstructor_welcomeLearner .user-message>span+span</css>
+	</WelcomeInstructorLetsSetUpMessageText>
+
+	<InstructorDashBoardFooterHelpLink>
+		<css>.footerlink>li:nth-child(1)>a</css>
+	</InstructorDashBoardFooterHelpLink>
+
+	<DashBoardFooterCopyRightText>
+		<css>.copyright-info</css>
+	</DashBoardFooterCopyRightText>
+	<DashBoardFooterAccessibilityLink>
+		<css>.app-footer li:nth-child(1) a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.app-footer li:nth-child(2) a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.app-footer li:nth-child(3) a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<WelcomeInstructorWelcomeMessageText>
+		<css>#WelcomeInstructor_welcomeLearner >h1>span:nth-child(1)</css>
+	</WelcomeInstructorWelcomeMessageText>
+
+	<CourseHomeHeaderAccountName>
+		<css>span.o-app-header__username.o-app-header--truncate.o-header__viewport-tablet--visible.o-header__viewport-desktop--visible
+		</css>
+	</CourseHomeHeaderAccountName>
+
+	<MyAccount>
+		<css>.o-dropdown-menu__menu-item-title</css>
+	</MyAccount>
+
+	<AccountSettings>
+		<css>li.o-dropdown-menu__menu-item.o-app-header__menu-item-my-account
+			> a
+		</css>
+	</AccountSettings>
+
+	<SignOut>
+		<css>li.o-dropdown-menu__menu-item.o-app-header__menu-item-sign-out >a
+		</css>
+	</SignOut>
+
+	<Copyright>
+		<css>p.copyright-info</css>
+	</Copyright>
+
+	<Accessibilty>
+		<css>footer.app-footer li:nth-child(1) span</css>
+	</Accessibilty>
+
+	<PrivacyPolicy>
+		<css>footer.app-footer li:nth-child(2) span</css>
+	</PrivacyPolicy>
+
+	<TermsNConditions>
+		<css>footer.app-footer li:nth-child(3) span</css>
+	</TermsNConditions>
+
+	<PearsonLogo>
+		<css>.o-header__brand>a>div>img</css>
+	</PearsonLogo>
+	
+	<Copyright1>
+		<css>p.copyright-info > span:nth-child(1)</css>
+	</Copyright1>
+	
+	<Copyright2>
+		<css>p.copyright-info > span:nth-child(2)</css>
+	</Copyright2>
+	
+	<Copyright3>
+		<css>p.copyright-info > span:nth-child(3)</css>
+	</Copyright3>
+	
+	<CourseTileInstructor>
+		<css>.course-title</css>
+	</CourseTileInstructor>
+</OR> 

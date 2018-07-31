@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PearsonRegressionSuite" verbose="1" preserve-order="true">
+	<listeners>
+		<listener class-name="com.autofusion.analyzer.RetryListener" />
+	</listeners>
+	<test name="RegressionTest" verbose="1" preserve-order="true">
+		<!--parallel="classes" thread-count="5"> -->
+		<groups>
+			<run>
+				<include name="test" />
+				<exclude name="passed" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.test.*" />
+		</packages>
+	</test>
+</suite>

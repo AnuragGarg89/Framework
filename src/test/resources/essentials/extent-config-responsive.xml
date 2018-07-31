@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>standard</theme>
+
+		<!-- document encoding -->
+		<!-- defaults to UTF-8 -->
+		<encoding>UTF-8</encoding>
+
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>https</protocol>
+
+		<!-- title of the document -->
+		<documentTitle>Pearson - Responsiveness Automation Report</documentTitle>
+
+		<!-- report headline - displayed at top-nav, after reportHeadline -->
+		<reportHeadline>Pearson Responsiveness Automation Report</reportHeadline>
+
+		<!-- report name - displayed at top-nav -->
+		<reportName>
+            <![CDATA[
+                <!--<img src=../../../../../Pearson.png>-->
+				<img src="https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Pearson_logo.png" class="brandLogo" width="130" height= "100">
+            ]]>
+		</reportName>
+
+		<!-- global date format override -->
+		<!-- defaults to yyyy-MM-dd -->
+		<dateFormat>yyyy-MM-dd</dateFormat>
+
+		<!-- global time format override -->
+		<!-- defaults to HH:mm:ss -->
+		<timeFormat>HH:mm:ss</timeFormat>
+
+		<!-- custom javascript -->
+		<scripts>
+      <![CDATA[
+        $(document).ready(function() {
+        passedCount = $('.node-list .node-1x.pass:visible').length;
+        failCount = $('.node-list .node-1x.fail:visible').length;
+        totalCount = passedCount + failCount;
+        $('.categories').append("&nbsp<span class='category text-white' title='Click to view all Tests'>TOTAL :" + totalCount + "</span>&nbsp");
+        $('.categories').append("&nbsp<span class='category text-white' title='Click to filter PASS'>PASS :" + passedCount + "</span>&nbsp");
+        $('.categories').append("&nbsp<span class='category text-white' title='Click to filter FAIL'>FAIL :" + failCount + "</span>");
+
+		$('.test-collection li.test').click(function(){
+        $(".test-steps .node-list .node-1x").show();
+        passedCount = $('.node-list .node-1x.pass:visible').length;
+        failCount = $('.node-list .node-1x.fail:visible').length;
+        totalCount = passedCount + failCount;
+        $('.details-container .categories').children('span:nth-child(2)').text("TOTAL :" + totalCount );
+        $('.details-container .categories').children('span:nth-child(3)').text("PASS :" + passedCount );
+        $('.details-container .categories').children('span:nth-child(4)').text("FAIL :" + failCount);
+        });
+        $(document).on('click','.categories span:nth-child(2)',(function(){
+              $('.node-list li').show();
+       }));
+       $(document).on('click','.categories span:nth-child(3)',(function(){
+		$('.node-list .node-1x.pass').show();
+		$('.node-list .node-1x.fail').hide();
+       }));
+		$(document).on('click','.categories span:nth-child(4)',(function(){
+		$('.node-list .node-1x.fail').show();
+		$('.node-list .node-1x.pass').hide();
+       }));
+        
+        });
+      ]]>
+		</scripts>
+
+		<!-- custom styles -->
+		<styles>
+		<![CDATA[
+		nav{height: 70px}
+		.logo-content{line-height: 70px}
+		.side-nav{top: 70px}
+		.nav-right{line-height: 70px}
+                .report-name { padding-left: 10px; float: left} 
+				.report-name > img { margin-top: -15px; float: left; background: #fff}
+				nav{padding: 0;}
+				.report-headline{float: left; padding-left: 10px; line-height: 70px}
+				.logo-container{position: static!important; float: left; height: 70px}
+            ]]>
+      <![CDATA[
+ th:nth-child(3), td:nth-child(3) {
+   max-width: 250px !important;
+   min-width: 200px !important;
+   word-break: keep-all;
+}
+
+#dashboard-view .system-view .card-panel tr td{
+   word-break: keep-all;
+}
+
+li.node-1x.active td.status.fail~td.step-details {
+overflow-y: auto;
+position: relative;
+display: block;
+max-height: 120px;
+padding: 17px;
+text-shadow: 0 0 0px #222;
+background-color: #f4e536;
+}
+
+   ._addedCell1 #test-collection .test-head span.test-status {
+  display: none;
+   }
+
+a.tests-toggle {
+display: none;
+}
+
+span:nth-child(2).category {
+   color: #000000 !important;
+   cursor: pointer;
+   border-color: #000000;
+   display: inline-block;
+   opacity: 0.5;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 11px;
+}
+
+span:nth-child(3).category {
+   color: #66BB6A !important;
+   cursor: pointer;
+   border-color: #66BB6A;
+   display: inline-block;
+   opacity: 0.7;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 11px;
+}
+
+span:nth-child(4).category {
+   color: #EF5350 !important;
+   cursor: pointer;
+   border-color: #EF5350;
+   display: inline-block;
+   opacity: 0.7;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 11px;
+}
+
+span:nth-child(2).category:hover {
+   opacity: 1.0;
+   background-color: beige;
+}
+
+span:nth-child(3).category:hover {
+   opacity: 1.0;
+   background-color: beige;
+}
+
+span:nth-child(4).category:hover {
+   opacity: 1.0;
+   background-color: beige;
+}
+      ]]>
+		</styles>
+	</configuration>
+</extentreports>

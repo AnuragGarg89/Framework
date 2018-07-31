@@ -1,0 +1,630 @@
+<OR>
+
+	<PracticeTestProgressBar>
+		<css>#progress-bar</css>
+	</PracticeTestProgressBar>
+
+	<CoreInstructionBackButton>
+		<css>#nextButton</css>
+	</CoreInstructionBackButton>
+
+	<CoreInstructionPreviousButton>
+		<css>#previousButton</css>
+	</CoreInstructionPreviousButton>
+	<CoreInstructionVideoPlayButton>
+		<css>.poster-play-icon</css>
+	</CoreInstructionVideoPlayButton>
+	<PearsonLogo>
+		<css>[alt="Pearson Logo"]</css>
+	</PearsonLogo>
+	<ModuleStartButton>
+		<css>#LOBtn_1</css>
+	</ModuleStartButton>
+	<ResultButton>
+		<css>#resultBtn</css>
+	</ResultButton>
+	<DrawerIcon>
+		<css>.icon-menu img[type='menu']</css>
+	</DrawerIcon>
+	<LeftArrowOnToc>
+		<css>button.icon-back-arrow</css>
+	</LeftArrowOnToc>
+	
+	<LoListActive>
+		<css>div.LO-wrapper div.eo-list.active </css>
+	</LoListActive>
+	
+	
+	<EoListOne>
+		<css>.LO-wrapper > span > div:nth-child(1) [class^='eo-list']:nth-child(1) button</css>
+	</EoListOne>
+	<EoListTwo>
+		<css>.LO-wrapper > span > div:nth-child(2) [class^='eo-list']:nth-child(1) button</css>
+	</EoListTwo>
+	<EoListThree>
+		<css>.LO-wrapper > span > div:nth-child(3) [class^='eo-list']:nth-child(1) button</css>
+	</EoListThree>
+
+
+	<SubHeadingListOne>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(1)[class^='objective-list']</css>
+	</SubHeadingListOne>
+	<SubHeadingListTwo>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(2)[class^='objective-list']</css>
+	</SubHeadingListTwo>
+	<SubHeadingListThree>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(3)[class^='objective-list']</css>
+	</SubHeadingListThree>
+	<SubHeadingListFour>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(4)[class^='objective-list']</css>
+	</SubHeadingListFour>
+	<SubHeadingListFive>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(5)[class^='objective-list']</css>
+	</SubHeadingListFive>
+	
+	<SubHeadingsFirstEo>
+		<css>.LO-wrapper div:nth-child(1) ul > li[class^='objective-list'] </css>
+    </SubHeadingsFirstEo>
+	<EODetailPageBackArrow>
+		<css>.pe-icon--point-back-24</css>
+	</EODetailPageBackArrow>
+
+	<EODetailPageNextArrow>
+		<css>.pe-icon--point-next-24</css>
+	</EODetailPageNextArrow>
+	
+	<MiniModuleLO>
+		<css>#ModuleAccordion1</css>
+	</MiniModuleLO>
+	
+	<ContentTitle>
+		<css>.pe-title</css>
+	</ContentTitle>
+	
+	<PracticeQuiz>
+	    <css>.eo-list__item:last-child button</css>
+	</PracticeQuiz>
+	
+	<PracticeTestWelcomeScreenStartButton>
+	<css>#startPath</css>
+	</PracticeTestWelcomeScreenStartButton>
+	
+	<PracticeTestCloseButton>
+	<css>#closeIconId</css>
+	</PracticeTestCloseButton>
+	<PracticeTestPopUpHeader>
+	<css>#modalHeader</css>
+	</PracticeTestPopUpHeader>
+
+	<SubheadingVideo>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li[class^='objective-list'] button > a > [type="video"]</css>
+	</SubheadingVideo>
+
+    <SubheadingContent>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li[class^='objective-list'] button > a > [type="content"]</css>
+	</SubheadingContent>
+	
+	<SubheadingEdit>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li[class^='objective-list'] button > a > [type="edit"]</css>
+	</SubheadingEdit>
+	<SubheadingQuizz>
+		<css>.LO-wrapper div:nth-child(1) > div:nth-child(2) > ul > li[class^='objective-list'] button > a > [type="quizz"]</css>
+	</SubheadingQuizz>
+
+	<FooterVerbs>
+		<css>nav.footer-nav button:nth-child(1) div > span > b</css>
+	</FooterVerbs>
+    
+    <VideoContent>
+		<css>div.pearson-component .video</css>
+	</VideoContent>
+	<EditContent>
+		<css>div.pearson-component .video</css>
+	</EditContent>
+	<ReadContent>
+		<css>div.pearson-component .video</css>
+	</ReadContent>
+	<PracticeContent>
+		<css>#welcomeLearner</css>
+	</PracticeContent>
+	
+	<TOCFullScreen>
+		<css>#content-player:not(.resize)</css>
+	</TOCFullScreen>
+	
+	<ContentHeading>
+		<css>#content-player > div > h1</css>
+	</ContentHeading>
+	
+	<PracticeTestPopUpCancelButton>
+		<css>.modalFooter .modalCancel</css>
+	</PracticeTestPopUpCancelButton>
+	
+	<PracticeTestPopUpLeaveButton>
+		<css>button[class*='pe-btn__primary']:nth-of-type(2)</css>
+	</PracticeTestPopUpLeaveButton>
+	
+	<PracticeTestPopUpHeadingText>
+		<css>#modalHeader</css>
+	</PracticeTestPopUpHeadingText>
+	
+	<PracticeTestPopUpText>
+	<css>.modalBody.modalBody</css>
+	</PracticeTestPopUpText>
+	
+	<PracticeTestContinueBtn>
+        <css>button#startPath.pe-btn__cta--btn_large</css>
+    </PracticeTestContinueBtn>
+    
+    <PracticeTestWelcomeText>
+        <css>#welcomeLearner h2,#welcomeLearner h1</css>
+    </PracticeTestWelcomeText>
+    
+    <PracticeTestResumeText>
+    <css>#ResumeLearner h1</css>
+    </PracticeTestResumeText>
+    
+    <PracticeTestStartButton>
+        <css>#startPath</css>
+    </PracticeTestStartButton>
+    
+    <PracticeTestWelcomePageBody>
+    <css>#welcomeLearner p</css>
+    </PracticeTestWelcomePageBody>
+    
+    <PracticeTestResumePageBody>
+    <css>#ResumeLearner p</css>
+    </PracticeTestResumePageBody>
+    
+    <PracticeTestWelcomePageInteract>
+    <css>.footer-nav</css>
+    </PracticeTestWelcomePageInteract>
+    
+    <PracticeTestLastLO>
+    <css>.lo-wrapper .toc-list__lo:last-child</css>
+    </PracticeTestLastLO>
+    
+    <PracticeTestLastEOQuiz>
+    <css> .eo-list__item:last-child</css>
+    </PracticeTestLastEOQuiz>
+    
+	<NextButton>
+	<css>button[id^='nextButton']</css>
+	</NextButton>
+	
+	<DiagnosticDropdownMenu>
+		<css>.fib-dropdown .dropdown-activator</css>
+	</DiagnosticDropdownMenu>
+
+	<PracticeTestDropdownOptionOne>
+		<css>.dropdown-activator[aria-expanded='true'] + ul li:nth-child(3),.dropslider li:nth-of-type(1)>label</css>
+	</PracticeTestDropdownOptionOne>
+	
+	<FIBDropDown>
+		<css>[id^=FIB] .fib-dropdown button</css>
+	</FIBDropDown>
+	
+	<SubmitButton>
+		<css>button[id^='submitButton']:not([disabled])</css>
+	</SubmitButton>
+    
+     <PracticeTestResultScreenTotalQuestion>
+    <css>.attempt-list__list</css>
+    </PracticeTestResultScreenTotalQuestion>
+    
+     <PracticeTestResultScreenQuestionsCorrectIncorrectSign>
+    <css>.attempt-list__list .mr-3.img-wrap img</css>
+    </PracticeTestResultScreenQuestionsCorrectIncorrectSign>
+    
+    <PracticeTestSummaryScreenQuizResultText>
+    <css>[class='pe-title no-mobile ']</css>
+    </PracticeTestSummaryScreenQuizResultText>	
+    
+    <PracticeTest1stQuestionText>
+    <css>.h4>span:nth-of-type(1)</css>
+    </PracticeTest1stQuestionText>	
+    
+    <PracticeTestSummaryButton>
+    <css>button[id^='summaxryButton']</css>
+    </PracticeTestSummaryButton>
+
+    <PracticeTestSummarypagePracticeAgainButton>
+    <css>#nextTopic</css>
+    </PracticeTestSummarypagePracticeAgainButton>
+    
+    <PraciceTestSummarypageArcFilledInCircle>
+    <css>.circle-arc.completed</css>
+    </PraciceTestSummarypageArcFilledInCircle>
+    
+    <PraciceTestSummarypageCourseHomeLink>
+    <css>#goToCourseHome</css>
+    </PraciceTestSummarypageCourseHomeLink>
+    
+    <PspLetsStartTextHeadingText>
+		<css>.courseHomeHeader p</css>
+	</PspLetsStartTextHeadingText>
+	
+	<PracticeTestFibFreeResponse>
+		<css>#diagnosticTest .fib-freeResponse</css>
+	</PracticeTestFibFreeResponse>
+
+	<PracticeTestFibDropDown>
+		<css>#diagnosticTest .fib-dropdown</css>
+	</PracticeTestFibDropDown>
+
+	<PracticeTestMultipart>
+		<css>#diagnosticTest #multiPartAssessment</css>
+	</PracticeTestMultipart>
+
+	<PracticeTestMCQSA>
+		<css>#diagnosticTest [id^='McqSa_']</css>
+	</PracticeTestMCQSA>
+
+	<PracticeTestMCQMA>
+		<css>#diagnosticTest [id^='McqMa_']</css>
+	</PracticeTestMCQMA>
+
+	<PracticeTestSubmitDisableButton>
+		<css>button[id^='submitButton']</css>
+	</PracticeTestSubmitDisableButton>
+	
+    <HelpMeAnswerThisDropdown>
+    <css>button[class='pe-icon--btn dropdown-activator']</css>
+    </HelpMeAnswerThisDropdown>    
+    
+    <HelpMeSolveThisLAOption>
+    <css>#view-dropdown > li:nth-of-type(1) > button</css>
+    </HelpMeSolveThisLAOption>
+    
+    <ViewAnExampleLAOption>
+    <xpath>//*[span='View an example']</xpath>
+    </ViewAnExampleLAOption>
+    
+    <LearningAidsBody>
+    <css>div.learning-aids-body</css>
+    </LearningAidsBody>    
+    
+    <LearningAidsRemainingPartsLabel>
+    <css>div.learning-aids-body p.remaincount</css>
+    </LearningAidsRemainingPartsLabel>
+    
+    <LearningAidsRemainingPartsSecondLabel>
+    <css>div.learning-aids-body div.questionsWrapper:nth-of-type(2) p.remaincount</css>
+    </LearningAidsRemainingPartsSecondLabel>
+
+    <LearningAidsSubmitPartButton>
+    <css>div.learning-aids-body button.pe-btn__primary--btn_large</css>
+    </LearningAidsSubmitPartButton>
+    
+    <LearningAidsSecondPartSubmitButton>
+    <css>div.learning-aids-body div.questionsWrapper:nth-of-type(2) button[aria-label='Continue']</css>
+    </LearningAidsSecondPartSubmitButton> 
+    
+    <LearningAidsCloseButton>
+    <css>#lAidsCloseButton</css>
+    </LearningAidsCloseButton>
+    
+    <PraciceTestCountAttemptNumber>
+    <css>.lo-list.d-flex.flex-column span.pe-label.pe-label--small</css>
+    </PraciceTestCountAttemptNumber>
+    
+    <LearningAidsFirstPartTriesLeft>
+    <css>div.learning-aids-body div.PEpanel-body > span.gray-text</css>
+    </LearningAidsFirstPartTriesLeft> 
+    
+    <PracticeTestFirstEOQuiz>
+    <xpath>//*[@class='rounded-label neutral-five-bg']/..</xpath>
+    </PracticeTestFirstEOQuiz>
+    
+     <PracticeTestMultipartRemainingPartsLabel>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(1) p.remaincount</css>
+     </PracticeTestMultipartRemainingPartsLabel>
+     
+     <PracticeTestMultipartRemainingTriesLabelPartOne>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(1) span.gray-text</css>
+     </PracticeTestMultipartRemainingTriesLabelPartOne>
+     
+      <PracticeTestMultipartRemainingTriesLabelPartTwo>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(2) span.gray-text</css>
+     </PracticeTestMultipartRemainingTriesLabelPartTwo>
+     
+      <PracticeTestMultipartRemainingTriesLabelPartThree>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(3) span.gray-text</css>
+     </PracticeTestMultipartRemainingTriesLabelPartThree>
+     
+     <PracticeTestMultipartQuestionPartOne>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(1)</css>
+     </PracticeTestMultipartQuestionPartOne>
+     
+     <PracticeTestMultipartQuestionPartTwo>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(2)</css>
+     </PracticeTestMultipartQuestionPartTwo>
+     
+      <PracticeTestMultipartQuestionPartThree>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(3)</css>
+     </PracticeTestMultipartQuestionPartThree>
+     
+      <PracticeTestMultipartSubmitTryAgainPartOne>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(1) button[id^=submitButton]</css>
+     </PracticeTestMultipartSubmitTryAgainPartOne>
+     
+     <PracticeTestMultipartSubmitTryAgainPartTwo>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(2) button[id^=submitButton]</css>
+     </PracticeTestMultipartSubmitTryAgainPartTwo>
+     
+     <PracticeTestMultipartSubmitTryAgainPartThree>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(3) button[id^=submitButton]</css>
+     </PracticeTestMultipartSubmitTryAgainPartThree>   
+     
+     <PracticeTestLeaveButton>
+      <css>button[class='modalSave pe-btn__primary--btn_large']</css>
+     </PracticeTestLeaveButton>
+     
+     <PracticeTestMultipartNextQuestionButton>
+         <css>div.multipartPanel button[id^=nextButton]</css>
+     </PracticeTestMultipartNextQuestionButton>   
+     
+     <PracticeTestCompleteSummaryButton>
+     <css>button[id^='summaryButton']</css>
+     </PracticeTestCompleteSummaryButton>
+     
+     <PracticeTestLearningAidAccessmentHeader>
+     <css>div#diagnosticTest div.learning-aids-header .learning-aids-header__title</css>
+     </PracticeTestLearningAidAccessmentHeader>
+     
+     <PracticeTestRemainingTriesLabelforSinglePart>
+     <css>div.PEpanel-body span.gray-text</css>
+     </PracticeTestRemainingTriesLabelforSinglePart>
+         
+     <PracticeTestFirstLO>
+     <css>div.toc-list__lo:nth-of-type(1)</css>
+     </PracticeTestFirstLO>
+     
+      <PracticeTestSecondLO>
+     <css>div.toc-list__lo:nth-of-type(2)</css>
+     </PracticeTestSecondLO>
+     
+      <PracticeTestThirdLO>
+     <css>div.toc-list__lo:nth-of-type(3)</css>
+     </PracticeTestThirdLO>
+     
+     <PracticeTestFirstLOPracticeQuiz>
+     <css>div.toc-list__lo:nth-of-type(1) img[type='quizz']</css>
+     </PracticeTestFirstLOPracticeQuiz>
+     
+      <PracticeTestSecondLOPracticeQuiz>
+     <css>div.toc-list__lo:nth-of-type(2) img[type='quizz']</css>
+     </PracticeTestSecondLOPracticeQuiz>
+     
+      <PracticeTestThirdLOPracticeQuiz>
+     <css>div.toc-list__lo:nth-of-type(3) img[type='quizz']</css>
+     </PracticeTestThirdLOPracticeQuiz>
+     
+      <PracticeTestHMSTLearningAidsCloseButton>
+    <css>.learning-aids-body button[id^='nextButton']</css>
+     </PracticeTestHMSTLearningAidsCloseButton>
+     
+     <PracticeTestHMSTLearningAidsSubmitButton>
+    <css>.learning-aids-body button[id^='submitButton']</css>
+     </PracticeTestHMSTLearningAidsSubmitButton>
+     
+     <StartPracticeTestPopupGotItButton>
+    <css>button[class^="modalSave"]</css>
+     </StartPracticeTestPopupGotItButton>
+     
+     <PracticeTestFreeResponseTextBox>
+     <css>.mq-root-block</css>
+     </PracticeTestFreeResponseTextBox>
+     
+     <PracticeTestFeedbackMessage>
+     <css>.assessment-feedback</css>
+     </PracticeTestFeedbackMessage>
+     
+     <PracticeTestNumberOfTries>
+     <css>.gray-text</css>
+     </PracticeTestNumberOfTries>
+	   
+    <PraciceTestCourseDrawerBackArrow>
+	   <css>.course-drawer__action-icon.back-arrow</css>
+	   </PraciceTestCourseDrawerBackArrow>
+        
+        <PracticeTestUserNameLogOut>
+		<css>#header-nav-link-account</css>
+	</PracticeTestUserNameLogOut>
+	
+	<LogoutButton>
+		<css>a[class*='sign-out-button']</css>
+	</LogoutButton>    
+	
+	<PracticeTestMultipartQuestionText>
+    <css>div.multipartPanel div.questionsWrapper:nth-of-type(1) .h4:nth-of-type(1)</css> <!-- span:nth-of-type(1) -->
+    </PracticeTestMultipartQuestionText>
+    
+    <CourseMaterialPearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</CourseMaterialPearsonLogo>
+	
+    <LearningAidsHeaderCloseIcon>
+    <css>button#lAidsCloseButton</css>
+    </LearningAidsHeaderCloseIcon>
+    
+    <PracticeQuestionDisplayedText>
+    <css>div.assementContentPanel div.PEpanel-body</css>
+    </PracticeQuestionDisplayedText>	
+    
+     <HMSTMCQSARadioButton>
+     <css>div.learning-aids-body div.radio_form_group</css>
+     </HMSTMCQSARadioButton>
+     
+     <LearningAidsContinuePartButton>
+     <css> div.learning-aids-body button.pe-btn__primary--btn_large[title='Continue']</css>
+     </LearningAidsContinuePartButton>
+    
+    <LearningAidsTriesLeft>
+    <css>div#diagnosticTest .learning-aids-container div.multipartPanel span.gray-text</css>
+    </LearningAidsTriesLeft> 
+        
+    <HMSTHeader>
+    <css>.learning-aids-header__title</css>
+    </HMSTHeader> 
+    
+   <ViewAnExOnHMSTFullScreen>
+    <css>.learning-aids-header__title</css>
+    </ViewAnExOnHMSTFullScreen> 
+   <HMSTProgressBar>
+		<css>#progress-bar</css>
+	</HMSTProgressBar>
+	  
+	 <HMSTFullScreenTriesleft>
+		<css>div#diagnosticTest #multiPartAssessment div.multipartPanel .remaincount</css>
+	</HMSTFullScreenTriesleft>
+	
+	<HMSTFMultipartPlaceHolderImg>
+	<css>div.learning-aids-body .multipart-placeholder-img</css>
+	</HMSTFMultipartPlaceHolderImg> 
+	
+	<PracticeTestMCQMACheckBox>
+     <css>[id^='McqMa_'] input[type='checkbox']</css>
+    </PracticeTestMCQMACheckBox> 
+     
+     <PracticeGotItButton>
+		<css>.text-right>button,.o-coach-mark__got-it.pe-label</css>
+	</PracticeGotItButton> 
+	
+	<PracticeTestMultipartSubmitTryAgainDynamicButton>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(dynamicReplace) button[id^=submitButton]</css>
+     </PracticeTestMultipartSubmitTryAgainDynamicButton>
+     
+     <PracticeTestMultipartQuestionDynamicPart>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(dynamicReplace)</css>
+     </PracticeTestMultipartQuestionDynamicPart>
+     
+     <PracticeTestMultipartRemainingTriesDynamicLabel>
+         <css>div.multipartPanel div.questionsWrapper:nth-of-type(dynamicReplace) .gray-text</css>
+     </PracticeTestMultipartRemainingTriesDynamicLabel>
+     
+     <EOSecondGuide>
+     	<css>.lo-list ul > li:nth-child(2)</css>
+     </EOSecondGuide>
+     
+     <EOProgressIndicator>
+     	<css>.eo-list__item.eo-list__item--active</css>
+     </EOProgressIndicator>
+     
+     <StarIcon>
+     	<css>.eo-list li:nth-child(3) button img</css>
+     </StarIcon>
+     
+      <PracticeTestDynamicEO>
+     <xpath>(//div[@class='lo-wrapper']//button[@type='button'])[EONumber]</xpath>
+     </PracticeTestDynamicEO>
+     
+      <PracticeTestDynamicEOPracticeQuiz>
+     <xpath>(//div[@class='lo-wrapper']//button[@type='button'])[EONumber]//following::img[@alt='Start'][PracticeTestNumber]</xpath>
+     </PracticeTestDynamicEOPracticeQuiz>
+     
+     <learningAidFeedBackDynamicLocator>
+     <css>div.learning-aids-body div.questionsWrapper:nth-of-type(hmstPart) div[class$='display-flex align-items-center mb-10']</css>
+     </learningAidFeedBackDynamicLocator>
+     
+     <learningAidInCorrectFeedBackDynamicLocator>
+     <css>div.learning-aids-body div.questionsWrapper:nth-of-type(hmstPart) div[class*='fail display-flex align-items-center mb-10']</css>
+     </learningAidInCorrectFeedBackDynamicLocator>
+     
+     <learningAidResponseDynamicLocator>
+     <css>div.learning-aids-body div.questionsWrapper:nth-of-type(hmstPart) div[class='assessment-feedback-response']</css>
+     </learningAidResponseDynamicLocator>
+     
+     <PracticeTestCoachMark>
+		<css>.o-coach-mark__content-container</css>
+	</PracticeTestCoachMark>
+
+	<PracticeTestCrossIconButton>
+		<css>.playerTopPanel>button.closeIcon</css>
+	</PracticeTestCrossIconButton>
+	
+	<PracticeTestSecondEO>
+	<xpath>(//*[@class='lo-list__link-label'])[2]</xpath>
+	</PracticeTestSecondEO>
+	
+	<PracticeTestFeedbackText>
+     <css>div[class$='display-flex align-items-center mb-10']</css>
+     </PracticeTestFeedbackText>
+     
+     <PracticeQuizLink>
+    	<css>.eo-list > li:nth-child(3) button</css>
+    </PracticeQuizLink>
+    
+    <StartButtonPracticeQuiz>
+    	<css>.learnerWelcome > div button#startPath</css>
+    </StartButtonPracticeQuiz>
+    
+    <PracticeTestMultipartFeedBackDynamicLocator>
+     <css>div.multipartPanel div.questionsWrapper:nth-of-type(multipartToReplace) div[class$='display-flex align-items-center mb-10']</css>
+    </PracticeTestMultipartFeedBackDynamicLocator>
+    
+    <PracticeTestFailFeedbackText>
+        <css>.assessment-feedback>[class*='fail'], [class*='incorrect-feedback']</css>
+    </PracticeTestFailFeedbackText>
+    
+    <PracticeTestPassFeedbackText>
+        <css>.assessment-feedback>[class*='success']</css>
+    </PracticeTestPassFeedbackText>
+    
+    <PracticeTestHMSTLearningAidsDynamicAssessmentText>
+    <css>div.learning-aids-body div.questionsWrapper:nth-of-type(partToReplace) .assementContent:nth-of-type(assessmentToReplace)</css>
+    </PracticeTestHMSTLearningAidsDynamicAssessmentText>
+    
+    <PracticeTestMultipartDynamicAssessmentText>
+    <css>div.multipartPanel div.questionsWrapper:nth-of-type(partToReplace) .assementContent:nth-of-type(assessmentToReplace)</css>
+    </PracticeTestMultipartDynamicAssessmentText>
+    
+    <PracticeTestHMSTLearningAidsPartDynamicLocator>
+    <css>div.learning-aids-body div.questionsWrapper:nth-of-type(partToReplace)</css>
+    </PracticeTestHMSTLearningAidsPartDynamicLocator>
+    
+    <PracticeTestSinglePartQuestionUIStateText>
+    <css>.assessment-form</css>
+    </PracticeTestSinglePartQuestionUIStateText>
+    
+    <PracticeTestMCSQASelectedChoiceText>
+    <css>.text-bold .mcqsa-content</css>
+    </PracticeTestMCSQASelectedChoiceText>
+    
+    <PracticeTestMCSQACorrectChoiceText>
+    <css>[class*='correct-answer-choose'] .mcqsa-content</css>
+    </PracticeTestMCSQACorrectChoiceText>
+    
+    <PracticeTestSinglePartFeedBackLocator>
+     <css>div[class$='display-flex align-items-center mb-10']</css>
+    </PracticeTestSinglePartFeedBackLocator>
+    
+    <PracticeTestSummaryScreenCongrats>
+    <css>.normal-heading-1</css>
+    </PracticeTestSummaryScreenCongrats>
+    
+    <PracticeTestSummaryScreenCompletedModule>
+    <css>.status-text.mt-4</css>
+    </PracticeTestSummaryScreenCompletedModule>
+    
+     <PracticeTestSummaryScreenMainGoalGrapic>
+    <css>.circle-overlap</css>
+     </PracticeTestSummaryScreenMainGoalGrapic>
+     
+     <PracticeTestSummaryScreenPracticeAgain>
+    <css>a#practiceAgain</css>
+    </PracticeTestSummaryScreenPracticeAgain>
+    
+    <CoreInstructionNAvigationDrawerTitle>
+    <css>.course-drawer__module > h3</css>
+    </CoreInstructionNAvigationDrawerTitle>
+    
+    <AssessmentPlayer>
+    <css>.assementContentPanel</css>
+    </AssessmentPlayer>
+    
+	<RadioOptionPracticeMCQSA>
+    <css>div.assessment-form div.radio_form_group</css>
+    </RadioOptionPracticeMCQSA>    
+    
+</OR> 

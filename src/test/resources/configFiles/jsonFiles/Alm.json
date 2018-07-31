@@ -1,0 +1,15 @@
+{
+	"Fields": [{
+			"Name": "status",
+			"values": [{
+				"value": "result"
+			}]
+		},
+		{
+			"Name": "subtype-id",
+			"values": [{
+				"value": "hp.qc.test-instance.EXTERNAL-TEST"
+			}]
+		}
+	]
+}

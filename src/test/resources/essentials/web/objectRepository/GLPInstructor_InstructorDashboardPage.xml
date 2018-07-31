@@ -1,0 +1,934 @@
+<OR>
+
+	<InstructorDashboardCompletionValueButton>
+		<css>.divtable>.table-content:nth-of-type(2) div:nth-of-type(3)
+			.btn-link .ko-progress-circle__overlay
+		</css>
+	</InstructorDashboardCompletionValueButton>
+
+	<InstructorDashboardCompletionValue>
+		<css>.divtable>.table-content:nth-of-type(2) div:nth-of-type(3) strong
+		</css>
+	</InstructorDashboardCompletionValue>
+
+	<InstructorDashboardInProgressStudentsCount>
+		<css>.inProgressSection.roundButton strong</css>
+	</InstructorDashboardInProgressStudentsCount>
+
+	<InstructorDashboardCompletedStudentsCount>
+		<css>.completedSection.roundButton strong</css>
+	</InstructorDashboardCompletedStudentsCount>
+
+	<InstructorDashboardGraphUpwardArrowIcon>
+		<css>.toggleIconUp</css>
+	</InstructorDashboardGraphUpwardArrowIcon>
+
+	<InstructorDashboardGraphDownwardArrowIcon>
+		<css>.toggleIconDown</css>
+	</InstructorDashboardGraphDownwardArrowIcon>
+
+	<InstructorDashboardInProgressCard>
+		<css>.inProgressSection.roundButton</css>
+	</InstructorDashboardInProgressCard>
+
+	<InstructorDashboardCompletedCard>
+		<css>.completedSection.roundButton</css>
+	</InstructorDashboardCompletedCard>
+
+	<InstructorDashBoardClasOverviewBlock>
+		<css>.classOverviewContainer</css>
+	</InstructorDashBoardClasOverviewBlock>
+
+	<InstructorDashBoardClasOverviewText>
+		<css>.classOverview</css>
+	</InstructorDashBoardClasOverviewText>
+
+	<InstructorDashBoardTotalStudentSection>
+		<css>.totalStudentSection</css>
+	</InstructorDashBoardTotalStudentSection>
+
+	<InstructorDashBoardTestingSection>
+		<css>.testingSection</css>
+	</InstructorDashBoardTestingSection>
+
+	<InstructorDashBoardLockSection>
+		<css>.lockSection</css>
+	</InstructorDashBoardLockSection>
+
+	<InstructorDashBoardReadySection>
+		<css>.readySection</css>
+	</InstructorDashBoardReadySection>
+
+	<InstructorDashBoardUnlockButton>
+		<css>.unlockButton</css>
+	</InstructorDashBoardUnlockButton>
+
+	<InstructorDashBoardExportButton>
+		<css>.pe-btn__default--btn_large</css>
+	</InstructorDashBoardExportButton>
+
+	<InstructorDashBoardTotalStudentText>
+		<css>.totalStudent</css>
+	</InstructorDashBoardTotalStudentText>
+
+	<InstructorDashBoardTestingBulletIcon>
+		<css>.testingSectionLogo</css>
+	</InstructorDashBoardTestingBulletIcon>
+
+	<InstructorDashBoardLockButton>
+		<css>.lockButton</css>
+	</InstructorDashBoardLockButton>
+
+	<InstructorDashBoardTestingSectionValue>
+		<css>.testingSectionValue</css>
+	</InstructorDashBoardTestingSectionValue>
+
+	<InstructorDashBoardTestingtext>
+		<css>.testingText</css>
+	</InstructorDashBoardTestingtext>
+
+	<InstructorDashBoardReadySectionLogo>
+		<css>.readySectionLogo</css>
+	</InstructorDashBoardReadySectionLogo>
+
+	<InstructorDashBoardReadySectionText>
+		<css>.readySectionText</css>
+	</InstructorDashBoardReadySectionText>
+
+	<InstructorDashBoardReadySectionValue>
+		<css>.readySectionValue</css>
+	</InstructorDashBoardReadySectionValue>
+
+	<InstructorDashBoardModuleName>
+		<css>.material-grid>div>.divtable>.table-content>.tablerow>div:nth-of-type(1)
+		</css>
+	</InstructorDashBoardModuleName>
+
+	<InstructorDashBoardModuleCompletionPercent>
+		<css>.material-grid>div>.divtable>.table-content>.tablerow>div:nth-of-type(3)>button>strong
+		</css>
+	</InstructorDashBoardModuleCompletionPercent>
+
+	<InstructorDashBoardTimeUnderModule>
+		<css>.chartPanel>div>.assessmentgraph>.assessmentgraphscore>span>strong
+		</css>
+	</InstructorDashBoardTimeUnderModule>
+
+	<InstructorDashBoardChartColorLabelPlacedOut>
+		<css>.chartLabels .placedOut</css>
+	</InstructorDashBoardChartColorLabelPlacedOut>
+
+	<InstructorDashBoardChartColorLabelCompleted>
+		<css>.chartLabels .completed</css>
+	</InstructorDashBoardChartColorLabelCompleted>
+
+	<InstructorDashBoardChartColorLabelInProgress>
+		<css>.chartLabels .inProgress</css>
+	</InstructorDashBoardChartColorLabelInProgress>
+
+	<InstructorDashBoardChartColorLabelNotStarted>
+		<css>.chartLabels .notStarted</css>
+	</InstructorDashBoardChartColorLabelNotStarted>
+
+	<InstructorDashBoardChartColorBarPlacedOut>
+		<css>.chartPanel>div>.assessmentgraph .chartSummery .placedOut</css>
+	</InstructorDashBoardChartColorBarPlacedOut>
+
+	<InstructorDashBoardChartColorBarCompleted>
+		<css>.chartPanel>div>.assessmentgraph .chartSummery .completed</css>
+	</InstructorDashBoardChartColorBarCompleted>
+
+	<InstructorDashBoardChartColorBarInProgress>
+		<css>.chartPanel>div>.assessmentgraph .chartSummery .inProgress</css>
+	</InstructorDashBoardChartColorBarInProgress>
+
+	<InstructorDashBoardChartColorBarNotStarted>
+		<css>.chartPanel>div>.assessmentgraph .chartSummery .notStarted</css>
+	</InstructorDashBoardChartColorBarNotStarted>
+
+	<InstructorDashBoardChartCollapseButton>
+		<css>.chartPanel>.collapsebtn</css>
+	</InstructorDashBoardChartCollapseButton>
+
+	<InstructorDashBoardModuleClockIcon>
+		<css>.material-grid>div>.divtable>.table-content>.tablerow>div:nth-of-type(2)>button>span
+		</css>
+	</InstructorDashBoardModuleClockIcon>
+
+	<InstructorDashBoardModuleTime>
+		<css>.material-grid>div>.divtable>.table-content>.tablerow>div:nth-of-type(2)>button
+		</css>
+	</InstructorDashBoardModuleTime>
+
+	<InstructorDashBoardMaterialHeader>
+		<css>.noPaddingbtm:nth-child(1) .shortIcon</css>
+	</InstructorDashBoardMaterialHeader>
+
+	<InstructorDashBoardTimeOnTaskHeader>
+		<css>.noPaddingbtm:nth-child(2) .shortIcon</css>
+	</InstructorDashBoardTimeOnTaskHeader>
+
+	<InstructorDashBoardCompletionHeader>
+		<css>.noPaddingbtm:nth-child(3) .shortIcon</css>
+	</InstructorDashBoardCompletionHeader>
+
+	<InstructorDashBoardAvgMasteryScoreHeader>
+		<css>.noPaddingbtm:nth-child(4) .shortIcon</css>
+	</InstructorDashBoardAvgMasteryScoreHeader>
+
+	<InstructorDashBoardTickIcon>
+		<css>.material-grid .glyphicon-ok</css>
+	</InstructorDashBoardTickIcon>
+
+	<InstructorDashBoardCompletionTitleName>
+		<css>.material-grid .assessmentgraphscore>span>strong:nth-of-type(1)
+		</css>
+	</InstructorDashBoardCompletionTitleName>
+
+	<InstructorDashBoardPerformanceTab>
+		<css>.menu [class^='tabs__labels']:nth-of-type(1) li:nth-child(1)
+		</css>
+	</InstructorDashBoardPerformanceTab>
+
+	<InstructorPreAssessmentCompletionTitleName>
+		<css>#performanceDashboard div.preassessmentgrid > div.divtable
+			div.content-cell.cell3.text-right
+		</css>
+	</InstructorPreAssessmentCompletionTitleName>
+
+	<InstructorDashBoardTickIcon>
+		<css>.material-grid .glyphicon-ok</css>
+	</InstructorDashBoardTickIcon>
+
+	<InstructorDashBoardCompletionTitleName>
+		<css>.material-grid .assessmentgraphscore>span>strong:nth-of-type(1)
+		</css>
+	</InstructorDashBoardCompletionTitleName>
+
+	<CompletionTextBold>
+		<css>#performanceDashboard p > span > strong</css>
+	</CompletionTextBold>
+
+	<AssessmentTextBold>
+		<css>#performanceDashboard div.content-cell.cell1 > span > strong
+		</css>
+	</AssessmentTextBold>
+	<PlacementResultsTextBold>
+		<css>#performanceDashboard div.preassessmentgrid > div.chartPanel >
+			div > div:nth-child(2) > strong
+		</css>
+	</PlacementResultsTextBold>
+
+	<HorizontalBar>
+		<css>.chartSummery .completed</css>
+	</HorizontalBar>
+
+	<StudentNumber>
+		<css>.resultScore</css>
+	</StudentNumber>
+
+
+	<ModuleNumber>
+		<css>.moduleTitle > strong</css>
+	</ModuleNumber>
+
+	<ModuleName>
+		<css>.moduleTitle > span</css>
+	</ModuleName>
+
+	<CompletedBlock>
+		<css>
+			#performanceDashboard div.preassessmentgrid div >
+			div:nth-child(1) > ul span.completed
+		</css>
+	</CompletedBlock>
+
+	<InProgressBlock>
+		<css>
+			#performanceDashboard div.preassessmentgrid div >
+			div:nth-child(1) > ul span.inProgress
+		</css>
+	</InProgressBlock>
+
+	<NotStartedBlock>
+		<css>
+			#performanceDashboard div.preassessmentgrid div >
+			div:nth-child(1) > ul span.notStarted
+		</css>
+	</NotStartedBlock>
+	<CompletionCard>
+		<css>
+			#performanceDashboard div.chartPanel > button
+		</css>
+	</CompletionCard>
+
+
+	<InstructorDashBoardManagementTab>
+		<css>.tab-navigation .tabs__labels>li:nth-of-type(2) a</css>
+	</InstructorDashBoardManagementTab>
+
+	<InstructorDashBoardTimeOnTaskTab>
+		<css>#performanceDashboard div.preassessmentgrid > div.divtable
+			.content-cell.cell2.text-right
+		</css>
+	</InstructorDashBoardTimeOnTaskTab>
+
+	<InstructorDashBoardPreAssessmentChartSummary>
+		<css>.chartSummery</css>
+	</InstructorDashBoardPreAssessmentChartSummary>
+
+	<InstructorDashBoardFooterHelpLink>
+		<css>.footerlink>li:nth-child(1)>a</css>
+	</InstructorDashBoardFooterHelpLink>
+
+	<PearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</PearsonLogo>
+
+	<InstructorDashBoardCourseContentText>
+		<css>a.pe-label.activeTab,a#performanceContent-tab-1</css>
+	</InstructorDashBoardCourseContentText>
+
+	<DashBoardFooterCopyRightText>
+		<css>.copyright-info</css>
+	</DashBoardFooterCopyRightText>
+	<DashBoardFooterAccessibilityLink>
+		<css>.app-footer li:nth-child(1) a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.app-footer li:nth-child(2) a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.app-footer li:nth-child(3) a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<GradebookExportErrorAlert>
+		<css>div.alert-content>p[class='pe-paragraph alert-text']</css>
+	</GradebookExportErrorAlert>
+
+	<InstructorDashBoardGBErrorAlertCloseButton>
+		<css>svg.pe-icon--remove-sm-24</css>
+	</InstructorDashBoardGBErrorAlertCloseButton>
+	<InstructorDashBoardPerformanceStudentList>
+		<css>.performance-submenu .tabs__labels>li:nth-of-type(2) a</css>
+	</InstructorDashBoardPerformanceStudentList>
+	<InstructorDashBoardPerformanceStudentDropDown>
+		<css>.filter-menu__one>div:nth-of-type(1) .dropdown-container</css>
+	</InstructorDashBoardPerformanceStudentDropDown>
+	<InstructorDashBoardPerformanceModuleDropDown>
+		<css>.filter-menu__one>div:nth-of-type(3) .dropdown-container</css>
+	</InstructorDashBoardPerformanceModuleDropDown>
+	<InstructorDashBoardPerformanceStudentDropDownValues>
+		<css>.filter-menu__one>div:nth-of-type(1) li</css>
+	</InstructorDashBoardPerformanceStudentDropDownValues>
+	<InstructorDashBoardPerformanceModuleDropDownValues>
+		<css>.filter-menu__one>div:nth-of-type(3) li</css>
+	</InstructorDashBoardPerformanceModuleDropDownValues>
+	<InstructorDashBoardUnlockNowButton>
+		<css>.modalSave.pe-btn__primary--btn_large</css>
+	</InstructorDashBoardUnlockNowButton>
+	<CourseViewUserName>
+		<css>#header-nav-link-account</css>
+	</CourseViewUserName>
+	<LogoutButton>
+		<css>a[class*='sign-out-button']</css>
+	</LogoutButton>
+
+	<InstructorDashBoardPerformanceStatusCompleted>
+		<css>.status.status--completed</css>
+	</InstructorDashBoardPerformanceStatusCompleted>
+
+	<InstructorDashBoardPerformanceStatusNotStarted>
+		<css>.status.status--notstarted</css>
+	</InstructorDashBoardPerformanceStatusNotStarted>
+
+	<InstructorDashBoardPerformanceStatusTesting>
+		<css>.status.status--testing</css>
+	</InstructorDashBoardPerformanceStatusTesting>
+
+	<InstructorDashBoardPerformanceStatusReady>
+		<css>.status.status--ready</css>
+	</InstructorDashBoardPerformanceStatusReady>
+
+	<InstructorDashBoardPerformanceStatusPlacedOut>
+		<css>.status.status--placedout</css>
+	</InstructorDashBoardPerformanceStatusPlacedOut>
+
+	<InstructorDashBoardUnlockPopup>
+		<css>.ReactModal__Content>div</css>
+	</InstructorDashBoardUnlockPopup>
+
+	<InstructorDashRefreshButton>
+		<css>.glyphicon.glyphicon-search</css>
+	</InstructorDashRefreshButton>
+	<InstructorDashBoardPerformanceNoRecordFound>
+		<css>.table-no-record</css>
+	</InstructorDashBoardPerformanceNoRecordFound>
+	<InstructorDashBoardPerformanceFullName>
+		<css>.studentList .full-name</css>
+	</InstructorDashBoardPerformanceFullName>
+	<InstructorDashBoardPerformanceEmailID>
+		<css>.info-section__email</css>
+	</InstructorDashBoardPerformanceEmailID>
+	<InstructorDashBoardPerformanceNameAsc>
+		<css>.sorting-arrow.asc</css>
+	</InstructorDashBoardPerformanceNameAsc>
+	<InstructorDashBoardPerformanceNameDesc>
+		<css>.sorting-arrow.desc</css>
+	</InstructorDashBoardPerformanceNameDesc>
+
+	<InstructorDashBoardUnlockLaterButton>
+		<css>.modalFooter >button</css>
+	</InstructorDashBoardUnlockLaterButton>
+
+	<InstructorDashBoardPerformanceCurrentContentAsc>
+		<css>#currentcontent .sorting-arrow.asc</css>
+	</InstructorDashBoardPerformanceCurrentContentAsc>
+
+	<InstructorDashBoardPerformanceCurrentContentDesc>
+		<css>#currentcontent .sorting-arrow.desc</css>
+	</InstructorDashBoardPerformanceCurrentContentDesc>
+
+	<InstructorDashBoardUnlockStatusButton>
+		<css>.cell-content>.lock-icon.unlock</css>
+	</InstructorDashBoardUnlockStatusButton>
+
+	<InstructorDashBoardlockStatusButton>
+		<css>.cell-content>.lock-icon.lock.disabled</css>
+	</InstructorDashBoardlockStatusButton>
+
+	<InstructorDashBoardTestColumn>
+		<css>.table-cell.u-flex-grow2:nth-of-type(3)</css>
+	</InstructorDashBoardTestColumn>
+
+	<InstructorDashBoardUnlockDisableButton>
+		<css>.cell-content>.lock-icon.unlock.disabled</css>
+	</InstructorDashBoardUnlockDisableButton>
+
+	<InstructorDashBoardlockEnableButton>
+		<css>.cell-content>.lock-icon.lock</css>
+	</InstructorDashBoardlockEnableButton>
+
+	<InstructorDashBoardCourseHeading>
+		<css>.wrapper-container > h1</css>
+	</InstructorDashBoardCourseHeading>
+
+	<InstructorDashBoardAllModules>
+		<css>.studentList>div:nth-child(1)>div:nth-child(1)>div:nth-child(3)>div:nth-child(2)>button>div
+		</css>
+	</InstructorDashBoardAllModules>
+
+	<InstructorDashBoardPreAssessment>
+		<css>#in-dropdown > li:nth-child(2) >
+			button,#dropdown-content-dropdown > li:nth-child(2) > button
+		</css>
+	</InstructorDashBoardPreAssessment>
+	<InstructorDashBoardUnlockPopupHeader>
+		<css>.modalHeaderText</css>
+	</InstructorDashBoardUnlockPopupHeader>
+
+	<InstructorDashBoardUnlockPopupBody>
+		<css>.modalBody p</css>
+	</InstructorDashBoardUnlockPopupBody>
+
+	<InstructorDashBoardUnlockLaterButton>
+		<css>.modalFooter >button</css>
+	</InstructorDashBoardUnlockLaterButton>
+
+	<SelectFirstStudent>
+		<css>#selectAll</css>
+	</SelectFirstStudent>
+
+	<StudentUnlockButton>
+		<css>.cell-content .lock-icon.unlock </css>
+	</StudentUnlockButton>
+
+	<FilterUnlockButton>
+		<css>.filter-lock.two>button, .filter-lock.__gap>button</css>
+	</FilterUnlockButton>
+
+	<FilterLockButton>
+		<css>.filter-lock.one>button</css>
+	</FilterLockButton>
+
+	<UnlockPreAssessmentTest>
+		<css>#modalHeaderText</css>
+	</UnlockPreAssessmentTest>
+
+	<UnlockPreAssessmentBody>
+		<css>.modalBody.modalBody_border_normal h6</css>
+	</UnlockPreAssessmentBody>
+
+	<UnlockPreAssessmentName>
+		<css>.modalBody.modalBody_border_normal .Table-row-item.u-Flex-grow2
+			.GheadLabel
+		</css>
+	</UnlockPreAssessmentName>
+
+	<UnlockPreAssessmentTests>
+		<css>[class='Table-row-item '] [class='headerContent '] span</css>
+	</UnlockPreAssessmentTests>
+
+	<UnlockPreAssessmentLastlogin>
+		<css>.headerContent.alignRight span</css>
+	</UnlockPreAssessmentLastlogin>
+
+	<UnlockPreAssessmentGLPLearner>
+		<css>[class='Table-row-item u-Flex-grow2'][data-header='Header2']
+		</css>
+	</UnlockPreAssessmentGLPLearner>
+
+	<UnlockPreAssessmentPreassessment>
+		<css>[data-header='Header3'] .emailID</css>
+	</UnlockPreAssessmentPreassessment>
+
+	<UnlockPreAssessmentCancel>
+		<css>.modalCancel.pe-btn--btn_large</css>
+	</UnlockPreAssessmentCancel>
+
+	<UnlockPreAssessmentUnlock0now>
+		<css>.modalSave.pe-btn__primary--btn_large</css>
+	</UnlockPreAssessmentUnlock0now>
+
+	<UnlockPreAssessmentSelectAll>
+		<css>#selectAll</css>
+	</UnlockPreAssessmentSelectAll>
+
+	<SubscribedLearnerUserLink>
+		<css>.marginRight10</css>
+	</SubscribedLearnerUserLink>
+
+	<InstructorDashBoardStudentCheckBox>
+		<css>label[for*=selectAllffffffff]</css>
+	</InstructorDashBoardStudentCheckBox>
+
+	<InstructorDashBoardLockSelectedButton>
+		<css>.filter-lock button</css>
+	</InstructorDashBoardLockSelectedButton>
+
+	<InstructorDashBoardLockUnlockCount>
+		<css>.badge-count</css>
+	</InstructorDashBoardLockUnlockCount>
+
+	<InstructorDashBoardUnLockSelectedButton>
+		<css>.filter-lock.__gap button</css>
+	</InstructorDashBoardUnLockSelectedButton>
+
+	<UnlockPreAssessmentTestColumn>
+		<css>.modalBody .GridHeader div:nth-child(3)</css>
+	</UnlockPreAssessmentTestColumn>
+
+	<UnlockPreAssessmentSelectAllPopUpCheckbox>
+		<css>label[for=selectAllPopUp]</css>
+	</UnlockPreAssessmentSelectAllPopUpCheckbox>
+
+	<PerforManceDashBoardStudentCheckBox>
+		<css>.Table-row:nth-of-type(2) label[class*='select-student']</css>
+	</PerforManceDashBoardStudentCheckBox>
+
+	<PerforManceDashBoardLockSelectedButton>
+		<css>.btnIcon.unlock:nth-of-type(1)</css>
+	</PerforManceDashBoardLockSelectedButton>
+
+	<PerforManceDashBoardLockPopUpMessage>
+		<css>#modalHeaderText</css>
+	</PerforManceDashBoardLockPopUpMessage>
+
+	<PerforManceDashBoardPearsonLogo>
+		<css>.o-header__brand>a>div>img</css>
+	</PerforManceDashBoardPearsonLogo>
+	<PerforManceDashBoardStudentTableHeaders>
+		<css>.GheadLabel</css>
+	</PerforManceDashBoardStudentTableHeaders>
+	<InstructorDashBoardUnlockLater>
+		<css>.modalCancel.pe-btn--btn_large</css>
+	</InstructorDashBoardUnlockLater>
+
+	<InstructorDashBoardUnLockSelectedIcon>
+		<css>.filter-lock button > span[class="btnIcon unlock"]</css>
+	</InstructorDashBoardUnLockSelectedIcon>
+	<PerforManceDashBoardStudentStatusColumn>
+		<css>.status</css>
+	</PerforManceDashBoardStudentStatusColumn>
+	<PerforManceDashBoardStudentCurrentContentColumn>
+		<css>.currentcontent--bold</css>
+	</PerforManceDashBoardStudentCurrentContentColumn>
+	<PerforManceDashBoardStudentStatusDefaultOrderArrow>
+		<css>#status .sorting-arrow</css>
+	</PerforManceDashBoardStudentStatusDefaultOrderArrow>
+	<PerforManceDashBoardStudentStatusAscOrder>
+		<css>#status .sorting-arrow.asc</css>
+	</PerforManceDashBoardStudentStatusAscOrder>
+	<PerforManceDashBoardStudentStatusDescOrder>
+		<css>#status .sorting-arrow.desc</css>
+	</PerforManceDashBoardStudentStatusDescOrder>
+	<StudentListCheckbox>
+		<css>.table-row:not(.table__header)
+			[class*='select-student'],.Table-row:not(.Table-header)
+			[class*='select-student']
+		</css>
+	</StudentListCheckbox>
+	<PerforManceDashBoardStudentFilterBox>
+		<css>#students-filter</css>
+	</PerforManceDashBoardStudentFilterBox>
+	<PerforManceDashBoardStudentListCheckBox>
+		<css>.checkbox</css>
+	</PerforManceDashBoardStudentListCheckBox>
+	<PerforManceDashBoardStudentListPagination>
+		<css>.pe-pagination:nth-of-type(1)</css>
+	</PerforManceDashBoardStudentListPagination>
+	<PerforManceDashBoardStudentListPaginationPage1>
+		<css>.pe-pagination>button:nth-of-type(2)</css>
+	</PerforManceDashBoardStudentListPaginationPage1>
+	<PerforManceDashBoardStudentListPaginationPage2>
+		<css>.pe-pagination>button:nth-of-type(3)</css>
+	</PerforManceDashBoardStudentListPaginationPage2>
+	<PerforManceDashBoardStudentListPaginationPrevious>
+		<css>.pagination-prev</css>
+	</PerforManceDashBoardStudentListPaginationPrevious>
+	<PerforManceDashBoardStudentListPaginationNext>
+		<css>.pagination-next</css>
+	</PerforManceDashBoardStudentListPaginationNext>
+	<PerforManceDashBoardStudentListScoreDash>
+		<css>.score .dashed</css>
+	</PerforManceDashBoardStudentListScoreDash>
+	<PerforManceDashBoardStudentListTotDash>
+		<css>.tot .dashed</css>
+	</PerforManceDashBoardStudentListTotDash>
+	<PerforManceDashBoardStudentListPlacementDash>
+		<css>.placement .dashed</css>
+	</PerforManceDashBoardStudentListPlacementDash>
+	<PerforManceDashBoardAttempt1Text>
+		<css>.cell-content span.currentcontent</css>
+	</PerforManceDashBoardAttempt1Text>
+	<PerforManceDashBoardLockText>
+		<css>.lock-text</css>
+	</PerforManceDashBoardLockText>
+	<PerforManceDashBoardUnLockText>
+		<css>.filter-lock.__gap .lock-text</css>
+	</PerforManceDashBoardUnLockText>
+	<PerforManceDashBoardInText>
+		<css>.filter-ele.filter-ele--gap</css>
+	</PerforManceDashBoardInText>
+
+	<InstructorDashboardStudentLinkText>
+		<css>.marginRight10.button-link.full-name</css>
+	</InstructorDashboardStudentLinkText>
+
+	<Module11DropDownValue>
+		<css>#in-dropdown > li:nth-child(2) >
+			button,#dropdown-content-dropdown > li:nth-child(3) > button
+		</css>
+	</Module11DropDownValue>
+
+	<SearchStudentFilter>
+		<css>.filter-menu__one div:nth-child(4) input</css>
+	</SearchStudentFilter>
+
+	<Module16DropDownValue>
+		<css>#in-dropdown > li:nth-child(2) >
+			button,#dropdown-content-dropdown > li:nth-child(8) > button
+		</css>
+	</Module16DropDownValue>
+
+	<ReadinessDate>
+		<css>.popUpData-grid div.table-row__inner > div:nth-child(3) span
+		</css>
+	</ReadinessDate>
+
+	<AllModuleDropDownValue>
+		<css>#in-dropdown > li:nth-child(2) >
+			button,#dropdown-content-dropdown > li:nth-child(1) > button
+		</css>
+	</AllModuleDropDownValue>
+
+	<StudentListSecondStudent>
+		<css>.grid-body-fluid>div:nth-of-type(2) .table-cell.name button</css>
+	</StudentListSecondStudent>
+
+	<InstructorDashBoardPerformanceLastLogin>
+		<css>.info-section__lastlogin</css>
+	</InstructorDashBoardPerformanceLastLogin>
+
+	<InstructorDashBoardNavigationArrow>
+		<css>.info-section__2nd</css>
+	</InstructorDashBoardNavigationArrow>
+
+	<InstructorDashBoardLeftNavigationArrow>
+		<css>.info-section__2nd button:nth-of-type(1)</css>
+	</InstructorDashBoardLeftNavigationArrow>
+
+	<InstructorDashBoardRightNavigationArrow>
+		<css>.info-section__2nd button:nth-of-type(2)</css>
+	</InstructorDashBoardRightNavigationArrow>
+
+	<InstructorDashBoardCloseIcon>
+		<css>.page-overlay__header--close</css>
+	</InstructorDashBoardCloseIcon>
+
+	<DashBoardFooterCopyRightText>
+		<css>.app-footer>p</css>
+	</DashBoardFooterCopyRightText>
+
+	<DashBoardFooterAccessibilityLink>
+		<css>.app-footer-nav__list:nth-child(1)>a</css>
+	</DashBoardFooterAccessibilityLink>
+
+	<DashBoardPrivacyPolicyLink>
+		<css>.app-footer-nav__list:nth-child(2)>a</css>
+	</DashBoardPrivacyPolicyLink>
+
+	<DashBoardFooterTermsAndConditionsLink>
+		<css>.app-footer-nav__list:nth-child(3)>a</css>
+	</DashBoardFooterTermsAndConditionsLink>
+
+	<CourseContentInstructorProgress>
+		<css>.instructor-progress</css>
+	</CourseContentInstructorProgress>
+
+	<PreAssessmentProgress>
+		<css>#header_text .accordian__header__data</css>
+	</PreAssessmentProgress>
+	<AllStudentDropdownValue>
+		<css>.filter-menu__one div:nth-child(1) button</css>
+	</AllStudentDropdownValue>
+
+	<PreassessmentDropdownValue>
+		<css>.filter-menu__one > div:nth-child(3) button</css>
+	</PreassessmentDropdownValue>
+
+	<InstructorDashBoardPerformanceStatusLearning>
+		<css>.status.status--learning</css>
+	</InstructorDashBoardPerformanceStatusLearning>
+
+	<PreAssessmentResultCard>
+		<css>.student-progress-assesment.card</css>
+	</PreAssessmentResultCard>
+
+	<PreAssessmentResultCardMastered>
+		<css>.student-progress-assesment.card ul li:nth-of-type(1)</css>
+	</PreAssessmentResultCardMastered>
+
+	<PreAssessmentResultCardRequired>
+		<css>.student-progress-assesment.card ul li:nth-of-type(2)</css>
+	</PreAssessmentResultCardRequired>
+
+	<PreAssessmentResultCardAllModuleCircel>
+		<css>.student-progress-assesment__modules</css>
+	</PreAssessmentResultCardAllModuleCircel>
+
+	<InstructorDashboardListOfStudents>
+		<css>.cell-content>.full-name</css>
+	</InstructorDashboardListOfStudents>
+
+	<CourseContentModuleHeader>
+		<css>.grid__header.wrapper-fixed div:nth-of-type(1)>span</css>
+	</CourseContentModuleHeader>
+
+	<CourseContentAvgMasteryHeader>
+		<css>.grid__header.wrapper-fixed div:nth-of-type(2)>span</css>
+	</CourseContentAvgMasteryHeader>
+
+	<CourseContentAvgTimeOnTaskHeader>
+		<css>.grid__header.wrapper-fixed div:nth-of-type(3)>span</css>
+	</CourseContentAvgTimeOnTaskHeader>
+
+	<TimeOnTaskClassLegendOption>
+		<css>.student-progress-TOT.card ul li:nth-of-type(2)</css>
+	</TimeOnTaskClassLegendOption>
+
+
+	<TimeOnTaskStudentLegendOption>
+		<css>.student-progress-TOT.card ul li:nth-of-type(1)</css>
+	</TimeOnTaskStudentLegendOption>
+
+	<StudentTimeLineProgressBar>
+		<css>.timeline-progress.timeline-progress--blue</css>
+	</StudentTimeLineProgressBar>
+
+	<ClassTimeLineProgressBar>
+		<css>.timeline-progress.timeline-progress--grey</css>
+	</ClassTimeLineProgressBar>
+
+	<TimeOnTaskCardAllModules>
+		<css>.student-progress-TOT__data__left__dropdown>.dropdown-container
+		</css>
+	</TimeOnTaskCardAllModules>
+
+	<InstructorDashBoardMasteryHeader>
+		<css>.grid__header.wrapper-fixed >div:nth-of-type(3)</css>
+	</InstructorDashBoardMasteryHeader>
+
+	<InstructorDashboardTimeOnTask>
+		<css>.table-cell.tot span.tot</css>
+	</InstructorDashboardTimeOnTask>
+
+	<InstructorDashboardTimeOnTaskDashed>
+		<css>.table-cell.tot span.tot > .dashed</css>
+	</InstructorDashboardTimeOnTaskDashed>
+
+	<Module15DropdownValue>
+		<css>#dropdown-content-dropdown > li:nth-child(7) > button</css>
+	</Module15DropdownValue>
+
+	<ModuleDropdownContainer>
+		<css>.filter-menu__one > div:nth-child(3)
+			button.pe-icon--btn.dropdown-activator
+		</css>
+	</ModuleDropdownContainer>
+
+	<StudentDropdownContainer>
+		<css>.filter-menu__one > div:nth-child(1)
+			button.pe-icon--btn.dropdown-activator
+		</css>
+	</StudentDropdownContainer>
+
+	<Module11to16OnCourseContent>
+		<css>.wrapper-fixed > div:nth-child(dynamicReplace) .moduleName
+			span.bold
+		</css>
+	</Module11to16OnCourseContent>
+
+	<ContentDropdownVaules>
+		<css>#dropdown-content-dropdown > li:nth-child(dynamicReplace) button
+			> .icon-padding
+		</css>
+	</ContentDropdownVaules>
+
+	<PerforManceDashBoardStudentListPlacementModule>
+		<css>.table-cell .placement</css>
+	</PerforManceDashBoardStudentListPlacementModule>
+
+	<StudentTabFirstStudentName>
+		<css>.grid-body-fluid>div:nth-of-type(1) .table-cell.name button</css>
+	</StudentTabFirstStudentName>
+
+	<PreAssessmentCardDropDown>
+		<css>.instructor-progress> div:nth-of-type(1)
+			.content-data:nth-of-type(1) button
+		</css>
+	</PreAssessmentCardDropDown>
+
+	<StudentHeadingBarGraph>
+		<css>.progress_head_1</css>
+	</StudentHeadingBarGraph>
+
+	<ClassAvgHeadingBarGraph>
+		<css>.progress_head_2</css>
+	</ClassAvgHeadingBarGraph>
+
+	<DefaultStudentsDropdownValue>
+		<css>.filter-menu__one > div:nth-child(1) .dropdown-container button
+			div
+		</css>
+	</DefaultStudentsDropdownValue>
+
+	<DefaultContentDropdownValue>
+		<css>.filter-menu__one > div:nth-child(3) .dropdown-container button
+			div
+		</css>
+	</DefaultContentDropdownValue>
+
+	<InstructorDashBoardPerformanceStudentDropDownList>
+		<css>#dropdown-students-dropdown li</css>
+	</InstructorDashBoardPerformanceStudentDropDownList>
+
+	<InstructorDashBoardPerformanceContentDropDownList>
+		<css>#dropdown-content-dropdown li</css>
+	</InstructorDashBoardPerformanceContentDropDownList>
+
+	<InstructorDashBoardPerformanceUnlockSelectedPopUpStudentNameList>
+		<css>.modalBody .full-name</css>
+	</InstructorDashBoardPerformanceUnlockSelectedPopUpStudentNameList>
+
+	<InstructorDashBoardPerformanceStudentStatusButtonDynamic>
+		<xpath>//button[contains(text(),'dynamicLearnerReplace')]/parent::div/parent::div//following-sibling::div[contains(@class,'dynamicStatusReplace')]
+		</xpath>
+	</InstructorDashBoardPerformanceStudentStatusButtonDynamic>
+
+	<UnlockModuleTestText>
+		<css>#modalHeaderText</css>
+	</UnlockModuleTestText>
+
+
+	<ResetPopupBody>
+		<css>.modalBody.modalBody_border_normal</css>
+	</ResetPopupBody>
+
+	<StudentStatus>
+		<css> .status.status--notstarted</css>
+	</StudentStatus>
+
+	<UnlockModulePopUpSelectAllCheckbox>
+		<css>label[for=selectAllPopUp] input</css>
+	</UnlockModulePopUpSelectAllCheckbox>
+
+	<PaginationBottomText>
+		<css>.pagination-bottom-gap__pagesize</css>
+	</PaginationBottomText>
+
+	<PagniationPage2>
+		<css>.pe-pagination>button:nth-of-type(3) span</css>
+	</PagniationPage2>
+
+	<PaginationBackArrowIcon>
+		<css>.pe-pagination > button:first-child</css>
+	</PaginationBackArrowIcon>
+
+	<PaginationNextArrowIcon>
+		<css>.pe-pagination > button:last-child</css>
+	</PaginationNextArrowIcon>
+	<ContentDropDown>
+		<css>.filter-menu__one div:nth-child(3)
+			button.pe-icon--btn.dropdown-activator
+		</css>
+	</ContentDropDown>
+
+	<StudentDiagnosticScore>
+		<css>.completed~.Results span</css>
+	</StudentDiagnosticScore>
+
+	<StudentDiagnosticCompletedStatus>
+		<css>.status.status--completed</css>
+	</StudentDiagnosticCompletedStatus>
+
+	<StatusColumnBeforeResultColumn>
+		<xpath>//*[@id='results']/preceding-sibling::div[@id='status']</xpath>
+	</StatusColumnBeforeResultColumn>
+
+	<PlacementColumnAfterResultColumn>
+		<xpath>//*[@id='results']/following-sibling::div[@id='placement']
+		</xpath>
+	</PlacementColumnAfterResultColumn>
+
+	<SortScoreButton>
+		<css>#results button</css>
+	</SortScoreButton>
+
+	<StatusOnStatusColumn>
+		<css>.grid-body-fluid .table-row__inner .Status span</css>
+	</StatusOnStatusColumn>
+	
+	<SortTOTButton>
+	<css>#totaltime-on-task button</css>
+	</SortTOTButton>
+		
+	<DynamicStudentDropdownValue>
+    	<css>#dropdown-students-dropdown > li:nth-child(DropdownNumber)  button > .icon-padding</css>
+    </DynamicStudentDropdownValue>
+    
+    <DynamicStudentTableHeader>
+    	<css>.table-row.table__header > div > div:nth-child(ColumnNumber) span</css>>
+    </DynamicStudentTableHeader>
+    
+    <OverallCompletionField>
+    	<css>.grid-body-fluid > div .table-row__inner > div:nth-child(6) span:nth-of-type(1)</css>
+    </OverallCompletionField>
+
+	<DynamicUnlockModuleTestPopUpHeader>
+    	<css>.modalBody_border_normal .responsive-table .table-row__inner div:nth-child(ColumnNumber) span</css>
+    </DynamicUnlockModuleTestPopUpHeader>
+    
+</OR>

@@ -1,0 +1,124 @@
+/*
+ * PEARSON PROPRIETARY AND CONFIDENTIAL INFORMATION SUBJECT TO NDA 
+ * Copyright (c) 2017 Pearson Education, Inc.
+ * All Rights Reserved. 
+ * 
+ * NOTICE: All information contained herein is, and remains the property of 
+ * Pearson Education, Inc. The intellectual and technical concepts contained 
+ * herein are proprietary to Pearson Education, Inc. and may be covered by U.S. 
+ * and Foreign Patents, patent applications, and are protected by trade secret 
+ * or copyright law. Dissemination of this information, reproduction of this  
+ * material, and copying or distribution of this software is strictly forbidden   
+ * unless prior written permission is obtained from Pearson Education, Inc.
+ */
+package com.test.glp_learner_diagnosticTest;
+
+import org.testng.annotations.Test;
+
+import com.autofusion.BaseClass;
+import com.autofusion.ResourceConfigurations;
+import com.autofusion.groups.Groups;
+import com.autofusion.util.CommonUtil;
+import com.glp.page.GLPConsole_LoginPage;
+import com.glp.page.GLPLearner_CourseHomePage;
+import com.glp.page.GLPLearner_CourseViewPage;
+import com.glp.page.GLPLearner_DiagnosticTestPage;
+import com.glp.util.GLP_Utilities;
+
+/**
+ * @author yogesh.choudhary
+ * @date Dec 18, 2017
+ * @description: Verify that the number line card should have Pop-out icon.
+ * 
+ */
+public class GLP_317192_VerifyXYGraphPopInPopoutIconFunctionality
+        extends BaseClass {
+    public GLP_317192_VerifyXYGraphPopInPopoutIconFunctionality() {
+    }
+
+    @Test(groups = { Groups.REGRESSION, Groups.HEARTBEAT }, enabled = true,
+            description = "Verify that the number line card should have Pop-out icon.")
+    public void verifyCardViewMultiSelectQuestion() {
+        startReport(getTestCaseId(),
+                "Verify that the number line card should have Pop-out icon.");
+        CommonUtil objCommonUtil = new CommonUtil(reportTestObj, APP_LOG);
+        GLP_Utilities objRestUtil = new GLP_Utilities(reportTestObj, APP_LOG);
+        String learnerUserName = "GLP_Learner_" + getTestCaseId()
+                + objCommonUtil.generateRandomStringOfAlphabets(4);
+
+        try {
+            // Create user and subscribe course using corresponding APIs.
+            objRestUtil.createLearnerAndSubscribeCourse(learnerUserName,
+                    ResourceConfigurations.getProperty("consolePassword"),
+                    ResourceConfigurations
+                            .getProperty("consoleUserTypeLearner"),
+                    configurationsXlsMap.get("INSTRUCTOR_USER_NAME"), true);
+
+            // Login in the application
+            GLPConsole_LoginPage objProductApplicationConsoleLoginPage = new GLPConsole_LoginPage(
+                    reportTestObj, APP_LOG);
+            objProductApplicationConsoleLoginPage.login(learnerUserName,
+                    ResourceConfigurations.getProperty("consolePassword"));
+
+            GLPLearner_CourseViewPage objGLPLearnerCourseViewPage = new GLPLearner_CourseViewPage(
+                    reportTestObj, APP_LOG);
+            // Verify CourseTile Present and navigate to Welcome Learner Screen
+            objGLPLearnerCourseViewPage.verifyCourseTilePresent();
+            GLPLearner_CourseHomePage objProductApplicationCourseHomePage = new GLPLearner_CourseHomePage(
+                    reportTestObj, APP_LOG);
+            // Click on 'Start Pre-assessment' button
+            objProductApplicationCourseHomePage.navigateToDiagnosticPage();
+
+            GLPLearner_DiagnosticTestPage objProductApplication_DiagnosticTestPage = new GLPLearner_DiagnosticTestPage(
+                    reportTestObj, APP_LOG);
+
+            // Navigate to XY Graph Question
+
+            objProductApplication_DiagnosticTestPage
+                    .navigateToSpecificQuestionType(
+                            ResourceConfigurations.getProperty("xyGraph"));
+
+            // Verify the PopInPopout Functionality for XY Graph
+            objProductApplication_DiagnosticTestPage.verifyElementPresent(
+                    "XYGraphQuestionPopoutIcon",
+                    "Verify Pop out Icon is visisble");
+
+            // Click on Pop out Icon
+            objProductApplication_DiagnosticTestPage.clickOnElement(
+                    "XYGraphQuestionPopoutIcon", "Click on Pop out Icon");
+
+            // Verify that
+            objProductApplication_DiagnosticTestPage.verifyElementPresent(
+                    "XYGraphQuestionPopInIcon",
+                    "Verify Pop out moved to right position");
+
+            // Click on soem element to remove opoup to be able to click popin
+            // icon
+            objProductApplication_DiagnosticTestPage.clickOnElement(
+                    "SubmitWithoutAttempt",
+                    "Click on Submit button to remove popin icon popup.");
+
+            objProductApplication_DiagnosticTestPage.clickOnElement(
+                    "CloseButton",
+                    "Click on Close button to remove popin icon popup.");
+
+            // Click on Pop In Icon
+            objProductApplication_DiagnosticTestPage.clickOnElement(
+                    "XYGraphQuestionPopInIcon", "Click on Pop In Icon");
+
+            // Verify the PopInPopout Functionality for XY Graph
+            objProductApplication_DiagnosticTestPage.verifyElementPresent(
+                    "XYGraphQuestionPopoutIcon",
+                    "Verify Pop out Icon is visible");
+
+        } finally {
+            if (unpublishData.equalsIgnoreCase("TRUE")) {
+                objRestUtil.unpublishSubscribedCourseDatabase(learnerUserName,
+                        ResourceConfigurations.getProperty("consolePassword"));
+                System.out.println("Unpublish data from couchbase DB");
+            }
+            webDriver.quit();
+            webDriver = null;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+"docType":"template",
+"type": "gb-template-post-request",
+"created": "2017-08-02T19:20:30+01:00",
+"ver": "",
+"payload": {
+"scope": {
+"learningModelId":"RIO",
+"productId": "productRioLAID",
+"courseId": "uniqueCourseId"
+
+},
+"columns": [{
+"displayName": "First Name",
+"expression": "${FirstName}",
+"aggregationType": "",
+"columnType": "STATIC",
+"columnGroup": ""
+},
+{
+"displayName": "Last Name",
+"expression": "${LastName}",
+"aggregationType": "",
+"columnType": "STATIC",
+"columnGroup": ""
+},
+{
+"displayName": "Email Address",
+"expression": "${EmailAddress}",
+"aggregationType": "",
+"columnType": "STATIC",
+"columnGroup": ""
+},
+{
+"displayName": "Course Diagnostic Correct Score",
+"expression": "${CourseDiagnosticCorrectScore}",
+"aggregationType": "",
+"columnType": "STATIC",
+"columnGroup": ""
+},
+{
+"displayName": "Course Diagnostic Possible Score",
+"expression": "${CourseDiagnosticPossibleScore}",
+"aggregationType": "",
+"columnType": "STATIC",
+"columnGroup": ""
+}
+],
+"columnGroups": {}
+}
+}

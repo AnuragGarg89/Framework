@@ -1,0 +1,593 @@
+<OR>
+
+	<Questions>
+		<css>.panel-body span>span:nth-of-type(2)</css>
+	</Questions>
+
+	<Questions1>
+		<css>.form-group>span</css>
+	</Questions1>
+
+	<AnswersInputType>
+		<css>.panel-body>div>div span</css>
+	</AnswersInputType>
+
+	<AnswersTextBox>
+		<css>div[id^="FIB"] input</css>
+	</AnswersTextBox>
+
+	<SubmitButton>
+		<css>button[id^='submitButton']:not([disabled])</css>
+	</SubmitButton>
+
+	<QuestionIdentifier>
+		<css>.panel-body>div</css>
+	</QuestionIdentifier>
+
+	<TestResultHeader>
+		<css>.info-panel>h2</css>
+	</TestResultHeader>
+
+	<TestQuestionCount>
+		<css>.panel-heading p</css>
+	</TestQuestionCount>
+
+	<Diagnostic1stQuestion1stradiobutton>
+		<css>.panel-body>div>div:nth-of-type(1) span</css>
+	</Diagnostic1stQuestion1stradiobutton>
+
+	<DiagnosticResultContinueButton>
+		<css>.info-panel-bottom>button</css>
+	</DiagnosticResultContinueButton>
+
+	<PearsonLogo>
+		<css>.o-header__logo.o-header__logo--pearson>img</css>
+	</PearsonLogo>
+
+	<Diagnostic2ndQuestionlavel>
+		<css>.panel-body>span>span:nth-of-type(1)</css>
+	</Diagnostic2ndQuestionlavel>
+
+	<DiagnosticQuestionType>
+		<css>.form-group</css>
+	</DiagnosticQuestionType>
+
+	<DiagnosticQuestionDropDown>
+		<css>#FL1:not([disabled])</css>
+	</DiagnosticQuestionDropDown>
+
+	<DiagnosticDropDownMenu>
+		<css>#FL1>option:nth-of-type(2)</css>
+	</DiagnosticDropDownMenu>
+
+	<DiagnosticDisabledFibBox>
+		<css>.fib-form-group.fib-freeResponse>input:not([disabled])</css> <!-- .mq-editable-field:not([value]) -->
+	</DiagnosticDisabledFibBox>
+
+	<DiagnosticSelectRadio>
+		<css>input[id*='_0'][type='radio']</css>
+	</DiagnosticSelectRadio>
+
+	<SelectFirstCheck>
+		<css>input[id*='_0'][type='checkbox']</css>
+	</SelectFirstCheck>
+
+	<DiagnosticGotItButton>
+		<css>.text-right>button,.o-coach-mark__got-it.pe-label</css>
+	</DiagnosticGotItButton>
+
+	<DiagnosticMathPaletteCrossButton>
+		<css>.keypad-container-closeButton>span</css>
+	</DiagnosticMathPaletteCrossButton>
+
+	<FIBFreeResponse>
+		<css>.fib-form-group.fib-freeResponse</css><!-- //[id^=FIB] .keypad-input -->
+	</FIBFreeResponse>
+
+	<FIBDropDown>
+		<css>[id^=FIB] .fib-dropdown button</css>
+	</FIBDropDown>
+
+	<DiagnosticIdontKnowThisButton>
+		<css>button[id^='iDontKnowThisButton']:not([disabled])</css>
+	</DiagnosticIdontKnowThisButton>
+
+	<DiagnosticCrossIconButton>
+		<css>#closeIconId</css>
+	</DiagnosticCrossIconButton>
+
+	<DiagnosticPopUpLeaveButton>
+		<css>button[class*='pe-btn__primary']:nth-of-type(2)</css>
+	</DiagnosticPopUpLeaveButton>
+
+	<DiagnosticPopUpHeadingText>
+		<css>#modalHeader</css>
+	</DiagnosticPopUpHeadingText>
+
+	<DiagnosticPopUpText>
+		<css>.modalBody</css>
+	</DiagnosticPopUpText>
+
+	<DiagnosticPopUpCancelButton>
+		<css>.modalFooter .modalCancel</css>
+	</DiagnosticPopUpCancelButton>
+
+	<DiagnosticCoachMarkBackGroundColor>
+		<css>.popoveroverlay</css>
+	</DiagnosticCoachMarkBackGroundColor>
+
+	<DiagnosticFibFreeResponse>
+		<css>.fib-freeResponse</css>
+	</DiagnosticFibFreeResponse>
+
+	<DiagnosticFibDropDown>
+		<css>.diagnosticTest .fib-dropdown</css>
+	</DiagnosticFibDropDown>
+
+	<DiagnosticMultipart>
+		<css>.diagnosticTest #multiPartAssessment</css>
+	</DiagnosticMultipart>
+
+	<DiagnosticMCQSA>
+		<css>.diagnosticTest [id^='McqSa_']</css>
+	</DiagnosticMCQSA>
+
+	<DiagnosticMCQMA>
+		<css>.diagnosticTest [id^='McqMa_']</css>
+	</DiagnosticMCQMA>
+
+	<DiagnosticSubmitButton>
+		<css>button[id^='submitButton']</css>
+	</DiagnosticSubmitButton>
+
+	<DiagnosticGotItDialog>
+		<css>.popoverContent>p>span,.o-coach-mark__paragraph.pe-label</css>
+	</DiagnosticGotItDialog>
+
+	<DiagnosticCheckbox>
+		<css>.diagnosticTest [id^='McqMa_'] input</css>
+	</DiagnosticCheckbox>
+
+	<DiagnosticRadioButton>
+		<css>.diagnosticTest [id^='McqSa_'] input</css>
+	</DiagnosticRadioButton>
+
+	<DiagnosticSelectedCheckbox>
+		<css>.diagnosticTest [id^='McqMa_'] input:checked</css>
+	</DiagnosticSelectedCheckbox>
+
+	<DiagnosticSelectedRadioButton>
+		<css>.diagnosticTest [id^='McqSa_'] input:checked</css>
+	</DiagnosticSelectedRadioButton>
+
+	<!-- Selectors for 'IDontKnowThis' button corresponding to each activity/question 
+		type -->
+	<DiagnosticFIBDropdownIDontKnowButton>
+		<xpath><!-- iDontKnowThisButton_Q-I0601021 -->
+			//div[contains(@class,'fib-dropdown')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'iDontKnowThisButton')]
+		</xpath>
+	</DiagnosticFIBDropdownIDontKnowButton>
+
+	<DiagnosticFIBFreeResponseIDontKnowButton>
+		<xpath>//div[contains(@class,'fib-freeResponse')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'iDontKnowThisButton')]
+		</xpath>
+	</DiagnosticFIBFreeResponseIDontKnowButton>
+
+	<DiagnosticMCQSAIDontKnowButton>
+		<xpath>//div[contains(@id,'McqSa')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'iDontKnowThisButton')]
+		</xpath>
+	</DiagnosticMCQSAIDontKnowButton>
+
+	<DiagnosticMCQMAIDontKnowButton>
+		<xpath>//div[contains(@id,'McqMa')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'iDontKnowThisButton')]
+		</xpath>
+	</DiagnosticMCQMAIDontKnowButton>
+
+
+	<!-- Selectors for 'Submit' button corresponding to each activity/question 
+		type -->
+	<DiagnosticFIBDropdownSubmitButton>
+		<xpath>//div[contains(@class,'fib-dropdown')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'submitButton')]
+		</xpath>
+	</DiagnosticFIBDropdownSubmitButton>
+
+	<DiagnosticFIBFreeResponseSubmitButton>
+		<xpath>//div[contains(@class,'fib-freeResponse')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'submitButton')]
+		</xpath>
+	</DiagnosticFIBFreeResponseSubmitButton>
+
+	<DiagnosticMCQSASubmitButton>
+		<xpath>//div[contains(@id,'McqSa')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'submitButton')]
+		</xpath>
+	</DiagnosticMCQSASubmitButton>
+
+	<DiagnosticMCQMASubmitButton>
+		<xpath>//div[contains(@id,'McqMa')]/ancestor::form//child::div[@class='PEpanel-footer']//button[starts-with(@id,'submitButton')]
+		</xpath>
+	</DiagnosticMCQMASubmitButton>
+
+
+	<TimeoutContinueButton>
+		<css></css>
+	</TimeoutContinueButton>
+
+	<MultiSelectCheckBox>
+		<css>label>input[type='checkbox']</css>
+	</MultiSelectCheckBox>
+
+	<CourseHomeResumeYourPathButton>
+		<css>#startPath</css>
+	</CourseHomeResumeYourPathButton>
+
+	<MultiSelectAnswer>
+		<css>input[type="checkbox"] + span</css>
+	</MultiSelectAnswer>
+
+	<DistractorValue>
+		<css>#McqMa_undefined</css>
+	</DistractorValue>
+
+	<DiagnosticDropdownMenu>
+		<css>.dropdown-activator</css>
+	</DiagnosticDropdownMenu>
+
+	<DiagnosticDropdownOptionOne>
+		<css>.dropdown-activator[aria-expanded='true'] + ul
+			li:nth-child(3),.dropslider li:nth-of-type(1)>label</css>
+	</DiagnosticDropdownOptionOne>
+
+	<DiagnosticProgressBar>
+		<css>#progress-bar</css>
+	</DiagnosticProgressBar>
+
+	<DiagnosticTestHeading>
+		<css>[alt='Pre-Assessment']</css>
+	</DiagnosticTestHeading>
+
+	<DiagnosticTestMCQOption1>
+		<css>[id$='_0']</css>
+	</DiagnosticTestMCQOption1>
+
+	<DiagnosticTextQuestionText>
+		<css>.assementContent span[aria-label]</css>
+	</DiagnosticTextQuestionText>
+
+	<CardViewBlock>
+		<css>.assementContent</css>
+	</CardViewBlock>
+
+	<IdontKnowThisButton>
+		<css>button[id^='iDontKnowThisButton']</css>
+	</IdontKnowThisButton>
+
+	<DiagnosticFibFreeResponseTable>
+		<css>.diagnosticTest .table-responsive .fib-freeResponse</css>
+	</DiagnosticFibFreeResponseTable>
+
+	<DiagnosticFibDropDownTable>
+		<css>.diagnosticTest .table-responsive .fib-dropdown</css>
+	</DiagnosticFibDropDownTable>
+
+	<SubmitButtonDisabled>
+		<css>button[id^='submitButton']:disabled</css>
+	</SubmitButtonDisabled>
+	<TableView>
+		<css>.dropdown-container</css>
+	</TableView>
+
+	<DropDownList1>
+		<css>table td:nth-child(2)</css>
+	</DropDownList1>
+	<DropDownList2>
+		<css>table td:nth-child(3)</css>
+	</DropDownList2>
+	<DropDownList3>
+		<css>table td:nth-child(4)</css>
+	</DropDownList3>
+	<DropDownList4>
+		<css>table td:nth-child(5)</css>
+	</DropDownList4>
+
+	<DropDownListValue1>
+		<css>table td:nth-child(2) button > div</css>
+	</DropDownListValue1>
+	<DropDownListValue2>
+		<css>table td:nth-child(3) button > div</css>
+	</DropDownListValue2>
+	<DropDownListValue3>
+		<css>table td:nth-child(4) button > div</css>
+	</DropDownListValue3>
+	<DropDownListValue4>
+		<css>table td:nth-child(5) button > div</css>
+	</DropDownListValue4>
+
+	<FreeResponseTextBox>
+		<css>input#S1.pe-textInput</css>
+	</FreeResponseTextBox>
+
+	<FreeResponseTextBox2>
+		<css>input#S2.pe-textInput</css>
+	</FreeResponseTextBox2>
+
+	<OuterFrame>
+		<css>div.questionsWrapper:nth-child(1)</css>
+	</OuterFrame>
+
+	<DiagnosticMathExpression>
+		<css>div.assementContent:nth-child(1) span:nth-child(4)</css>
+	</DiagnosticMathExpression>
+
+	<DiagnosticMathExpressionFIBFreeResponse>
+		<css>div.assementContent:nth-child(1) span:nth-of-type(2) .katex
+			span.katex-mathml math
+		</css>
+	</DiagnosticMathExpressionFIBFreeResponse>
+
+
+	<RectangleToolTip>
+		<css>#Assessment svg g title</css>
+	</RectangleToolTip>
+
+	<DiagnosticfigureTypeRectangle>
+		<css>#Assessment svg rect</css>
+	</DiagnosticfigureTypeRectangle>
+
+	<DiagnosticfigureTypeOplus>
+		<css>div.assementContent:nth-child(1) span[aria-label='chip']</css>
+	</DiagnosticfigureTypeOplus>
+
+	<DiagnosticfigureTypeChip>
+		<css>div.assementContent:nth-child(1)
+			span[aria-label='chip'],div.assementContent:nth-child(1) span
+			[aria-label='positive chip'] , div.assementContent:nth-child(1)
+			span[id='chip'] + span , #FIG1n+image
+		</css>
+	</DiagnosticfigureTypeChip>
+
+	<DiagnosticfigureTypeRectangleWithoutDistortion>
+		<css>div.assementContent:nth-child(1) svg rect</css>
+	</DiagnosticfigureTypeRectangleWithoutDistortion>
+
+	<DiagnosticContinueBtn>
+		<css>button#startPath.pe-btn__cta--btn_large</css>
+	</DiagnosticContinueBtn>
+
+	<DyanamicBorderTable>
+		<css>table#grid58e590a8-d1bc-4764-b14d-b7d602a033ee</css>
+	</DyanamicBorderTable>
+	<DyanamicBorderlessTable>
+		<css>table#grid9eb0e0ee-4bdb-4ff8-b1fd-ef9dad64b918</css>
+	</DyanamicBorderlessTable>
+	<StaticBorderlessTableEquation>
+		<css>table#grid1518233859151</css>
+	</StaticBorderlessTableEquation>
+	<StaticBorderlessTableWithFigure>
+		<css>table#grid49bba4d7-fd3f-41ae-917e-117ea6e2b679</css>
+	</StaticBorderlessTableWithFigure>
+	<DiagnosticChipExpression>
+		<css>div.assementContent:nth-child(1) span:nth-child(5)</css>
+	</DiagnosticChipExpression>
+	<DiagnosticGoToCourseHomeLink>
+		<css>.proceed</css>
+	</DiagnosticGoToCourseHomeLink>
+	<ResultDiagnosticHeadingText>
+		<css>.resultHeader h1</css>
+	</ResultDiagnosticHeadingText>
+	<ResultDiagnosticText>
+		<css>.resultHeader p</css>
+	</ResultDiagnosticText>
+	<ResultDiagnosticStartButton>
+		<css>#resultBtn</css>
+	</ResultDiagnosticStartButton>
+
+	<DiagnosticPageMathPallete>
+		<css>.mathpallet-keyboard.mq-mp</css>
+	</DiagnosticPageMathPallete>
+
+	<DiagnosticMathPalletSquareRoot>
+		<css>.mq-non-leaf.mq-sqrt-stem.mq-empty</css>
+	</DiagnosticMathPalletSquareRoot>
+
+	<DiagnosticMathPalletNthRoot>
+		<css>.mq-nthroot.mq-non-leaf.mq-empty</css>
+	</DiagnosticMathPalletNthRoot>
+
+	<DiagnosticMathPalletPi>
+		<css>.mq-root-block>.mq-nonSymbola</css>
+	</DiagnosticMathPalletPi>
+
+	<DiagnosticMathPalletNotEqualTo>
+		<css>.mq-root-block>.mq-binary-operator</css>
+	</DiagnosticMathPalletNotEqualTo>
+
+	<DiagnosticMathPalletInput>
+		<css>.mq-editable-field.mq-math-mode</css>
+	</DiagnosticMathPalletInput>
+
+	<DiagnosticfigureTypeEllipticalWithoutDistortion>
+		<css>div.assementContent:nth-child(1) svg</css>
+	</DiagnosticfigureTypeEllipticalWithoutDistortion>
+
+	<DiagnosticfigureTypeEllipticalFigureOnQuestinCard>
+		<css>div.assementContent:nth-child(1) #FIG1p +image</css>
+	</DiagnosticfigureTypeEllipticalFigureOnQuestinCard>
+
+	<DiagnosticfigureTypeEllipticalFigureOnAnswerCard>
+		<css>div.assementContent:nth-child(2) #FIG9n +image</css>
+	</DiagnosticfigureTypeEllipticalFigureOnAnswerCard>
+
+	<CourseMaterialResult>
+		<css>.diagnostic-result__banner, .course-home-banner</css>
+	</CourseMaterialResult>
+
+	<DiagnosticNumberLineQuestion>
+		<css>#GLP-numberLine</css>
+	</DiagnosticNumberLineQuestion>
+
+	<NumberLineQuestionPopoutIcon>
+		<css>div.circle-button.popout button</css>
+	</NumberLineQuestionPopoutIcon>
+
+	<NumberLineQuestionPopInIcon>
+		<css>div.circle-button.popin button</css>
+	</NumberLineQuestionPopInIcon>
+
+	<SquareRootExpressionMathPallet>
+		<css>[id$=mathpaletteButton_4]</css>
+	</SquareRootExpressionMathPallet>
+
+	<IncorrectShortcutMathPallet>
+		<css>.mq-root-block>.mq-text-mode</css>
+	</IncorrectShortcutMathPallet>
+
+	<DiagnosticModuleStartButton>
+		<css>#resultBtn</css>
+	</DiagnosticModuleStartButton>
+
+	<DiagnosticUnmasteredModuleNo>
+		<css>.result-module__sub-list .result-module__sub-list__item:nth-child(1) span </css>
+	</DiagnosticUnmasteredModuleNo>
+
+	<DiagnosticMathPalletSquareRootIcon>
+		<css>.sqrt.mq-mp.btn.btn-default</css>
+	</DiagnosticMathPalletSquareRootIcon>
+
+	<DiagnosticMathPalletModulousIcon>
+		<css>.mq-icon-common.sq.mq-mp.btn.btn-default</css>
+	</DiagnosticMathPalletModulousIcon>
+
+	<DiagnosticMathPalletModulousInput>
+		<css>span[class^='mq-non-leaf mq-']</css>
+	</DiagnosticMathPalletModulousInput>
+
+	<DiagnosticMathPalletSquareRootInput>
+		<css>span[class^='mq-non-leaf mq-sqrt-stem mq-']</css>
+	</DiagnosticMathPalletSquareRootInput>
+	<MutipleSingleFIBAnswerOptionExpands>
+		<xpath>//*[@class='dropdown-options']//*[@class = 'dropslider']
+		</xpath>
+
+	</MutipleSingleFIBAnswerOptionExpands>
+	<MutipleSingleFIBAnswerOptionCollapsed>
+		<xpath>​//*[@class='dropdown-options']//*[@class = 'dropslider
+			closed']
+		</xpath>
+	</MutipleSingleFIBAnswerOptionCollapsed>
+	
+	<SelectSingleFIBAnswerRadioBtn>
+		<css>.dropdown-activator[aria-expanded='true'] + ul
+			li:nth-child(3),.dropslider li:nth-of-type(1)>label</css>
+	</SelectSingleFIBAnswerRadioBtn>
+
+	<SelectSingleFIBsecondAnswerRadioBtn>
+		<css>.dropdown-activator[aria-expanded='true'] + ul
+			li:nth-child(3),.dropslider li:nth-of-type(2)>label</css>
+	</SelectSingleFIBsecondAnswerRadioBtn>
+
+	<FIBsecondDropDown>
+		<xpath>table td.border-table </xpath>
+	</FIBsecondDropDown>
+	
+	<SingleFIB>
+		<css>div.fib-dropdown</css>
+	</SingleFIB>
+
+	<XYGraph>
+		<css>div.xy-graph-wrapper</css>
+	</XYGraph>
+
+	<XYGraphInQuestionCard>
+		<css>div.assementContent:nth-child(2) .xy-graph-wrapper</css>
+	</XYGraphInQuestionCard>
+
+	<XYGraphZoomIcon>
+		<css>#Assessment > div:nth-child(1) div.circle-button.zoomin button
+		</css>
+	</XYGraphZoomIcon>
+
+	<CloseIConXYGraphZoomPopup>
+		<css>.closeIcon, [class*='pe-icon--remove']</css>
+	</CloseIConXYGraphZoomPopup>
+
+	<XYGraphQuestionPopoutIcon>
+		<css>div.circle-button.popout button>img</css>
+	</XYGraphQuestionPopoutIcon>
+
+	<XYGraphQuestionPopInIcon>
+		<css>div.circle-button.popin button>img</css>
+	</XYGraphQuestionPopInIcon>
+
+	<XYGraphQuestionPopOutQuestion>
+		<css>.assementContent.popout-container .xy-graph-wrapper</css>
+	</XYGraphQuestionPopOutQuestion>
+
+	<DiagnosticFibDropDown1>
+		<css>.diagnosticTest .fib-dropdown:nth-child(1)</css>
+	</DiagnosticFibDropDown1>
+	
+	<FreeResponseText>
+		<xpath>//*[contains(@class,'mq-root-block')]</xpath>
+	</FreeResponseText>
+	
+	<LessThan>
+		<xpath>//*[@data-val='LESS THAN EQUAL']</xpath>
+	</LessThan>
+	
+	<GreaterThan>
+		<xpath>//*[@data-val='GREATER THAN EQUAL']</xpath>
+	</GreaterThan>
+	
+	<GraphsOnAnswerCard>
+		<css>div.assementContent:nth-child(2) .radio_form_group div.xy-graph-wrapper</css>
+	</GraphsOnAnswerCard>
+	
+	<DiagnosticSummativeMultipart>
+	    <css>.multipartPanel>.questionsWrapper</css>
+	</DiagnosticSummativeMultipart>
+	
+	<DiagnosticDropdownOptionTwo>
+		<css>.dropdown-activator[aria-expanded='true'] + ul li:nth-child(3),.dropslider li:nth-of-type(2)>label</css>
+	</DiagnosticDropdownOptionTwo>
+	<FreeResponseInput>
+	    <css>.radio_form_group:nth-of-type(1) .mq-editable-field</css>
+	</FreeResponseInput>
+	<DiagnosticNotDisabledFibFreeResponseBox>
+		<css>.fib-form-group.fib-freeResponse>input:not([disabled])</css>
+	</DiagnosticNotDisabledFibFreeResponseBox>
+	
+	<DiagnosticfigureTypeEllipticalPlusFigureOnAnswerCard>
+		<css>div.assementContent:nth-child(2) #FIG6p +image</css>
+	</DiagnosticfigureTypeEllipticalPlusFigureOnAnswerCard>
+
+	<SubmitWithoutAttempt>
+	    <css>button[id^='submitButton']:not([disabled])</css>
+	</SubmitWithoutAttempt>
+	
+	<DiagnosticCoachMark>
+		<css>.o-coach-mark__content-container</css>
+	</DiagnosticCoachMark>
+
+	<CourseHomeStartYourPathBtn>
+		<css>button#startPath.pe-btn__cta--btn_large</css>
+	</CourseHomeStartYourPathBtn>
+	
+	<ModuleTestResultHeading>
+		<css>.diagnostic-result__banner h1</css>
+	</ModuleTestResultHeading>
+	
+	<ModuleTestResultParagraph>
+		<css>.diagnostic-result__banner p</css>
+	</ModuleTestResultParagraph>
+	
+	<Module16Test>
+	<css>#diagnosticResultSuccess h2</css>
+	</Module16Test>
+	
+	<CloseButton>
+	    <css>.modal-dialog button.pe-btn__primary--btn_large</css>
+	</CloseButton>
+	
+	<CourseTileStudent>
+	    <css>.section-info</css>
+	</CourseTileStudent>
+</OR> 
